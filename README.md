@@ -7,7 +7,7 @@
 #### Meet the Team
 Jeffery Felshaw: 
 <p>Philip Nsajja: </p>
-Constant Nortey:
+<p>Constant Nortey: </p>
 Alexis McGruder:
 
 #### Team Assignments
