@@ -6,7 +6,7 @@
 
 #### Meet the Team
 Jeffery Felshaw: 
-Philip Nsajja:
+<p>Philip Nsajja: </p>
 Constant Nortey:
 Alexis McGruder:
 
