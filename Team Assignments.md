@@ -4,7 +4,7 @@
 
 ​	Project Lead		
 
-## Jeffrey Felshaw
+## Jeffery Felshaw
 
 ​	Backend Developer
 
