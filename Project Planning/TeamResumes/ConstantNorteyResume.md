@@ -2,17 +2,17 @@
 ___
 
 
-###### <p style="text-align: center;"> 330 Fairpointe Pl • Suwanee, Georgia 30024 • cnortey@students.kennesaw.edu • (470)-796-4488 • [linkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
+###### <p style="text-align: center;"> 330 Fairpointe Pl • Suwanee, Georgia 30024 • cnortey@students.kennesaw.edu • (470)-796-4488 • [LinkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
 
 ## <p style="text-align: center;"> Education </p>
 
 ---
 ### Kennesaw State University <span style="float: right;">Marietta, GA
 **Bachelor of Science in Software Engineering**  
-*Grad Date: May 2025*
+*Grad Date: May 2026*
 
 ### Lambert High School <span style="float: right;">Suwanee, GA  
-*Grad Date: May 2021*
+*Grad Date: May 2022*
 
 
 
@@ -22,17 +22,18 @@ ___
 ### **Software Engineer Intern| State Farm<span style="float: right;">Atlanta, GA**
 *June 2020 - Present*
 
-- Spearheaded the development of a customer portal, resulting in a 30% increase in user engagement.
-- Led a cross-functional team to implement microservices architecture, optimizing system performance.
-- Conducted regular code reviews, mentoring junior developers to ensure code quality and best practices.
-- Technologies: React.js, Node.js, MongoDB, Docker, Kubernetes.
-
-### **Software Development Intern | Innovate Labs<span style="float: right;">Buford, GA**
-*May 2019 - August 2019*
-
-- Collaborated in the design and implementation of a mobile app, enhancing user experience.
-- Contributed to the development of RESTful APIs, improving data retrieval efficiency.
-- Participated in daily stand-ups and sprint planning meetings, fostering agile development practices.
+- Deployed Angular Framework in the creation of websites and 
+continuous improvement of corporate products
+- Worked with a team of software engineers and product owners to 
+continuously improve corporate products by practicing CI/CD and 
+Scrum ban methodology using Git and GitLab
+- Attained a deeper understanding of cloud services, specifically 
+Amazon Web Services and their technologies.
+- Participated in hack competition within State Farm and produced a 
+potential product that contributed to corporate productivity
+- Attended workshops and meetings that enhanced teamwork skills and 
+communication with fellow employees
+- Furthered my knowledge in Machine Learning using AWS Deep Racer
 
 ## <p style="text-align: center;"> Technical Experience </p>
 
@@ -40,8 +41,8 @@ ___
 - Programming and Problem Solving 1(1321)
 - Programming and Problem Solving 2(1322)
 - Technical Writing
-- Database Systems
 - Intro to Software Engineering
+- Discrete Math
 - Participated in Fall 2023 Kennesaw State University Hackathon
 ## <p style="text-align: center;"> Technical Skills </p>
 
@@ -50,4 +51,6 @@ ___
 - HTML
 - CSS
 - Figma
-- Swift                                            
+- C#
+- Angular    
+- Git                                         
