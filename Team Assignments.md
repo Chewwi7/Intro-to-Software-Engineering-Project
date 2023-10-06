@@ -1,6 +1,6 @@
 # Team Assignments
 
-## Philip Nsajja [Resume]
+## Philip Nsajja [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/PhilipNsajjaResume.md)
 
 ​	Philip is the project lead and will be making sure the project stays on track. He will also help with some of the coding and video presentations.
 
