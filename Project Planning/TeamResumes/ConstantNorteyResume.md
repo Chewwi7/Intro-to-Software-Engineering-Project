@@ -45,6 +45,13 @@ communication with fellow employees
 - AWS Certified - Cloud Practitioner
 - Microsoft Certified Beginner in Python, Java and Software Development Fundementals
 - Participated in Fall 2023 Kennesaw State University Hackathon
+
+## <p style="text-align: center;"> Leadership and Activities </p>
+
+---
+### **Resident Assistant | Kennesaw State University<span style="float: right;">Marietta, GA**
+*August 2023 - Present*
+
 ## <p style="text-align: center;"> Technical Skills </p>
 
 ---
