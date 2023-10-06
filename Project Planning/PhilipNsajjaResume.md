@@ -1,9 +1,10 @@
 # Philip Nsajja
 ##### 250 Hampton Ct, Covington, Georgia, 30016 • [pnsajja@students.kennesaw.edu](mailto:pnsajja@students.kennesaw.edu) • (470)-609-0276 • [LinkedIn](https://www.linkedin.com/in/philipzn) • [GitHub](https://github.com/PhilipZN)
 
-## <p style="text-align: center;"> Education </p>
+## Education
 
-### Kennesaw State University | Marietta, GA <span style="float: right;">
+### Kennesaw State University | Marietta, GA
+
 **Bachelor of Science in Computer Science  |  Expected May 2026**
  - Honors Student; GPA: 3.71
 - Deans List: Fall 2022, Spring 2023
@@ -17,10 +18,9 @@
 
 **Relevant Coursework:** _AP Computer Science Principles_
 
+##  Work Experience 
 
-## <p style="text-align: center;">  Work Experience </p>
-
-### **IT Inventory Management Student Assistant | Kennesaw State University UITS** 
+### **IT Inventory Management Student Assistant | Kennesaw State University UITS**
 
 #### Kennesaw, GA | September 2023 - Present
 
