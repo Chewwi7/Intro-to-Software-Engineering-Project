@@ -8,20 +8,20 @@ ___
 
 ---
 ### Kennesaw State University <span style="float: right;">Marietta, GA
-**Bachelor of Science in Software Engineering**  
-**GPA: 4.0**   
-*Grad Date: May 2026*
+Bachelor of Science in Software Engineering <span style="float: right;">*Grad Date: May 2026*</span>  
+GPA: 4.0 
+
 
 ### Lambert High School <span style="float: right;">Suwanee, GA  
-*Grad Date: May 2022*
+<span style="float: right;">*Grad Date: May 2026*</span>
 
 
 
 ## <p style="text-align: center;"> Experience </p>
 
 ---
-### **Software Engineer Intern | State Farm<span style="float: right;">Atlanta, GA**
-*May 2023 - August 2023*
+### **State Farm**<span style="float: right;">Atlanta, GA</span>    
+**Software Engineer Intern**<span style="float: right;">*May 2023 - August 2023*</span>
 
 - Deployed Angular Framework in the creation of websites and 
 continuous improvement of corporate products
@@ -50,8 +50,8 @@ communication with fellow employees
 ## <p style="text-align: center;"> Leadership and Activities </p>
 
 ---
-### **Resident Assistant | Kennesaw State University<span style="float: right;">Marietta, GA**
-*August 2023 - Present*
+### **Kennesaw State University**<span style="float: right;">Marietta, GA</span>
+#### **Resident Assistant**<span style="float: right;">*May 2023 - August 2023*</span>
 
 ## <p style="text-align: center;"> Skills and Interests </p>
 
