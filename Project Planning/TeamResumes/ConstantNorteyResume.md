@@ -2,13 +2,14 @@
 ___
 
 
-###### <p style="text-align: center;"> 330 Fairpointe Pl • Suwanee, Georgia 30024 • cnortey@students.kennesaw.edu • (470)-796-4488 • [LinkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
+###### <p style="text-align: center;"> 330 Fairpointe Pl • Suwanee, Georgia 30024 • cnortey@students.kennesaw.edu • [LinkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
 
 ## <p style="text-align: center;"> Education </p>
 
 ---
 ### Kennesaw State University <span style="float: right;">Marietta, GA
 **Bachelor of Science in Software Engineering**  
+**GPA: 4.0**   
 *Grad Date: May 2026*
 
 ### Lambert High School <span style="float: right;">Suwanee, GA  
@@ -52,13 +53,8 @@ communication with fellow employees
 ### **Resident Assistant | Kennesaw State University<span style="float: right;">Marietta, GA**
 *August 2023 - Present*
 
-## <p style="text-align: center;"> Technical Skills </p>
+## <p style="text-align: center;"> Skills and Interests </p>
 
 ---
-- Java  
-- HTML
-- CSS
-- Figma
-- C#
-- Angular    
-- Git                                         
+**Technical:** Java, C#, HTML, CSS, Angular, Git, Figma     
+**Language:** English-Fluent, Twi-Fluent, French-Intermediate                                        
