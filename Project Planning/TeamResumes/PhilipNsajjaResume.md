@@ -1,11 +1,12 @@
 # Philip Nsajja
-##### 250 Hampton Ct, Covington, Georgia, 30016 • [pnsajja@students.kennesaw.edu](mailto:pnsajja@students.kennesaw.edu) • (470)-609-0276 • [LinkedIn](https://www.linkedin.com/in/philipzn) • [GitHub](https://github.com/PhilipZN)
+##### [pnsajja@students.kennesaw.edu](mailto:pnsajja@students.kennesaw.edu) • [LinkedIn](https://www.linkedin.com/in/philipzn) • [GitHub](https://github.com/PhilipZN)
 
 ## Education
 
 ### Kennesaw State University | Marietta, GA
 
 **Bachelor of Science in Computer Science  |  Expected May 2026**
+
  - Honors Student; GPA: 3.71
 - Deans List: Fall 2022, Spring 2023
 
@@ -13,6 +14,7 @@
 
 ### Center for Advanced Studies at Wheeler High School | Marietta, GA<span style="float: right;">
 **High School Diploma | Grad Date: May 2022**
+
 - Magnet Student; 4.10 GPA
 - Graduate with Honors; Magnet Seal
 
