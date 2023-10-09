@@ -2,7 +2,7 @@
 ___
 
 
-###### <p style="text-align: center;"> 330 Fairpointe Pl • Suwanee, Georgia 30024 • cnortey@students.kennesaw.edu • [LinkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
+###### <p style="text-align: center;">cnortey@students.kennesaw.edu • [LinkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
 
 ## <p style="text-align: center;"> Education </p>
 
@@ -51,7 +51,7 @@ communication with fellow employees
 
 ---
 ### **Kennesaw State University**<span style="float: right;">Marietta, GA</span>
-#### **Resident Assistant**<span style="float: right;">*May 2023 - August 2023*</span>
+#### **Resident Assistant**<span style="float: right;">*August 2023 - Present*</span>
 
 ## <p style="text-align: center;"> Skills and Interests </p>
 
