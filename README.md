@@ -11,7 +11,7 @@ Jeffery Felshaw
 Alexis McGruder
 
 #### Team Assignments
-[Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Team%20Assignments.md)
+[Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Team%20Assignments.md)
 
 #### Technology Selection
 [Technology Selection Markdown file](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Technology%20Selection.md)
