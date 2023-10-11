@@ -2,13 +2,13 @@
 
 ## You can find everything related to our project right here in this repo!
 
-### We will create a web app using ASP.NET Core and Bootstrap along with SQLite for selling legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
+## We will create a web app using C#, ASP.NET Core, Bootstrap, and SQL to sell legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
 
 #### Meet the Team
-Jeffery Felshaw: 
-<p>Philip Nsajja: </p>
-<p>Constant Nortey: </p>
-Alexis McGruder:
+Jeffery Felshaw 
+<p>Philip Nsajja </p>
+<p>Constant Nortey </p>
+Alexis McGruder
 
 #### Team Assignments
 [Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Team%20Assignments.md)
