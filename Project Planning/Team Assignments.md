@@ -10,7 +10,7 @@
 
 ## Constant Nortey | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/ConstantNorteyResume.md)
 
-​	Constant is the full-stack lead who will be helping with both the front and backends of the code. He will also help with video presentations.
+​	Constant is the full-stack lead who will be helping with both the front and back end of the code. He will also help with video presentations.
 
 ## Alexis McGruder | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/AlexisMcGruderResume.md)
 
