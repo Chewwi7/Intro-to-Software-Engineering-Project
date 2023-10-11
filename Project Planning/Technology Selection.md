@@ -14,7 +14,7 @@ For our front-end framework, we will be using Bootstrap. It's the most well-know
 
 ## Storage Plan
 
-We'll be storing our data in SQL
+We'll be storing our data using JSON. It's easy to read and write, has excellent web integration, and has a great number of resources and libraries available for us to receive guidance from. It's also in-demand in today's job market, so we believe it would be worth while to learn.
 
 
 
@@ -26,5 +26,5 @@ We want our application to be as cross-compatible as possible, so we'll be creat
 
 ## Additional Software
 
-We'll be using GitHub to collaborate on and share our code and YouTrack to create a Gantt chart that lists and tracks our various project milestones and tasks. We'll also be using Marvel to create a mockup of our web-applications user interface.
+We'll be using GitHub to collaborate on and share our code and YouTrack to create a Gantt chart that lists and tracks our various project milestones and tasks. We'll also be using Marvel to create a mockup of our web application's user interface.
 
