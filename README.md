@@ -5,8 +5,8 @@
 ## We will create a web app using C#, ASP.NET Core, Bootstrap, and JSON to sell legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
 
 #### Meet the Team
-Jeffery Felshaw 
 <p>Philip Nsajja </p>
+Jeffery Felshaw 
 <p>Constant Nortey </p>
 Alexis McGruder
 
