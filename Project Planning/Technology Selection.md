@@ -14,7 +14,7 @@ For our front-end framework, we will be using Bootstrap. It's the most well-know
 
 ## Storage Plan
 
-We'll be storing our data using JSON. It's easy to read and write, has excellent web integration, and has a great number of resources and libraries available for us to receive guidance from. It's also in-demand in today's job market, so we believe it would be worth while to learn.
+We'll be storing our data using JSON. It's easy to read and write, has excellent web integration, and has a great number of resources and libraries available for us to receive guidance from. It's also in demand in today's job market, so we believe it would be worthwhile to learn.
 
 
 
