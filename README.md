@@ -6,9 +6,13 @@
 
 #### Meet the Team
 Philip Nsajja
+
 Jeffery Felshaw 
+
 Constant Nortey
+
 Alexis McGruder
+
 
 #### Team Assignments
 [Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Team%20Assignments.md)
