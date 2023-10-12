@@ -5,13 +5,13 @@
 We will create a web app using C#, ASP.NET Core, Bootstrap, and JSON to sell legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
 
 ### The Team
-Philip Nsajja
+Philip Nsajja | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/PhilipNsajjaResume.md) 
 
-Jeffery Felshaw 
+Jeffery Felshaw | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/JefferyFelshawResume.md)
 
-Constant Nortey
+Constant Nortey | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/ConstantNorteyResume.md)
 
-Alexis McGruder
+Alexis McGruder | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/AlexisMcGruderResume.md)
 
 
 #### Team Assignments
