@@ -2,16 +2,20 @@
 
 ## You can find everything related to our project right here in this repo!
 
-### We will create a web app using ASP.NET Core and Bootstrap along with SQLite for selling legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
+We will create a web app using C#, ASP.NET Core, Bootstrap, and JSON to sell legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
 
-#### Meet the Team
-Jeffery Felshaw: 
-<p>Philip Nsajja: </p>
-<p>Constant Nortey: </p>
-Alexis McGruder:
+### The Team
+Philip Nsajja | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/PhilipNsajjaResume.md) 
+
+Jeffery Felshaw | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/JefferyFelshawResume.md)
+
+Constant Nortey | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/ConstantNorteyResume.md)
+
+Alexis McGruder | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/TeamResumes/AlexisMcGruderResume.md)
+
 
 #### Team Assignments
-[Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Team%20Assignments.md)
+[Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Team%20Assignments.md)
 
 #### Technology Selection
 [Technology Selection Markdown file](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Technology%20Selection.md)
