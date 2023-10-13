@@ -10,7 +10,7 @@
 - Honors Student; GPA: 4.0
 - President's List: Fall 2022, Spring 2023
 
-**Relevant Coursework:**  _Intro to Software Engineering (in progress), Fundamentals of Data Communications (in progress), Programming and Problem Solving I & II with Lab_
+**Relevant Coursework:**  _Intro to Software Engineering (in progress), Discrete Math(in progress), Programming and Problem Solving I & II with Lab_
 
 ### Lambert High School | Suwanee, GA<span style="float: right;">
 **High School Diploma | Grad Date: May 2022**
@@ -23,11 +23,20 @@
 
 #### Atlanta, GA | May 2023 - August 2023
 
-- Manage IT equipment inventory, ensuring accurate tracking and organization
+- Deployed Angular Framework in the creation of websites and 
+continuous improvement of corporate products.
 
-- Conduct document scanning and data uploads for efficient database maintenance.
+-  Worked with a team of software engineers and product owners to 
+continuously improve corporate products by practicing CI/CD and 
+Scrum ban methodology using Git and GitLab
 
-- Support surplus management of outdated equipment while demonstrating strong attention to detail and dependability
+- Attained a deeper understanding of cloud services, specifically 
+Amazon Web Services and their technologies
+
+- Participated in hack competition within State Farm and produced a 
+potential product that contributed to corporate productivity
+
+- Furthered my knowledge in Machine Learning using AWS Deep Racer. 
 
 
 ## Projects
@@ -46,12 +55,17 @@
 - Python (Beginner)
 - C# (Intermediate)
 - HTML/CSS (Intermediate)
+- Angular(Beginner)
+- Typescript(Beginner)
 ### Developer Tools
 - IntelliJ IDE
+- Visual Studio
 - Visual Studio Code
+- GitLab
 - GitHub
 ### Software
 - Figma
+- AWS Deepracrer
 ### Operating Systems
 - Windows
 - macOS                     
