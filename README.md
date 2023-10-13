@@ -24,3 +24,4 @@ Alexis McGruder | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineer
  [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-5)
 
 #### Project Plan Video Presentation
+[Video Presentation](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Presentations/Project%20Plan%20Presentation.md)
