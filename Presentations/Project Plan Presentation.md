@@ -1,0 +1,3 @@
+# Project Plan Presentation
+
+https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Presentations/1-project-plan-presentation.mp4
