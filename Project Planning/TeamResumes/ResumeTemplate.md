@@ -1,53 +1,57 @@
-# <p style="text-align: center;">Constant Nortey Jr.</p>
-___
+# Alexis McGruder
+##### [amcgrud2@students.kennesaw.edu](mailto:amcgrud2@students.kennesaw.edu) • [LinkedIn](https://www.linkedin.com/in/alexis-mcgruder-470b76238/) • [GitHub](https://github.com/Alexis-mcg)
 
+## Education
 
-###### <p style="text-align: center;"> 330 Fairpointe Pl • Suwanee, Georgia 30024 • cnortey@students.kennesaw.edu • (470)-796-4488 • [linkedIn](https://www.linkedin.com/in/constant-nortey/)</p>
+### Kennesaw State University | Marietta, GA
 
-## <p style="text-align: center;"> Education </p>
+**Bachelor of Science in Software Engineering  |  Expected May 2025**
 
----
-### Kennesaw State University <span style="float: right;">Marietta, GA
-**Bachelor of Science in Computer Science**  
-*Grad Date: May 2025*
+**Relevant Coursework:**  _Intro to Software Engineering (in progress), Programming and Problem Solving I & II with Lab_
 
-### Flowery Branch High School <span style="float: right;">Buford, GA  
-*Grad Date: May 2021*
+### Flowery Branch High School | Flowery Branch, GA<span style="float: right;">
+**High School Diploma | Grad Date: May 2021**
 
+##  Work Experience 
 
+### **Resident Assistant | Kennesaw State University**
 
-## <p style="text-align: center;"> Experience </p>
+#### Marietta, GA | July 2022 - Present
 
----
-### **Software Engineer | Tech Solutions Inc<span style="float: right;">Buford, GA**
-*June 2020 - Present*
+- Assists residents with the transition to university and residence hall life
 
-- Spearheaded the development of a customer portal, resulting in a 30% increase in user engagement.
-- Led a cross-functional team to implement microservices architecture, optimizing system performance.
-- Conducted regular code reviews, mentoring junior developers to ensure code quality and best practices.
-- Technologies: React.js, Node.js, MongoDB, Docker, Kubernetes.
+- Enforces university and residence hall rules and regulation
 
-### **Software Development Intern | Innovate Labs<span style="float: right;">Buford, GA**
-*May 2019 - August 2019*
+- Assists in supervising residents and responding to complaints, reports,
+  requests, and emergencies.
 
-- Collaborated in the design and implementation of a mobile app, enhancing user experience.
-- Contributed to the development of RESTful APIs, improving data retrieval efficiency.
-- Participated in daily stand-ups and sprint planning meetings, fostering agile development practices.
+- Serve as a referral agent to other campus resources such as the counseling
+  center, Academic Resource Center, etc
+  
 
-## <p style="text-align: center;"> Technical Experience </p>
+### **Summer Camp Counselor | YMCA** 
+#### Buford, GA |May 2022 - July 2023
 
----
-- Programming and Problem Solving 1(1321)
-- Programming and Problem Solving 2(1322)
-- Technical Writing
-- Database Systems
-- Intro to Software Engineering
-- Participated in Fall 2023 Kennesaw State University Hackathon
-## <p style="text-align: center;"> Technical Skills </p>
+- Creating a safe environment for campers through rules enforcement, counseling activities, and health education
+- Developing and implementing educational programs for children that promote social skills development and conflict resolution
+- Work well with a wide range of people—from children to teenagers to adults
+- Organizing activities such as arts and crafts projects, games, sports, and field
+  trips
+  
 
----
-- Java
-- HTML
+## Skills 
+
+### Languages
+- Java (Intermediate)
+- HTML (Beginner)
 - CSS
+- Swift
+### Developer Tools
+- IntelliJ IDE
+- Visual Studio Code
+- GitHub
+### Software
 - Figma
-- Swift                                            
+### Operating Systems
+- Windows
+- macOS                     

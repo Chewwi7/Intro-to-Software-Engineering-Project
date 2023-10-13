@@ -30,19 +30,6 @@
 - Support surplus management of outdated equipment while demonstrating strong attention to detail and dependability
 
 
-### **Student Intern | Kennesaw State University Music and Entertainment Business Program**
-#### Kennesaw, GA | January 2022 - May 2022
-
--   Designed and implemented an inventory management system using Microsoft Access and Microsoft Excel within a four-month period, successfully cataloging over five hundred items
-
-    - Implemented user-friendly interface for data input and retrieval, streamlining the cataloging process
-    - Collected usability metrics to improve user experience
-
-- Directed recording sessions utilizing Logic Pro alongside a variety of professional recording equipment
-
-- Effectively maintained and organized student grades through proficient use of Microsoft Excel and D2L Brightspace.
-
-
 ## Projects
 
 ### ShareBill | September 2023 - Present
