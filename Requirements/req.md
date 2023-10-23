@@ -1,8 +1,13 @@
-Version #
-Milestone (from your Project Plan - say "Future" when version is greater than 1) Make sure your milestones are properly ordered.
-Epic Name and unique ID (write these like a use case bubble - very brief, but specific enough to be clear what we are doing) I suggest something like T (for team) and # and E and a number for your epic id. For example, T9E-2.
-Story Name and unique ID (name should also have subject and a verb, but shorter than description). I suggest something like T (for team) and # and S and a number for your story ID. For example, T9S-12.
-Priority (Must Have, Needs to Have, Wants to Have)
-Estimated Effort (no less than 1/4 day, no greater than 5 days)
-Functional or Non-Functional (choose one)
-Story description (must have a subject and a verb and be long enough to prevent ambiguity)
+- Version #1
+  - Milestone - Make a functional Web Application using ASPNET.Core
+    - T3E-1 - Make a login page
+      - T3S-1 - Login page for admin
+      - T3S-2 - Login page for user
+    - T3E-2 - Make home page
+      - Home page for admin
+      - Home page for user
+    - T3E-3 - Create database to track users, admin inventory and sales
+      - Connect database to login page
+      - Connect database to check out page for users
+    -T3E-4 - Create check out page for user
+      - 
