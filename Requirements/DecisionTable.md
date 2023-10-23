@@ -46,23 +46,28 @@
         <tr>
             <td rowspan=5>Conditions</td>
             <td>Manage sales report</td>
-            <td></td>
+            <td>No</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td>Purchase items</td>
-            <td></td>
+            <td>Yes</td>
+            <td>No</td>
         </tr>
         <tr>
             <td>See user purchases</td>
-            <td></td>
+            <td>No</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td>Update Inventory</td>
-            <td></td>
+            <td>No</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td>Should be able to check out</td>
-            <td></td>
+            <td>Yes</td>
+            <td>No</td>
         </tr>
     </tbody>
 </table>
