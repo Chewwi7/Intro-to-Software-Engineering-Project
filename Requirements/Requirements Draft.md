@@ -127,6 +127,8 @@ Jefferys:
 	* How long?
 	* Functional
 	* After the user clicks the complete order button, they will be emailed the same receipt they are shown on the website.
+
+//I think Admin UX should be a milestone?
 ## Administrator Powers
 1. Sales report CSV
 	* Need to Have
