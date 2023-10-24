@@ -38,8 +38,29 @@
                - Estimated Effort: 
                - Functional Requirement:
                - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
-           - Epic: Checkout Page [T7E-3]
-               - Story: Shopping Cart
+             - Story: Pay Now Button
+               - Priority:
+               - Estimated Effort:
+               - Functional Requirement:
+               - Description:
+             - Story: Return to Shopping Button
+               - Priority:
+               - Estimated Effort:
+               - Functional Requirement:
+               - Description:
+           - Epic: Pay Now Page [T7E-4]
+               - Story: Input Personal Information
                    - Priority:
                    - Estimated Effort:
                    - Functional Requirement:
+                   - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+               - Story: Select Shipping Options
+                   - Priority:
+                   - Estimated Effort:
+                   - Functional Requirement:
+                   - Description:
+               - Story: Confirm Order Button
+                   - Priority:
+                   - Estimated Effort:
+                   - Functional Requirement:
+                   - Description:
