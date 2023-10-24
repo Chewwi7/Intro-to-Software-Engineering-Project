@@ -34,7 +34,7 @@
                  - Description: The user must be able to search the available inventory by typing in a search box.
         - Epic: Checkout Page [T7E-3]
              - Story: Shopping Cart [T7S-1]
-                 - Priority: 
+                 - Priority: Must Have
                  - Estimated Effort: 
                  - Functional Requirement:
                  - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
@@ -42,12 +42,12 @@
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description:
-             - Story: Return to Shopping Button [T7S-3]
+                 - Description: This button will send the user to the Pay Now page
+             - Story: Return to Shopping Cart Button [T7S-3]
                - Priority:
                - Estimated Effort:
                - Functional Requirement:
-               - Description:
+               - Description: This button will return the user to their Shopping Cart
         - Epic: Pay Now Page [T7E-4]
              - Story: Input Personal Information [T7S-1]
                - Priority:
