@@ -64,3 +64,24 @@
                    - Estimated Effort:
                    - Functional Requirement:
                    - Description:
+           - Epic: Confirm Order Page [T7E-5]
+               - Story: List of Items User is Purchasing
+                   - Priority:
+                   - Estimated Effort:
+                   - Functional Requirement:
+                   - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+               - Story: Total Cost Calculation Display
+                   - Priority:
+                   - Estimated Effort:
+                   - Functional Requirement:
+                   - Description:
+               - Story: Complete Order Button
+                   - Priority:
+                   - Estimated Effort:
+                   - Functional Requirement:
+                   - Description:
+               -Story: Completed Order Receipt
+                   - Priority:
+                   - Estimated Effort:
+                   - Functional Requirement:
+                   - Description:
