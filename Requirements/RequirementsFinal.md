@@ -53,7 +53,7 @@
                - Priority:
                - Estimated Effort:
                - Functional Requirement:
-               - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+               - Description: This will allow the user to enter
              - Story: Select Shipping Options [T7S-2]
                  - Priority:
                  - Estimated Effort:
