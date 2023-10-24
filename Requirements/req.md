@@ -1,9 +1,35 @@
 ﻿-   Version 1
     -   Milestone: Initial Relesae
-        -   Epic: User Purchasing Experience [T7E-1]
-            -   Story: User Registration and Login [T1S-1]
+        -   Epic: User Registration and Login Page [T7E-1]
+            -   Story: User Registration [T7S-1]
                 -   Priority: Must Have
                 -   Estimated Effort: 3 days
                 -   Functional Requirement
-                -   Description: The user must be able to self-register with a unique username and a 6-character minimum password
+                -   Description: The user must be able to self-register with a unique username and a 6-character minimum password.
+               - Story: User Login
+	              - Priority: Must Have
+	              -  Estimated Effort: 3 days
+	              - Functional Requirement
+	              - Description: The user must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button. 
+	       - Epic: Inventory Screen [T7E-2]
+		       - Story: Inventory Sorting
+			       - Priority: Must Have
+			       - Esitimated Effort:
+			       - Funtional Requirement
+			       - Description: The user must be able to see a list of all availible inventory sorted by highest to lowest price.
+		       - Story: Inventory Listing
+			       - Priority: Must Have
+			       - Estimated Effort:
+			       - Functional Requirement
+			       - Description: Each inventory listing must display the item's name, picture, price, a brief description of the item, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points.
+			   - Story: Checkout Button
+			       - Priority: Must Have
+			       - Estimated Effort: 
+			       - Functional Requirement
+			       - Description: The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.     	
+	           - Story: Search Bar
+		           - Priority: Must Have
+		           - Estimated Effort:
+		           - Functional Requirement
+		           - Description: The user must be able to search the availible inventory by typing in a search box.
              
