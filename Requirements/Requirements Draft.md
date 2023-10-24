@@ -67,7 +67,7 @@ Jefferys:
 	* Must Have
 	* How long?
 	* Functional
-	* The user will be able to select from three shipping options; Overnight: $29, 3-Day: $19, and Ground: $0/Free
+	* The user will be able to select from three shipping options; Overnight: $29, 3-Day: $19, and Ground: $0/Free.
 3. Confrim Order Button
 	* Must Have
 	* How long?
@@ -104,7 +104,6 @@ Jefferys:
 	* How long?
 	* Functional
 	* The user can click this button to return to the main page. The button will dissapear once the complete order button is clicked since their is nothing to checkout anymore.
-7. 
 ## Administrator Powers
 1. Turning User into Admin
 	* Must have
