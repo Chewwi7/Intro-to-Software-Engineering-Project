@@ -15,10 +15,10 @@ Alexis McGruder | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineer
 
 
 #### Team Assignments
-[Team Assignments Markdown File](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Team%20Assignments.md)
+[Team Assignments](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Team%20Assignments.md)
 
 #### Technology Selection
-[Technology Selection Markdown file](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Technology%20Selection.md)
+[Technology Selection](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Project%20Planning/Technology%20Selection.md)
  
  #### Project Plan Gantt Chart
  [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-5)
