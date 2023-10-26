@@ -56,7 +56,7 @@
             <td>ADMIN</td>
         </tr>
         <tr>
-            <td rowspan=7>Action Stubs</td>
+            <td rowspan=8>Action Stubs</td>
             <td>Manage sales report</td>
             <td>No</td>
             <td>Yes</td>
@@ -90,6 +90,11 @@
             <td>Should be able to check out</td>
             <td>Yes</td>
             <td>No</td>
+        </tr>
+        <tr>
+            <td>Access Database</td>
+            <td>No</td>
+            <td>Yes</td>
         </tr>
     </tbody>
 </table>
