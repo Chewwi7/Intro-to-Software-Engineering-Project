@@ -120,8 +120,8 @@
                 	   - 1.5 days
                 	   - Functional
                 	   - After the user clicks the complete order button, the system needs to email the user the same receipt that the user is shown on the website.
-         - Administrative Quaility of Life Improvements [T7E-2]
-	         - Export Sales Report to CSV [T7S-2]
+     		- Administrative Quaility of Life Improvements [T7E-2]
+	         	- Export Sales Report to CSV [T7S-2]
 		         - Need to Have
 		         - 2 days
 		         - Functional
@@ -142,11 +142,7 @@
 					- Functional
 					- A user can be turned into an admin by and admin through a UI in the application.
 				- Add Multiple Pictures to a Listing [T7S-6]
-		             - Want to Have
-		             - 1 day
-		             - Functional
-		             - The admin can add multiple pictures on a single inventory listing.
-    * Want to Have
-    * How long?
-    * Functional
-    * A user can be turned into an admin through a UI in the application.
+		             		- Want to Have
+		             		- 1 day
+		    			- Functional
+		             		- The admin can add multiple pictures on a single inventory listing.
