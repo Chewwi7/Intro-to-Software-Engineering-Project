@@ -74,7 +74,7 @@
         <tr>
             <td>Purchase items and go through item purchase process</td>
             <td>Yes</td>
-            <td>No</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td>See user purchases</td>
