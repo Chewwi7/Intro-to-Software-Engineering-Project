@@ -47,9 +47,16 @@
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td rowspan=7>Conditions</td>
+            <td rowspan=1>Condition Stubs</td>
+            <td>Account Type</td>
+            <td>USER</td>
+            <td>ADMIN</td>
+        </tr>
+        <tr>
+            <td rowspan=7>Action Stubs</td>
             <td>Manage sales report</td>
             <td>No</td>
             <td>Yes</td>
