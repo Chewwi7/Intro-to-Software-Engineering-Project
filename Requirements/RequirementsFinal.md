@@ -115,28 +115,33 @@
 	- Future Release
 		- User Quality of Life Improvements [T7E-1]
 			- Email Receipts to Users [T7S-1]
-	            		- Want to Have
-                		- 1.5 days
-                		- Functional
-     				- After the user clicks the complete order button, the system needs to email the user the same receipt that the user is shown on the website.
-    - Administrative Quaility of Life Improvements [T7E-2]
-	     - Export Sales Report to CSV [T7S-2]
-		      - Need to Have
-		        - 2 days
-		        - Functional
-		        - An admin will be able to export the sales report to a CSV file that is usable in excel.
-		- Display Individual Item receipt [T7S-3]
-			 - Want to Have
-			   - 4 days
-			      - Functional
-			      - An admin will be able to click on a sold item and be able to see the receipt related to said item.
-      - Add Inventory Through a UI [T7S-4]
 				- Want to Have
-				- 5 days
+				- 1.5 days
 				- Functional
-				- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
-			- Create Admins Through a UI [T7S-5]
-				- Want to Have
+				- After the user clicks the complete order button, the system needs to email the user the same receipt that the user is shown on the website.
+		- Administrative Quaility of Life Improvements [T7E-2]
+			- Export Sales Report to CSV [T7S-2]
+				- Need to Have
 				- 2 days
 				- Functional
-				- A user can be turned into an admin by and admin through a UI in the application.
+				- An admin will be able to export the sales report to a CSV file that is usable in excel.
+- Display Individual Item receipt [T7S-3]
+- Want to Have
+- 4 days
+- Functional
+- An admin will be able to click on a sold item and be able to see the receipt related to said item.
+- Add Inventory Through a UI [T7S-4]
+- Want to Have
+- 5 days
+- Functional
+- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
+- Create Admins Through a UI [T7S-5]
+- Want to Have
+- 2 days
+- Functional
+- A user can be turned into an admin by and admin through a UI in the application.
+- Add Multiple Pictures to a Listing [T7S-6]
+- Want to Have
+- 1 day
+- Functional
+- The admin can add multiple pictures on a single inventory listing.
