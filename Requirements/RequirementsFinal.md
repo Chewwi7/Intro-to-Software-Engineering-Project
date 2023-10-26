@@ -53,51 +53,47 @@
                - Priority:
                - Estimated Effort:
                - Functional Requirement:
-               - Description: This will allow the user to enter
+               - Description: This will allow the user to enter their information for successful payment and delivery
              - Story: Select Shipping Options [T7S-2]
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description:
+                 - Description: This will allow the user to select from three options of shipping speed and will display the
+                    cost for each
              - Story: Confirm Order Button [T7S-3]
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description:
+                 - Description: This button sends the user to the Confirm Order page
         - Epic: Confirm Order Page [T7E-5]
              - Story: List of Items User is Purchasing [T7S-1]
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
                  - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
-             - Story: Total Cost Calculation Display [T7S-2]
-                 - Priority:
-                 - Estimated Effort:
-                 - Functional Requirement:
-                 - Description:
              - Story: Complete Order Button [T7S-3]
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description:
+                 - Description: This button will send a receipt to the user's email and update the inventory based on the user
+                   input
              -Story: Completed Order Receipt [T7S-4]
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description:
+                 - Description: This will be an email sent to the user summarizing their purchase
              -Story: Return to Checkout Page button [T7S-5]
                  - Priority:
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description:
-               
-    -   Milestone: Initial Release(Admin View and UX) [T7M-2]
+                 - Description: This will allow the user to return to the Checkout page without having to complete the purchase
+                   but will keep items in the shopping cart
         -   Epic: Admin Accessibility and Login Page [T7E-1]
             -   Story: Giving Admin Powers[T7S-1]
                 -   Priority: Must Have
                 -   Estimated Effort: 3 days
                 -   Functional Requirement
-                -   Description: 
+                -   Description: This will allow other admins to promote users to admins
             - Story: Admin Login
                 - Priority: Must Have
                 -  Estimated Effort: 3 days
