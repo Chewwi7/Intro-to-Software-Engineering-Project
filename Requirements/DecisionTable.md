@@ -1,8 +1,10 @@
 [//]: # (|            | Decision Table   |      |  |)
 
+[//]: # (|            | Conditions   |  Rules  |)
+
 [//]: # (|------------|------------------|------|------------|)
 
-[//]: # (|            | Types of Login    | USER | ADMIN |)
+[//]: # (|            | Employee Type    | USER | ADMIN |)
 
 [//]: # (|            |  |      ||)
 
