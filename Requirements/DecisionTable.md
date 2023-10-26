@@ -72,7 +72,7 @@
             <td>Yes</td>
         </tr>
         <tr>
-            <td>Purchase items</td>
+            <td>Purchase items and go through item purchase process</td>
             <td>Yes</td>
             <td>No</td>
         </tr>
