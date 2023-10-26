@@ -1,5 +1,5 @@
 -   Version 1
-    -   Milestone: Initial Release(User View and UX) [T7M-1]
+    -   Milestone: Initial Release [T7M-1]
         -   Epic: User Registration and Login Page [T7E-1]
             -   Story: User Registration [T7S-1]
                 -   Priority: Must Have
@@ -33,7 +33,7 @@
                  - Functional Requirement
                  - Description: The user must be able to search the available inventory by typing in a search box.
         - Epic: Checkout Page [T7E-3]
-             - Story: Shopping Cart [T7S-1]
+             - Story: List Everything in Cart [T7S-1]
                  - Priority: Must Have
                  - Estimated Effort: 1 week
                  - Functional Requirement
@@ -42,41 +42,44 @@
                  - Priority: Must Have
                  - Estimated Effort: 6 hours
                  - Functional Requirement
-                 - Description: This button will send the user to the Pay Now page
+                 - Description: The user will be able to click the pay now button to be taken to the payment screen.
              - Story: Return to Shopping Cart Button [T7S-3]
                - Priority: Must Have 
                - Estimated Effort: 6 hours
                - Functional Requirement
-               - Description: This button will return the user to their Shopping Cart
+               - Description: The user will be able to click the return to shopping button to return to the main screen.
         - Epic: Pay Now Page [T7E-4]
              - Story: Input Personal Information [T7S-1]
                - Priority: Must Have
                - Estimated Effort: 2 days
                - Functional Requirement
-               - Description: This will allow the user to enter their information for successful payment and delivery
+               - Description: The user will be required to input their shipping address, credit card number, phone number, and shipping speed. The credit card also requires the expiration month and year and the CVV security code.
              - Story: Select Shipping Options [T7S-2]
                  - Priority: Must Have
                  - Estimated Effort: 2 days
                  - Functional Requirement
-                 - Description: This will allow the user to select from three options of shipping speed and will display the
-                    cost for each
+                 - Description: The user will be able to select from three shipping options; Overnight: $29, 3-Day: $19, and Ground: $0/Free
              - Story: Confirm Order Button [T7S-3]
                  - Priority: Must Have
                  - Estimated Effort: 6 hours
                  - Functional Requirement
-                 - Description: This button sends the user to the Confirm Order page
+                 - Description: The user will be able to click a confirm order button once all fields are filled out.
         - Epic: Confirm Order Page [T7E-5]
              - Story: List of Items User is Purchasing [T7S-1]
                  - Priority: Must Have
                  - Estimated Effort: 3 days
                  - Functional Requirement
-                 - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+                 - Description: The user will be able to see a list of all the items' names and prices that they are purchasing.
+             - Story: Displaying Cost
+                 - Priority: Must Have
+                 - Estimated Effort: 3 days
+                 - Functional Requirement
+                 - Description: The user will be able to see the subtotal, tax (6% of subtotal), shipping speed cost, and the grand total. Grand total formula: subtotal + (subtotal*.06) + shipping speed cost = grand total. 
              - Story: Complete Order Button [T7S-3]
                  - Priority: Must Have
                  - Estimated Effort: 6 hours
                  - Functional Requirement:
-                 - Description: This button will send a receipt to the user's email and update the inventory based on the user
-                   input
+                 - Description: The user can click this button to complete their order and display a receipt of what they purchased. This button will also take the items out of inventory. 
              -Story: Completed Order Receipt [T7S-4]
                  - Priority: Must Have
                  - Estimated Effort: 2 days
@@ -130,26 +133,26 @@
                 - Priority: Must Have
                 - Estimated Effort:
                 - Functional Requirement:
-                - Description:
+                - Description: The user will be able to click the pay now button to be taken to the payment screen.
             - Story: Return to Shopping Button
                 - Priority: Must Have
                 - Estimated Effort:
                 - Functional Requirement:
-                - Description:
+                - Description: The user will be able to click the return to shopping button to return to the main screen.
         - Epic: Pay Now Page [T7E-4]
             - Story: Input Personal Information
                 - Priority: Must Have
                 - Estimated Effort:
                 - Functional Requirement:
-                - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+                - Description: The user will be required to input their shipping address, credit card number, phone number, and shipping speed. The credit card also requires the expiration month and year and the CVV security code.
             - Story: Select Shipping Options
                 - Priority: Must Have
                 - Estimated Effort:
                 - Functional Requirement:
-                - Description:
+                - Description: The user will be able to select from three shipping options; Overnight: $29, 3-Day: $19, and Ground: $0/Free
             - Story: Confirm Order Button
                 - Priority: Must Have
                 - Estimated Effort:
                 - Functional Requirement:
-                - Description:
+                - Description: The user will be able to click a confirm order button once all fields are filled out that will take them to the confirm order page.
         
