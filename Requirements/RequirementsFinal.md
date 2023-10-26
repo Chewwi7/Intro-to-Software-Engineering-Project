@@ -140,8 +140,3 @@
 				- 2 days
 				- Functional
 				- A user can be turned into an admin by and admin through a UI in the application.
-			- Add Multiple Pictures to a Listing [T7S-6]
-		             	- Want to Have
-		             	- 1 day
-		             	- Functional
-		             	- The admin can add multiple pictures on a single inventory listing.
