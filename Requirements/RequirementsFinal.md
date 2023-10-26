@@ -152,4 +152,35 @@
                 - 2 days
                 - Functional Requirement
                 - The user must be able to confirm their purchase and receive a receipt for it
-        
+
+
+- Version 2
+    - Quality of Life Improvements
+      - Email receipts to Users
+      * Want to Have
+      * How long?
+      * Functional
+      * After the user clicks the complete order button, they will be emailed the same receipt they are shown on the website.
+
+//I think Admin UX should be a milestone?
+## Administrator Powers
+1. Sales report CSV
+    * Need to Have
+    * How long?
+    * Functional
+    * An admin can export the sales report to a CSV file to be used in excel.
+2. Individual Item Receipt
+    * Want to Have
+    * How long?
+    * Functional
+    * An admin will click on a sold item and be able to see the receipt related to said item.
+3. Adding Inventory with UI
+    * Want to Have
+    * How long?
+    * Functional
+    * An admin can add inventory through the website by opening a page and adding information and a picture.
+4. Admin creation UI
+    * Want to Have
+    * How long?
+    * Functional
+    * A user can be turned into an admin through a UI in the application.
