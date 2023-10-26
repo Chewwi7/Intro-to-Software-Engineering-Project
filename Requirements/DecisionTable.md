@@ -41,7 +41,7 @@
         <tr>
             <td></td>
             <td>Conditions</td>
-            <td>Rules</td></td>
+            <td>Rules</td></tr>
         </tr>
         <tr>
             <td></td>
