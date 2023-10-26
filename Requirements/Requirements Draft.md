@@ -33,7 +33,7 @@ Philips:
 		           - Estimated Effort:
 		           - Functional Requirement
 		           - Description: The user must be able to search the available inventory by typing in a search box.
-        
+        - Epic
 Jefferys:
 # Version 1
 ## Checkout Page

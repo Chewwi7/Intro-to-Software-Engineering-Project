@@ -111,6 +111,30 @@
 				- 3/4 day
 				- Functional 
 				- An admin must be able to manually input new items into the inventory database.
+		- Database [T7E-7]
+			- Connect login page to database [T7S-22]
+				- Must Have
+				- 1/2 day
+				- Non-Functional
+				- The user's information must be seamlessly stored into the database after registration
+			- Assign unique ids to each user [T7S-23]
+				- Must Have
+				- 1 day
+				- Non-Functional
+				- A user should have a unique id to be used to link different tables in database.
+			- Connect Inventory to database[T7S-24]
+				- Must Have
+				- 5 days
+				- Non-Functional
+				- An admin must be able to see items in 
+			- Connect Inventory to database[T7S-25]
+				- Must Have
+				- 5 days
+				- Non-Functional
+				- An admin must be able to see the list on inventory
+        	
+
+
 - Version 2
 	- Future Release
 		- User Quality of Life Improvements [T7E-1]
