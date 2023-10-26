@@ -111,7 +111,7 @@
 				- 3/4 day
 				- Functional 
 				- An admin must be able to manually input new items into the inventory database.
-		- Database [T7E-7]
+		- Database [T7E-7] and Data Storage
 			- Connect login page to database [T7S-22]
 				- Must Have
 				- 1/2 day
@@ -126,12 +126,13 @@
 				- Must Have
 				- 5 days
 				- Non-Functional
-				- An admin must be able to see items in 
-			- Connect Inventory to database[T7S-25]
+				- An admin must be able to see items in the database with name and description
+			- Store Item Images in Folder[T7S-25]
 				- Must Have
 				- 5 days
 				- Non-Functional
-				- An admin must be able to see the list on inventory
+				- An admin must be able to access all images and update if necessary
+            -
         	
 
 
