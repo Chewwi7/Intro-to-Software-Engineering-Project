@@ -46,7 +46,7 @@
             <td></td>
         </tr>
         <tr>
-            <td rowspan=5>Conditions</td>
+            <td rowspan=6>Conditions</td>
             <td>Manage sales report</td>
             <td>No</td>
             <td>Yes</td>
