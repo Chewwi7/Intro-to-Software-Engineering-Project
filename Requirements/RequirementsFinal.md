@@ -101,54 +101,55 @@
                 - The admin must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button.
         - Epic: Inventory Screen [T7E-2]
             - Story: Inventory Sorting
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement
-                - Description: The admin must be able to see a list of all available inventory sorted by highest to lowest price and their remaining quantity.
+                - The admin must be able to see a list of all available inventory sorted by highest to lowest price and their remaining quantity.
             - Story: Inventory Listing
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement
-                - Description: Each inventory listing must display the item's name, picture, price, a brief description, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points.
+                - Each inventory listing must display the item's name, picture, price, a brief description, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points.
             - Story: Adding to Inventory
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement
-                - Description: The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.
+                - The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.
             - Story: Search Bar
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement
-                - Description: The user must be able to search the available inventory by typing in a search box.
+                - The user must be able to search the available inventory by typing in a search box.
         - Epic: Sales Report Page [T7E-3]
             - Story: Shopping Cart
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement:
-                - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+                - The user will be able to see every item in their cart and the subtotal cost in USD.
             - Story: Pay Now Button
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement:
-                - Description:
+                - 
             - Story: Return to Shopping Button
-                - Priority: Must Have
-                - Estimated Effort:
+                - Must Have
+                - 
                 - Functional Requirement:
                 - Description:
         - Epic: Pay Now Page [T7E-4]
-            - Story: Input Personal InformatMust Have
-                - Estimated Effort:
-                - Functional Requirement:
-                - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+            - Story: Input Personal Information
+                - Must Have
+                - 
+                - 
+                - The user will be able to see every item in their cart and the subtotal cost in USD.
             - Story: Select Shipping Options
                 - Must Have
-                - Estimated Effort:
-                - Functional Requirement:
-                - Description:
+                - 
+                - Functional Requirement
+                - 
             - Story: Confirm Order Button
                 - Priority: Must Have
-                - Estimated Effort:
-                - Functional Requirement:
-                - Description:
+                - 2 days
+                - Functional Requirement
+                - The user must be able to confirm their purchase and receive a receipt for it
         
