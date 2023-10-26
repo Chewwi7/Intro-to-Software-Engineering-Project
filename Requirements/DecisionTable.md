@@ -39,8 +39,8 @@
     </thead>
     <tbody>
         <tr>
-            <td colspan="2">Conditions</td>
             <td></td>
+            <td>Conditions</td>
             <td>USER</td>
             <td>ADMIN</td>
         </tr>
