@@ -127,13 +127,13 @@
 				- 5 days
 				- Non-Functional
 				- An admin must be able to see items in the database with name and description
+                - An admin must be able to see items currently on display and update content.
 			- Store Item Images in Folder[T7S-25]
 				- Must Have
 				- 5 days
 				- Non-Functional
 				- An admin must be able to access all images and update if necessary
-            -
-				- An admin must be able to see items currently on it and update content.
+				
         	
 
 - Version 2
