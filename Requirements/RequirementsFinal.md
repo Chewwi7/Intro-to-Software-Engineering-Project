@@ -1,104 +1,104 @@
 -   Version 1
-    -   Milestone: Initial Release(User View and UX) [T7M-1]
+    -   Milestone: Initial Release [T7M-1]
         -   Epic: User Registration and Login Page [T7E-1]
             -   Story: User Registration [T7S-1]
-                -   Priority: Must Have
+                -   Must Have
                 -   Estimated Effort: 3 days
                 -   Functional Requirement
-                -   Description: The user must be able to self-register with a unique username and a 6-character minimum password.
+                -   The user must be able to self-register with a unique username and a 6-character minimum password.
                - Story: User Login[T7S-2]
-	              - Priority: Must Have
-	              -  Estimated Effort: 3 days
+	              - Must Have
+	              - 3 days
 	              - Functional Requirement
-	              - Description: The user must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button. 
+	              - The user must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button. 
 	    - Epic: Inventory Screen [T7E-2]
              - Story: Inventory Sorting [T7S-1]
-               - Priority: Must Have
-               - Estimated Effort: 5 days
+               - Must Have
+               - 5 days
                - Functional Requirement
-               - Description: The user must be able to see a list of all available inventory sorted by highest to lowest price.
+               - The user must be able to see a list of all available inventory sorted by highest to lowest price.
              - Story: Inventory Listing [T7S-2]
-                 - Priority: Must Have
-                 - Estimated Effort: 1 week
+                 - Must Have
+                 - 1 week
                  - Functional Requirement
-                 - Description: Each inventory listing must display the item's name, picture, price, a brief description, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points.
+                 - Each inventory listing must display the item's name, picture, price, a brief description, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points.
              - Story: Checkout Button [T7S-3]
-                 - Priority: Must Have
-                 - Estimated Effort: 6 hours
+                 - Must Have
+                 - 6 hours
                  - Functional Requirement
-                 - Description: The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.     	
+                 - The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.     	
              - Story: Search Bar [T7S-4]
-                 - Priority: Must Have
-                 - Estimated Effort: 5 days
+                 - Must Have
+                 - 5 days
                  - Functional Requirement
-                 - Description: The user must be able to search the available inventory by typing in a search box.
+                 - The user must be able to search the available inventory by typing in a search box.
         - Epic: Checkout Page [T7E-3]
              - Story: Shopping Cart [T7S-1]
-                 - Priority: Must Have
-                 - Estimated Effort: 1 week
+                 - Must Have
+                 - 1 week
                  - Functional Requirement
-                 - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+                 - The user will be able to see every item in their cart and the subtotal cost in USD.
              - Story: Pay Now Button [T7S-2]
-                 - Priority: Must Have
-                 - Estimated Effort: 6 hours
+                 - Must Have
+                 - 6 hours
                  - Functional Requirement
-                 - Description: This button will send the user to the Pay Now page
+                 - This button will send the user to the Pay Now page
              - Story: Return to Shopping Cart Button [T7S-3]
-               - Priority: Must Have 
-               - Estimated Effort: 6 hours
+               - Must Have 
+               - 6 hours
                - Functional Requirement
-               - Description: This button will return the user to their Shopping Cart
+               - This button will return the user to their Shopping Cart
         - Epic: Pay Now Page [T7E-4]
              - Story: Input Personal Information [T7S-1]
-               - Priority: Must Have
-               - Estimated Effort: 2 days
+               - Must Have
+               - 2 days
                - Functional Requirement
-               - Description: This will allow the user to enter their information for successful payment and delivery
+               - This will allow the user to enter their information for successful payment and delivery
              - Story: Select Shipping Options [T7S-2]
-                 - Priority: Must Have
-                 - Estimated Effort: 2 days
+                 - Must Have
+                 - 2 days
                  - Functional Requirement
-                 - Description: This will allow the user to select from three options of shipping speed and will display the
+                 - This will allow the user to select from three options of shipping speed and will display the
                     cost for each
              - Story: Confirm Order Button [T7S-3]
-                 - Priority: Must Have
-                 - Estimated Effort: 6 hours
+                 - Must Have
+                 - 6 hours
                  - Functional Requirement
-                 - Description: This button sends the user to the Confirm Order page
+                 - This button sends the user to the Confirm Order page
         - Epic: Confirm Order Page [T7E-5]
              - Story: List of Items User is Purchasing [T7S-1]
-                 - Priority: Must Have
-                 - Estimated Effort: 3 days
+                 - Must Have
+                 - 3 days
                  - Functional Requirement
-                 - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
+                 - The user will be able to see every item in their cart and the subtotal cost in USD.
              - Story: Complete Order Button [T7S-3]
-                 - Priority: Must Have
-                 - Estimated Effort: 6 hours
-                 - Functional Requirement:
-                 - Description: This button will send a receipt to the user's email and update the inventory based on the user
+                 - Must Have
+                 - 6 hours
+                 - Functional Requirement
+                 - This button will send a receipt to the user's email and update the inventory based on the user
                    input
              -Story: Completed Order Receipt [T7S-4]
-                 - Priority: Must Have
-                 - Estimated Effort: 2 days
+                 - Must Have
+                 - 2 days
                  - Functional Requirement
-                 - Description: This will be an email sent to the user summarizing their purchase
+                 - This will be an email sent to the user summarizing their purchase
              -Story: Return to Checkout Page button [T7S-5]
-                 - Priority: Must Have
+                 - Must Have
                  - Estimated Effort:
                  - Functional Requirement:
-                 - Description: This will allow the user to return to the Checkout page without having to complete the purchase
+                 - This will allow the user to return to the Checkout page without having to complete the purchase
                    but will keep items in the shopping cart
         -   Epic: Admin Accessibility and Login Page [T7E-1]
             -   Story: Giving Admin Powers[T7S-1]
-                -   Priority: Must Have
-                -   Estimated Effort: 3 days
+                -   Must Have
+                -   3 days
                 -   Functional Requirement
-                -   Description: This will allow other admins to promote users to admins
+                -   This will allow other admins to promote users to admins
             - Story: Admin Login
-                - Priority: Must Have
-                -  Estimated Effort: 3 days
+                - Must Have
+                - 3 days
                 - Functional Requirement
-                - Description: The admin must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button.
+                - The admin must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button.
         - Epic: Inventory Screen [T7E-2]
             - Story: Inventory Sorting
                 - Priority: Must Have
@@ -137,13 +137,12 @@
                 - Functional Requirement:
                 - Description:
         - Epic: Pay Now Page [T7E-4]
-            - Story: Input Personal Information
-                - Priority: Must Have
+            - Story: Input Personal InformatMust Have
                 - Estimated Effort:
                 - Functional Requirement:
                 - Description: The user will be able to see every item in their cart and the subtotal cost in USD.
             - Story: Select Shipping Options
-                - Priority: Must Have
+                - Must Have
                 - Estimated Effort:
                 - Functional Requirement:
                 - Description:
