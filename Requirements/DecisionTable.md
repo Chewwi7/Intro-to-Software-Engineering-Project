@@ -39,7 +39,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=1>Types of Login</td>
+            <td rowspan=2>Types of Login</td>
             <td></td>
             <td>USER</td>
             <td>ADMIN</td>
