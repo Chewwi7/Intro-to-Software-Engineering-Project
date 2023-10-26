@@ -39,7 +39,7 @@
     </thead>
     <tbody>
         <tr>
-            <td colspan=2>Conditions</td>
+            <td colspan=1>Conditions</td>
             <td></td>
             <td>USER</td>
             <td>ADMIN</td>
