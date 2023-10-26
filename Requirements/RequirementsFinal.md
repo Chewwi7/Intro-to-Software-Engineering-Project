@@ -131,10 +131,10 @@
 			      	- Functional
 			      	- An admin will be able to click on a sold item and be able to see the receipt related to said item.
           		- Add Inventory Through a UI [T7S-4]
-				- Want to Have
-				- 5 days
-				- Functional
-				- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
+					- Want to Have
+					- 5 days
+					- Functional
+					- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
 			- Create Admins Through a UI [T7S-5]
 				- Want to Have
 				- 2 days
