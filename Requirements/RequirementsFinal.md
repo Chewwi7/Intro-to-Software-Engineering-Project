@@ -16,7 +16,7 @@
 				- Must Have
 				- 1.5 days
 				- Functional 
-				- The user will see a list of all available inventory sorted from highest to lowest price. If a user has purchased an inventory item, said item must not be visible here.
+				- The system must sort a list of all available inventory sorted from highest to lowest price for the user to see. If a user has purchased an inventory item, said item must not be visible here.
 			- Listing Inventory [T7S-4]
 				- Must Have
 				- 5 days
