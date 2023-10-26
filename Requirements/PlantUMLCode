@@ -2,14 +2,14 @@
 left to right direction
 actor "Admin" as A
 actor "Banker" as B
-actor "Consumer" as C
+actor "User" as C
+
 
 package Website{
 useCase "Login" as UC1
 useCase "Update Inventory" as UC2
 useCase "Self-Register" as UC3
 useCase "Manage Sales Report" as UC4
-useCase "See user purchases" as UC5
 useCase "Views Receipt" as UC6
 useCase "Turn user into Admin" as UC7
 useCase "Access Database" as UC8
@@ -17,17 +17,30 @@ useCase "Go through purchase process" as UC9
 
 }
 package Bank{
-useCase "Gives Money" as BC1
+useCase "Request Payment" as BC1
 useCase "Recives Money" as BC2
 }
-A --> UC8
-A--> UC1
-C--> UC1
-C --> UC3
-A --> UC4
+A --> UC1
 A --> UC2
-A-->UC5
-C-->UC6
-C --> BC1
+A --> UC4
+A --> UC6
+A --> UC7
+A --> UC8
+
+
+
+
+
+UC1<--C
+UC3<--C 
+UC6<--C
+UC9<--C
+BC1 <--C
+Bank --> Website
+B <--BC2
+@enduml
+UC9<--C
+BC1 <--C
+
 B --> BC2
 @enduml

@@ -133,8 +133,8 @@
 				- Non-Functional
 				- An admin must be able to access all images and update if necessary
             -
+				- An admin must be able to see items currently on it and update content.
         	
-
 
 - Version 2
 	- Future Release
