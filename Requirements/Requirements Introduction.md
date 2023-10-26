@@ -4,3 +4,7 @@ This folder contains everything that relates to the requirements of this project
 [Requirements Writing](RequirementsFinal.md)
 ## Use Case Diagram
 [Use Case Diagram](UMLDiagram.png)
+## Decision Table
+[Decision Table](DecisionTable.md)
+## Presentation
+[Requirements Presentation]()
