@@ -126,14 +126,8 @@
 				- Must Have
 				- 5 days
 				- Non-Functional
-				- An admin must be able to see items in 
-			- Connect Inventory to database[T7S-25]
-				- Must Have
-				- 5 days
-				- Non-Functional
-				- An admin must be able to see the list on inventory
+				- An admin must be able to see items currently on it and update content.
         	
-
 
 - Version 2
 	- Future Release
