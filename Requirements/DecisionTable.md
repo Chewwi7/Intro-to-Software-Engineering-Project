@@ -41,8 +41,7 @@
         <tr>
             <td></td>
             <td>Conditions</td>
-            <td>USER</td>
-            <td>ADMIN</td>
+            <td>Rules</td></td>
         </tr>
         <tr>
             <td></td>
