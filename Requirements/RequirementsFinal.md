@@ -91,10 +91,10 @@
                  - Functional 
                  - The user must be able to click this button to return to the checkout page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
 	     - Return to Main Page Button [T7S-18]
-                 - Must Have
-                 - 3/4 day
-                 - Functional 
-                 - The user must be able to click this button to return to the main page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
+       - Must Have
+       - 3/4 day
+       - Functional
+       - The user must be able to click this button to return to the main page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
         -  Admin Accessibility [T7E-6]
             -  Turn a User into an Admin [T7S-19]
                 - Must Have
@@ -107,42 +107,41 @@
                 - Functional 
                 - An admin must be able to run a sales report that shows everything purchased and who purchased it.
              - Add Inventory [T7S-21]
-	            - Must Have
+	        - Must Have
                 - 3/4 day
                 - Functional 
                 - An admin must be able to manually input new items into the inventory database.
-
 - Version 2
 	- Future Release
 		- User Quality of Life Improvements [T7E-1]
 			- Email Receipts to Users [T7S-1]
-			   - Want to Have
-                	   - 1.5 days
-                	   - Functional
-                	   - After the user clicks the complete order button, the system needs to email the user the same receipt that the user is shown on the website.
-     		- Administrative Quaility of Life Improvements [T7E-2]
+	            		- Want to Have
+                		- 1.5 days
+                		- Functional
+     				- After the user clicks the complete order button, the system needs to email the user the same receipt that the user is shown on the website.
+         	- Administrative Quaility of Life Improvements [T7E-2]
 	         	- Export Sales Report to CSV [T7S-2]
-		         - Need to Have
-		         - 2 days
-		         - Functional
-		         - An admin will be able to export the sales report to a CSV file that is usable in excel.
-		      - Display Individual Item receipt [T7S-3]
-			      - Want to Have
-			      - 4 days
-			      - Functional
-			      - An admin will be able to click on a sold item and be able to see the receipt related to said item.
-			   - Add Inventory Through a UI [T7S-4]
-				   - Want to Have
-				   - 5 days
-				   - Functional
-				   - An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
-				- Create Admins Through a UI [T7S-5]
-					- Want to Have
-					- 2 days
-					- Functional
-					- A user can be turned into an admin by and admin through a UI in the application.
-				- Add Multiple Pictures to a Listing [T7S-6]
-		             		- Want to Have
-		             		- 1 day
-		    			- Functional
-		             		- The admin can add multiple pictures on a single inventory listing.
+		         	- Need to Have
+		         	- 2 days
+		        	- Functional
+		         	- An admin will be able to export the sales report to a CSV file that is usable in excel.
+		      	- Display Individual Item receipt [T7S-3]
+			      	- Want to Have
+			      	- 4 days
+			      	- Functional
+			      	- An admin will be able to click on a sold item and be able to see the receipt related to said item.
+			- Add Inventory Through a UI [T7S-4]
+				- Want to Have
+				- 5 days
+				- Functional
+				- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
+			- Create Admins Through a UI [T7S-5]
+				- Want to Have
+				- 2 days
+				- Functional
+				- A user can be turned into an admin by and admin through a UI in the application.
+			- Add Multiple Pictures to a Listing [T7S-6]
+		             	- Want to Have
+		             	- 1 day
+		             	- Functional
+		             	- The admin can add multiple pictures on a single inventory listing.
