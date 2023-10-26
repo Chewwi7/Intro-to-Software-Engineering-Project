@@ -6,7 +6,7 @@
 				- 2 days
 				- Functional 
 				- The user must be able to self-register with a unique username and a 6-character minimum password.
-			- User/Admin Login[T7S-2]
+			- User/Admin Login [T7S-2]
 				- Must Have
 				- 2 days
 				- Functional
