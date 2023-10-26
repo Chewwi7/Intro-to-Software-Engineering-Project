@@ -130,7 +130,7 @@
 			      	- 4 days
 			      	- Functional
 			      	- An admin will be able to click on a sold item and be able to see the receipt related to said item.
-			- Add Inventory Through a UI [T7S-4]
+          		- Add Inventory Through a UI [T7S-4]
 				- Want to Have
 				- 5 days
 				- Functional
