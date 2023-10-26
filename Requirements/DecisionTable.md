@@ -56,19 +56,19 @@
             <td>ADMIN</td>
         </tr>
         <tr>
-            <td rowspan=9>Action Stubs</td>
+            <td rowspan=8>Action Stubs</td>
+            <td>Login</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Self-Register</td>
+            <td>Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
             <td>Manage sales report</td>
             <td>No</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Can Self-Register</td>
-            <td>Yes</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td>Can Login</td>
-            <td>Yes</td>
             <td>Yes</td>
         </tr>
         <tr>
@@ -85,11 +85,6 @@
             <td>Update Inventory</td>
             <td>No</td>
             <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Should be able to check out</td>
-            <td>Yes</td>
-            <td>No</td>
         </tr>
         <tr>
             <td>Access Database</td>
