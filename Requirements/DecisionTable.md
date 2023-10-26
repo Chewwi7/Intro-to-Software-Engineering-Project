@@ -56,7 +56,7 @@
             <td>ADMIN</td>
         </tr>
         <tr>
-            <td rowspan=8>Action Stubs</td>
+            <td rowspan=9>Action Stubs</td>
             <td>Login</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -79,6 +79,11 @@
         <tr>
             <td>See user purchases</td>
             <td>No</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>View Receipts</td>
+            <td>Yes</td>
             <td>Yes</td>
         </tr>
         <tr>
