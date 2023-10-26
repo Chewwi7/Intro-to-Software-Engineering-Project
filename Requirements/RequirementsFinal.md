@@ -135,8 +135,8 @@
 					- 5 days
 					- Functional
 					- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
-			- Create Admins Through a UI [T7S-5]
-				- Want to Have
-				- 2 days
-				- Functional
-				- A user can be turned into an admin by and admin through a UI in the application.
+				- Create Admins Through a UI [T7S-5]
+					- Want to Have
+					- 2 days
+					- Functional
+					- A user can be turned into an admin by and admin through a UI in the application.
