@@ -25,3 +25,7 @@ Alexis McGruder | [Resume](https://github.com/Chewwi7/Intro-to-Software-Engineer
 
 #### Project Plan Video Presentation
 [Video Presentation](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/main/Presentations/Project%20Plan%20Presentation.md)
+
+#### Requirements Introduction 
+[Requirements Introduction]
+
