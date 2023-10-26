@@ -1,116 +1,116 @@
--   Version 1
-    - Initial Release
-        -   User Registration and Login Page [T7E-1]
-            -   User Self-Registration [T7S-1]
-                -   Must Have
-                -   2 days
-                -   Functional 
-                -   The user must be able to self-register with a unique username and a 6-character minimum password.
-               - User/Admin Login[T7S-2]
-	              - Must Have
-	              - 2 days
-	              - Functional
-	              - The user or admin must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button. 
-	    - Inventory Screen [T7E-2]
-             - Sorting Inventory [T7S-3]
-               - Must Have
-               - 1.5 days
-               - Functional 
-               - The user will see a list of all available inventory sorted from highest to lowest price. If a user has purchased an inventory item, said item must not be visible here.
-             - Listing Inventory [T7S-4]
-                 - Must Have
-                 - 5 days
-                 - Functional 
-                 - The system must display the item's name, picture, price, a brief description, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points. The prices must be stored in a decimal/currency format that is base-10, not a floating point.
-             - Checkout Button [T7S-5]
-                 - Must Have
-                 - 3/4 day
-                 - Functional 
-                 - The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.     	
-             - Search Bar [T7S-6]
-                 - Must Have
-                 - 5 days
-                 - Functional 
-                 - The user must be able to search the available inventory by typing in a search box. If a user has purchased an inventory item, said item must not be visible here.
-        - Shopping Cart Page [T7E-3]
-             - View Shopping Cart [T7S-7]
-                 - Must Have
-                 - 5 days
-                 - Functional 
-                 - The user must be able to see every item in their cart and the subtotal cost in USD.
-             - Remove Items From Cart [T7S-8]
-                 - Must Have
-                 - 1.5 days
-                 - Functional 
-                 - The user must be able to remove items from the list in their cart. If the user removes all items they must be taken back to the main screen automatically.
-             - Pay Now Button [T7S-9]
-                 - Must Have
-                 - 1/4 day
-                 - Functional 
-                 - The user must be able to click the pay now button to be taken to the payment screen.
-             - Return to Shopping Cart Button [T7S-10]
-               - Must Have 
-               - 1/4 day
-               - Functional 
-               - The user must be able to click the return to shopping button to return to the main screen.
-        - Pay Now Page [T7E-4]
-             - Input Personal Information [T7S-11]
-               - Must Have
-               - 1 day
-               - Functional 
-               - The user must be required to input their shipping address, credit card number, phone number, and shipping speed. The credit card information also requires the expiration month and year and the CVV security code.
-             - Select Shipping Options [T7S-12]
-                 - Must Have
-                 - 1/2 day
-                 - Functional 
-                 - The user must be able to select from three shipping options; Overnight: $29, 3-Day: $19, and Ground: $0/Free.
-             - Confirm Order Button [T7S-13]
-                 - Must Have
-                 - 1/2 day
-                 - Functional 
-                 - The user must be able to click a confirm order button once all payment and personal information fields are filled out.
-        - Confirm Order Page [T7E-5]
-             - List Items User is Purchasing [T7S-14]
-                 - Must Have
-                 - 4 days
-                 - Functional 
-                 - The user must be able to see a list of each items name and price that they are purchasing, the subtotal, tax (6% of subtotal), shipping speed cost, and the grand total. Grand total formula: subtotal + (subtotal*.06) + shipping speed cost = grand total. 
-             - Complete Order Button [T7S-15]
-                 - Must Have
-                 - 3/4 day
-                 - Functional 
-                 - The user must be able to click this button to complete their order and display a receipt of what they purchased. This button will also take the items out of inventory. 
-             - Completed Order Receipt [T7S-16]
-                 - Must Have
-                 - 3 days
-                 - Functional 
-                 - The user must be able to see the receipt that looks almost the same as the confirm order page but also includes the last 4 digits of the users credit card number and their shipping address. The receipt will include an ok button to exit the receipt and return to the main page.
-             - Return to Checkout Page button [T7S-17]
-                 - Must Have
-                 - 3/4 day
-                 - Functional 
-                 - The user must be able to click this button to return to the checkout page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
-	     - Return to Main Page Button [T7S-18]
-       - Must Have
-       - 3/4 day
-       - Functional
-       - The user must be able to click this button to return to the main page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
-        -  Admin Accessibility [T7E-6]
-            -  Turn a User into an Admin [T7S-19]
-                - Must Have
-                - 1/2 day
-                - Functional 
-                - An admin must be able to manually create new admins by turning previous users into admins.
-             - Run Sales Report [T7S-20]
-                - Must Have
-                - 3 days
-                - Functional 
-                - An admin must be able to run a sales report that shows everything purchased and who purchased it.
-             - Add Inventory [T7S-21]
-	        - Must Have
-                - 3/4 day
-                - Functional 
-                - An admin must be able to manually input new items into the inventory database.
+- Version 1
+	- Initial Release
+		- User Registration and Login Page [T7E-1]
+			- User Self-Registration [T7S-1]
+				- Must Have
+				- 2 days
+				- Functional 
+				- The user must be able to self-register with a unique username and a 6-character minimum password.
+			- User/Admin Login[T7S-2]
+				- Must Have
+				- 2 days
+				- Functional
+				- The user or admin must be able to log in with their created username and password and be directed to the main inventory screen after pressing the login button. 
+		- Inventory Screen [T7E-2]
+			- Sorting Inventory [T7S-3]
+				- Must Have
+				- 1.5 days
+				- Functional 
+				- The user will see a list of all available inventory sorted from highest to lowest price. If a user has purchased an inventory item, said item must not be visible here.
+			- Listing Inventory [T7S-4]
+				- Must Have
+				- 5 days
+				- Functional 
+				- The system must display the item's name, picture, price, a brief description, and a button to add the item to the shopping cart. All prices must be in US dollars and formatted with a $ sign, commas, and decimal points. The prices must be stored in a decimal/currency format that is base-10, not a floating point.
+			- Checkout Button [T7S-5]
+				- Must Have
+				- 3/4 day
+				- Functional 
+				- The user must be able to click a Checkout button to start the checkout process. The user cannot click Checkout if the shopping cart is empty.     	
+			- Search Bar [T7S-6]
+				- Must Have
+				- 5 days
+				- Functional 
+				- The user must be able to search the available inventory by typing in a search box. If a user has purchased an inventory item, said item must not be visible here.
+		- Shopping Cart Page [T7E-3]
+			- View Shopping Cart [T7S-7]
+				- Must Have
+				- 5 days
+				- Functional 
+				- The user must be able to see every item in their cart and the subtotal cost in USD.
+			- Remove Items From Cart [T7S-8]
+				- Must Have
+				- 1.5 days
+				- Functional 
+				- The user must be able to remove items from the list in their cart. If the user removes all items they must be taken back to the main screen automatically.
+			- Pay Now Button [T7S-9]
+				- Must Have
+				- 1/4 day
+				- Functional 
+				- The user must be able to click the pay now button to be taken to the payment screen.
+			- Return to Shopping Cart Button [T7S-10]
+				- Must Have 
+				- 1/4 day
+				- Functional 
+				- The user must be able to click the return to shopping button to return to the main screen.
+		- Pay Now Page [T7E-4]
+			- Input Personal Information [T7S-11]
+				- Must Have
+				- 1 day
+				- Functional 
+				- The user must be required to input their shipping address, credit card number, phone number, and shipping speed. The credit card information also requires the expiration month and year and the CVV security code.
+			- Select Shipping Options [T7S-12]
+				- Must Have
+				- 1/2 day
+				- Functional 
+				- The user must be able to select from three shipping options; Overnight: $29, 3-Day: $19, and Ground: $0/Free.
+			- Confirm Order Button [T7S-13]
+				- Must Have
+				- 1/2 day
+				- Functional 
+				- The user must be able to click a confirm order button once all payment and personal information fields are filled out.
+		- Confirm Order Page [T7E-5]
+			- List Items User is Purchasing [T7S-14]
+				- Must Have
+				- 4 days
+				- Functional 
+				- The user must be able to see a list of each items name and price that they are purchasing, the subtotal, tax (6% of subtotal), shipping speed cost, and the grand total. Grand total formula: subtotal + (subtotal*.06) + shipping speed cost = grand total. 
+			- Complete Order Button [T7S-15]
+				- Must Have
+				- 3/4 day
+				- Functional 
+				- The user must be able to click this button to complete their order and display a receipt of what they purchased. This button will also take the items out of inventory. 
+			- Completed Order Receipt [T7S-16]
+				- Must Have
+				- 3 days
+				- Functional 
+				- The user must be able to see the receipt that looks almost the same as the confirm order page but also includes the last 4 digits of the users credit card number and their shipping address. The receipt will include an ok button to exit the receipt and return to the main page.
+			- Return to Checkout Page button [T7S-17]
+				- Must Have
+				- 3/4 day
+				- Functional 
+				- The user must be able to click this button to return to the checkout page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
+			- Return to Main Page Button [T7S-18]
+				- Must Have
+				- 3/4 day
+				- Functional
+				- The user must be able to click this button to return to the main page. The button will disappear once the complete order button is clicked since their is nothing to checkout anymore.
+		- Admin Accessibility [T7E-6]
+			- Turn a User into an Admin [T7S-19]
+				- Must Have
+				- 1/2 day
+				- Functional 
+				- An admin must be able to manually create new admins by turning previous users into admins.
+			- Run Sales Report [T7S-20]
+				- Must Have
+				- 3 days
+				- Functional 
+				- An admin must be able to run a sales report that shows everything purchased and who purchased it.
+			- Add Inventory [T7S-21]
+				- Must Have
+				- 3/4 day
+				- Functional 
+				- An admin must be able to manually input new items into the inventory database.
 - Version 2
 	- Future Release
 		- User Quality of Life Improvements [T7E-1]
@@ -125,23 +125,23 @@
 				- 2 days
 				- Functional
 				- An admin will be able to export the sales report to a CSV file that is usable in excel.
-- Display Individual Item receipt [T7S-3]
-- Want to Have
-- 4 days
-- Functional
-- An admin will be able to click on a sold item and be able to see the receipt related to said item.
-- Add Inventory Through a UI [T7S-4]
-- Want to Have
-- 5 days
-- Functional
-- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
-- Create Admins Through a UI [T7S-5]
-- Want to Have
-- 2 days
-- Functional
-- A user can be turned into an admin by and admin through a UI in the application.
-- Add Multiple Pictures to a Listing [T7S-6]
-- Want to Have
-- 1 day
-- Functional
-- The admin can add multiple pictures on a single inventory listing.
+			- Display Individual Item receipt [T7S-3]
+				- Want to Have
+				- 4 days
+				- Functional
+				- An admin will be able to click on a sold item and be able to see the receipt related to said item.
+			- Add Inventory Through a UI [T7S-4]
+				- Want to Have
+				- 5 days
+				- Functional
+				- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
+			- Create Admins Through a UI [T7S-5]
+				- Want to Have
+				- 2 days
+				- Functional
+				- A user can be turned into an admin by and admin through a UI in the application.
+			- Add Multiple Pictures to a Listing [T7S-6]
+				- Want to Have
+				- 1 day
+				- Functional
+				- The admin can add multiple pictures on a single inventory listing.
