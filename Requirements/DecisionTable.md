@@ -6,7 +6,9 @@
 
 [//]: # (|            |  |      ||)
 
-[//]: # (| Conditions | Manage sales report          |)
+[//]: # (| Conditions | can Self-Register         |)
+
+[//]: # (|            | Manage Sales Report           |)
 
 [//]: # (|            | Purchase items            |)
 
@@ -48,6 +50,11 @@
             <td>Manage sales report</td>
             <td>No</td>
             <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Can Self-Register</td>
+            <td>Yes</td>
+            <td>No</td>
         </tr>
         <tr>
             <td>Purchase items</td>
