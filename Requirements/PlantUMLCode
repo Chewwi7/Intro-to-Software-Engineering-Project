@@ -26,6 +26,7 @@ A --> UC4
 A --> UC6
 A --> UC7
 A --> UC8
+A --> UC9
 
 
 
@@ -38,9 +39,4 @@ UC9<--C
 BC1 <--C
 Bank --> Website
 B <--BC2
-@enduml
-UC9<--C
-BC1 <--C
-
-B --> BC2
 @enduml
