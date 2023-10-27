@@ -79,7 +79,7 @@
 				- Must Have
 				- 3/4 day
 				- Functional 
-				- The user must be able to click this button to complete their order and display a receipt of what they purchased. This button will also take the items out of inventory. 
+				- The user must be able to click this button to complete their order and display a receipt of what they purchased. This button will also take the items out of inventory and the database. 
 			- Completed Order Receipt [T7S-16]
 				- Must Have
 				- 3 days
@@ -116,7 +116,7 @@
 				- Must Have
 				- 1/2 day
 				- Non-Functional
-				- The user's information must be seamlessly stored into the database after registration
+				- The user's information must be seamlessly stored into the database after registration.
 			- Assign unique ids to each user [T7S-23]
 				- Must Have
 				- 1 day
@@ -126,46 +126,45 @@
 				- Must Have
 				- 5 days
 				- Non-Functional
-				- An admin must be able to see items in the database with name and description
-                - An admin must be able to see items currently on display and update content.
+				- An admin must be able to see items in the database with all relevant item information.
 			- Store Item Images in Folder[T7S-25]
 				- Must Have
 				- 5 days
 				- Non-Functional
-				- An admin must be able to access all images and update if necessary
+				- An admin must be able to access all images and update if necessary.
 				
         	
 
 - Version 2
 	- Future Release
-		- User Quality of Life Improvements [T7E-1]
-			- Email Receipts to Users [T7S-1]
+		- User Quality of Life Improvements [T7E2-1]
+			- Email Receipts to Users [T7S2-1]
 				- Want to Have
 				- 1.5 days
 				- Functional
 				- After the user clicks the complete order button, the system needs to email the user the same receipt that the user is shown on the website.
-		- Administrative Quaility of Life Improvements [T7E-2]
-			- Export Sales Report to CSV [T7S-2]
+		- Administrative Quaility of Life Improvements [T7E2-2]
+			- Export Sales Report to CSV [T7S2-2]
 				- Need to Have
 				- 2 days
 				- Functional
 				- An admin will be able to export the sales report to a CSV file that is usable in excel.
-			- Display Individual Item receipt [T7S-3]
+			- Display Individual Item receipt [T7S2-3]
 				- Want to Have
 				- 4 days
 				- Functional
 				- An admin will be able to click on a sold item and be able to see the receipt related to said item.
-			- Add Inventory Through a UI [T7S-4]
+			- Add Inventory Through a UI [T7S2-4]
 				- Want to Have
 				- 5 days
 				- Functional
 				- An admin will be able to add inventory to the database through the website by opening a page and adding information and a picture.
-			- Create Admins Through a UI [T7S-5]
+			- Create Admins Through a UI [T7S2-5]
 				- Want to Have
 				- 2 days
 				- Functional
 				- A user can be turned into an admin by and admin through a UI in the application.
-			- Add Multiple Pictures to a Listing [T7S-6]
+			- Add Multiple Pictures to a Listing [T7S2-6]
 				- Want to Have
 				- 1 day
 				- Functional
