@@ -1743,19 +1743,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Constant Jr\\.nuget\\packages\\": {}
+    "C:\\Users\\pnsaj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
-      "packagesPath": "C:\\Users\\Constant Jr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\obj\\",
+      "projectPath": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\pnsaj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Constant Jr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pnsaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
