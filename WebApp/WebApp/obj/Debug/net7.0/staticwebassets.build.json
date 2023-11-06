@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MI7Q0qqxOiXHwa+D5MuZaLUeQvZGQUdcBpf0MAdQK2g=",
+  "Hash": "8OBKvdPx2DnZzWnzPvhvsM0ofjapEGhwuKOfTx7LpfA=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -2157,23 +2157,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\LootX Logo 3D.png",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/WebApp",
-      "RelativePath": "LootX Logo 3D.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\LootX Logo 3D.png"
     }
   ]
 }
