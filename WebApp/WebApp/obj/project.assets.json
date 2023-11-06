@@ -11974,25 +11974,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/philip/.nuget/packages/": {}
+    "C:\\Users\\pnsaj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/WebApp/WebApp/WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/WebApp/WebApp/WebApp.csproj",
-      "packagesPath": "/Users/philip/.nuget/packages/",
-      "outputPath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/WebApp/WebApp/obj/",
+      "projectPath": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\pnsaj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/philip/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\pnsaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12059,7 +12065,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
