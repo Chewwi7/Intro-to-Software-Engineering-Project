@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8OBKvdPx2DnZzWnzPvhvsM0ofjapEGhwuKOfTx7LpfA=",
+  "Hash": "hU150j9ZeObKITZOImd776iS2uspdc0MdSbblPdLiJo=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1139,12 +1139,12 @@
       "OriginalItemSpec": "wwwroot\\data\\user.json"
     },
     {
-      "Identity": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\Images\\basket-cart-icon-27.png",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "Images/basket-cart-icon-27.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,7 +1153,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\Images\\basket-cart-icon-27.png"
+    },
+    {
+      "Identity": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\Images\\favicon.ico",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "Images/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\Images\\LootX Logo 3D.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "Images/LootX Logo 3D.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\LootX Logo 3D.png"
     },
     {
       "Identity": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\index.html",

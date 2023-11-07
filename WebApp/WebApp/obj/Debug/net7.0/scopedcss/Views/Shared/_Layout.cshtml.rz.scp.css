@@ -8,7 +8,7 @@ a.navbar-brand[b-7882z672yd] {
 }
 
 a[b-7882z672yd] {
-  color: #0077cc;
+  color: #119b0b;
 }
 
 .btn-primary[b-7882z672yd] {
@@ -52,5 +52,11 @@ button.accept-policy[b-7882z672yd] {
   width: 50px;
   height: 50px;
   left: 698px;
-  margin-right: 35pc;
+  margin-right: 530px;
+}
+
+.cart[b-7882z672yd]
+{
+  width: 50px;
+  height: 50px;
 }

@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\WebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\Images\\LootX Logo 3D.png",
+      "PackagePath": "staticwebassets\\Images\\LootX Logo 3D.png"
+    },
+    {
+      "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\Images\\basket-cart-icon-27.png",
+      "PackagePath": "staticwebassets\\Images\\basket-cart-icon-27.png"
+    },
+    {
+      "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\Images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\favicon.ico"
+    },
+    {
       "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\css\\myTheme.css",
       "PackagePath": "staticwebassets\\css\\myTheme.css"
     },
@@ -19,10 +31,6 @@
     {
       "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\data\\user.json",
       "PackagePath": "staticwebassets\\data\\user.json"
-    },
-    {
-      "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\wwwroot\\index.html",
