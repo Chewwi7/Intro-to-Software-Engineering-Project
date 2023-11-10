@@ -24,7 +24,7 @@ Alexis McGruder | [Resume](ProjectPlanning/TeamResumes/AlexisMcGruderResume.md)
 [Gantt Chart](https://adkisson-swe-f23.youtrack.cloud/gantt-charts/174-5)
 
 #### Project Plan Video Presentation
-[Video Presentation](Presentation/ProjectPlanPresentation.md)
+[Video Presentation](Presentations/ProjectPlanPresentation.md)
 
 #### Requirements Introduction 
 [Requirements Introduction](Requirements/RequirementsIntroduction.md)
