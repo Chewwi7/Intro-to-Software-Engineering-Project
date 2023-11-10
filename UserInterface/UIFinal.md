@@ -1,3 +1,3 @@
 # UI Components
-(Marvel Design)[UI Marvel.md]
-(Video Presentation)[User Design Presentation.md]
+[Marvel Design](UIMarvel.md)
+[Video Presentation](UserDesignPresentation.md)
