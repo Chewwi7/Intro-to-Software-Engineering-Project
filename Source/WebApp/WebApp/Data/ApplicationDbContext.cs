@@ -1,18 +1,20 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using WebApp.Models;
 
 namespace WebApp.Data;
 
-public class ApplicationDbContext : IdentityDbContext
+public class ApplicationDbContext : DbContext
 {
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> option) : base(option)
     {
-        optionsBuilder.UseSqlite(
-            "\"C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\Source\\LootX Database\\identifier.db\"");
+
     }
-    
-    
-    
-    
-    
+
+    public DbSet<Product> Inventory { get; set; }
+
+
+
+
+
 }
