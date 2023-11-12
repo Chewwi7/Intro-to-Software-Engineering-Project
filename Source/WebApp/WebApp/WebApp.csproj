@@ -25,4 +25,8 @@
       <Folder Include="Data\Migrations\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Login\Registration.cshtml" />
+    </ItemGroup>
+
 </Project>

@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/Views/Auth/LoginRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpblJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

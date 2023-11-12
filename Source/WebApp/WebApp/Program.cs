@@ -10,7 +10,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("localDB")));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter(); 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddRazorPages();
 
 
 var app = builder.Build();
@@ -36,7 +36,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Auth}/{action=LoginRegistration}/{id?}");
 app.MapRazorPages();
 
 app.Run();
