@@ -5,8 +5,14 @@ namespace WebApp.Data;
 
 public class ApplicationDbContext : IdentityDbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        optionsBuilder.UseSqlite(
+            "\"C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\Source\\LootX Database\\identifier.db\"");
     }
+    
+    
+    
+    
+    
 }
