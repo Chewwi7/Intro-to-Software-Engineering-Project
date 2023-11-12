@@ -17,11 +17,11 @@ namespace WebApp.Services
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json"); }
         }
 
-        public IEnumerable<Product> GetProducts()
+        public IEnumerable<Products> GetProducts()
         {
             using(var jsonFileReader = File.OpenText(JsonFileName))
             {
-                return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
+                return JsonSerializer.Deserialize<Products[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
                         PropertyNameCaseInsensitive = true

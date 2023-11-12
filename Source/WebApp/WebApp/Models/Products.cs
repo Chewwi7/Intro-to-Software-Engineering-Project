@@ -5,16 +5,17 @@ using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace WebApp.Models;
 
-public class Product
+public class Products
 {
     [Key]
-    public int Id { get; set; }
+    public int ProductId { get; set; }
     [Required]
     public string name { get; set; }
     [Required]
     public string Image { get; set; }
     [Required]
     public int price { get; set; }
+    [Required]
     public string description { get; set; }
     
 }
