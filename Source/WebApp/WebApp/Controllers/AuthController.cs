@@ -1,6 +1,9 @@
+using JetBrains.Annotations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
-
+using WebApp.Models;
+using Index = Microsoft.EntityFrameworkCore.Metadata.Internal.Index;
+using WebApp.Views;
 namespace WebApp.Controllers;
 
 public class AuthController : Controller
@@ -13,9 +16,11 @@ public class AuthController : Controller
         return View();
     }
 
-    public IActionResult LoginSuccess()
+    public IActionResult LoginSuccess(Users users)
     {
-        return View("");
+        
+        // ReSharper disable once Mvc.ViewNotResolved
+        return View("Index", users);
     }
 
     
