@@ -410,27 +410,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\Source\\WebApp\\WebApp\\obj\\.store\\.stage\\0noeyaoh.f4m": {}
+    "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/obj/.store/.stage/pjftoq4u.1pk": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pnsaj\\AppData\\Local\\Temp\\d59e0982-4701-4b7e-a3a6-f5ba388ac85b\\restore.csproj",
+      "projectUniqueName": "/var/folders/xh/qc8w_r997r5bfjh2czkv2nyw0000gn/T/7d193b93-433f-46e6-80e9-1c64e67237ac/restore.csproj",
       "projectName": "restore",
-      "projectPath": "C:\\Users\\pnsaj\\AppData\\Local\\Temp\\d59e0982-4701-4b7e-a3a6-f5ba388ac85b\\restore.csproj",
-      "packagesPath": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\Source\\WebApp\\WebApp\\obj\\.store\\.stage\\0noeyaoh.f4m",
-      "outputPath": "C:\\Users\\pnsaj\\Desktop\\Intro-to-Software-Engineering-Project\\Source\\WebApp\\WebApp\\obj\\.store\\.stage\\0noeyaoh.f4m\\",
+      "projectPath": "/var/folders/xh/qc8w_r997r5bfjh2czkv2nyw0000gn/T/7d193b93-433f-46e6-80e9-1c64e67237ac/restore.csproj",
+      "packagesPath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/obj/.store/.stage/pjftoq4u.1pk",
+      "outputPath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/obj/.store/.stage/pjftoq4u.1pk/",
       "projectStyle": "DotnetToolReference",
       "configFilePaths": [
-        "C:\\Users\\pnsaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/philip/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -465,7 +462,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
