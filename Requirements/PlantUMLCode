@@ -16,6 +16,7 @@ useCase "Access Database" as UC8
 useCase "Go through purchase process" as UC9
 
 }
+
 package Bank{
 useCase "Request Payment" as BC1
 useCase "Recives Money" as BC2
@@ -27,7 +28,6 @@ A --> UC6
 A --> UC7
 A --> UC8
 A --> UC9
-
 
 
 

@@ -22,11 +22,11 @@ entity Item{
 --
 * itemName: var 255
 --
-* Items
+* itemDescription: var 255
 }
 
 User||--{Sales
-Entity03 }o..o| Entity04
+Item }|--|{ Sales
 Entity05 ||--o{ Entity06
 Entity07 |o--|| Entity08
 @enduml
