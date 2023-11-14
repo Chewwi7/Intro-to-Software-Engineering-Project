@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApp.Models;
 
-public class Users
+public class Users : IdentityUser
 {
     [Key]
     public int UserId { get; set; }
