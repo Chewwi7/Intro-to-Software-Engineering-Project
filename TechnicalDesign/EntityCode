@@ -1,0 +1,32 @@
+@startuml
+entity User{
+* userID: PK int, identity
+--
+* Name: varchar 255
+--
+*Email: varchar 255
+--
+*Password: varchar 255
+}
+
+entity Sales{
+* salesID: PK int, identity
+--
+* userID: FK int
+--
+* Items
+}
+
+entity Item{
+* itemID: PK int, identity
+--
+* itemName: var 255
+--
+* Items
+}
+
+User||--{Sales
+Entity03 }o..o| Entity04
+Entity05 ||--o{ Entity06
+Entity07 |o--|| Entity08
+@enduml
