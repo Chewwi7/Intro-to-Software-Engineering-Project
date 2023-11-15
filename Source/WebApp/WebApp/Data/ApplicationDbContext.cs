@@ -5,7 +5,7 @@ using WebApp.Models;
 
 namespace WebApp.Data;
 
-public class ApplicationDbContext : IdentityDbContext
+public class ApplicationDbContext : IdentityDbContext<Users>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> option) : base(option)
     {

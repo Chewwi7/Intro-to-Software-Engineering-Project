@@ -19,6 +19,7 @@
             <a asp-controller="Home" asp-action="Index" style= "margin-right: auto; "><img src="Images/LootX Logo 3D.png" class="logo" alt="LootX Logo" style="width: 50px"></a>
 
             <div class="collapse navbar-collapse" id="navbarColor03">
+                <partial name="_LoginPartial.cshtml"/>
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Swords and Blades</a>
@@ -42,11 +43,12 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="search" placeholder="Search">
-                    
+
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    
+
                 </form>
-                <a asp-controller="Home" asp-action="Cart" > <img src="Images/basket-cart-icon-27.png" class="cart"   alt="Cart Icon" style="width: 50px"/> </a>
+                <a asp-controller="Home" asp-action="Cart"> <img src="Images/basket-cart-icon-27.png" class="cart" alt="Cart Icon" style="width: 50px"/> </a>
+                
             </div>
         </div>
         

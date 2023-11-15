@@ -8,11 +8,11 @@ public class Sales
     [Key]
     public int saleId { get; set; }
     //Foreign Keys
-    [Display(Name = "User")]
-    public virtual int UserId { get; set; }
-    
-    [ForeignKey("UserId")]
-    public virtual Users Users { get; set; }
+    // [Display(Name = "User")]
+    // public virtual int UserId { get; set; }
+    //
+    // [ForeignKey("UserId")]
+    // public virtual Users Users { get; set; }
     
     [Display(Name = "Product")]
     public virtual int ProductId { get; set; }
