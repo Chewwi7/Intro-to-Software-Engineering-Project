@@ -85,7 +85,6 @@ namespace WebApp.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
