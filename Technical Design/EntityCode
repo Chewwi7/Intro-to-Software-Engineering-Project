@@ -17,16 +17,15 @@ entity Sales{
 * Items
 }
 
-entity Item{
-* itemID: PK int, identity
+entity Inventory{
+* inventoryID: PK int, identity
 --
-* itemName: var 255
+* inventoryName: varchar 255
 --
-* itemDescription: var 255
+* inventoryDescription: varchar 255
 }
 
 User||--{Sales
-Item }|--|{ Sales
-Entity05 ||--o{ Entity06
-Entity07 |o--|| Entity08
+Inventory }|--|{ Sales
+
 @enduml

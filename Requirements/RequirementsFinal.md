@@ -6,6 +6,7 @@
 				- 2 days
 				- Functional 
 				- The user must be able to self-register with a unique username and a 6-character minimum password.
+              
 			- User/Admin Login [T7S-2]
 				- Must Have
 				- 2 days
@@ -16,7 +17,7 @@
 				- Must Have
 				- 1.5 days
 				- Functional 
-				- The system must sort a list of all available inventory sorted from highest to lowest price for the user to see. If a user has purchased an inventory item, said item must not be visible here.
+				- The system must sort a list of all available inventory sorted from highest to lowest price for the user to see. If a user has purchased an inventory item, that item must not be visible here.
 			- Listing Inventory [T7S-4]
 				- Must Have
 				- 5 days
