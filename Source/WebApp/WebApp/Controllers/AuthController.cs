@@ -6,22 +6,7 @@ using Index = Microsoft.EntityFrameworkCore.Metadata.Internal.Index;
 using WebApp.Views;
 namespace WebApp.Controllers;
 
-public class AuthController : Controller
+public class AuthController
 {
-    
-    
-
-    public IActionResult LoginRegistration()
-    {
-        return View();
-    }
-
-    public IActionResult LoginSuccess(Users users)
-    {
-        
-        // ReSharper disable once Mvc.ViewNotResolved
-        return View("Index", users);
-    }
-
     
 }
