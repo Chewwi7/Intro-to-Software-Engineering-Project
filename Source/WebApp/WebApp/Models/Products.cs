@@ -10,12 +10,12 @@ public class Products
     [Key]
     public int ProductId { get; set; }
     [Required]
-    public string name { get; set; }
+    public string ProductName { get; set; }
     [Required]
-    public string Image { get; set; }
+    public string ProductImage { get; set; }
     [Required]
-    public int price { get; set; }
+    public float ProductPrice { get; set; }
     [Required]
-    public string description { get; set; }
+    public string ProductDescription { get; set; }
     
 }

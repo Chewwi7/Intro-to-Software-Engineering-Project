@@ -1,52 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.Sqlite;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using WebApp.Data;
+using WebApp.Models;
 
 namespace WebApp.Views.Auth
 {
     public class LoginRegistrationModel : PageModel
     {
-        private readonly string _connectionString = "Data Source=identifier.db";
+        private readonly WebApp.Data.ApplicationDbContext _context;
+
+        public LoginRegistrationModel(WebApp.Data.ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
         public IActionResult OnGet()
         {
             return Page();
         }
 
-        public IActionResult OnPostRegister(string username, string password)
+        [BindProperty]
+        public Users Users { get; set; } = default!;
+        
+
+        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+        public async Task<IActionResult> OnPostAsync()
         {
-            using (var connection = new SqliteConnection(_connectionString))
+          if (!ModelState.IsValid || _context.Users == null || Users == null)
             {
-                connection.Open();
-                var command = new SqliteCommand("INSERT INTO Users (username, password) VALUES (@username, @password)", connection);
-                command.Parameters.AddWithValue("@username", username);
-                command.Parameters.AddWithValue("@password", password);
-                command.ExecuteNonQuery();
+                return Page();
             }
 
-            return RedirectToPage("Index");
-        }
+            _context.Users.Add(Users);
+            await _context.SaveChangesAsync();
 
-        public IActionResult OnPostLogin(string username, string password)
-        {
-            using (var connection = new SqliteConnection(_connectionString))
-            {
-                connection.Open();
-                var command = new SqliteCommand("SELECT * FROM Users WHERE username = @username AND password = @password", connection);
-                command.Parameters.AddWithValue("@username", username);
-                command.Parameters.AddWithValue("@password", password);
-
-                using (var reader = command.ExecuteReader())
-                {
-                    if (reader.Read())
-                    {
-                        return RedirectToPage("Index");
-                    }
-                }
-            }
-
-            ViewData["Error"] = "Invalid username or password";
-            return Page();
+            return RedirectToPage("./Index");
         }
     }
 }

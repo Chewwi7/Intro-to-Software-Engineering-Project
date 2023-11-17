@@ -1,16 +1,17 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApp.Models;
 
-public class Users
+public class Users : IdentityUser
 {
-    [Key]
-    public int UserId { get; set; }
-    [Required]
-    public String username { get; set; }
-    [Required]
-    public String password { get; set; }
-    
-    public bool isAdmin { get; set; }
+    [PersonalData]
+    [Column(TypeName ="nvarchar(100)")]
+    public string FirstName { get; set; }
+
+    [PersonalData]
+    [Column(TypeName = "nvarchar(100)")]
+    public string LastName { get; set; }
     
 }

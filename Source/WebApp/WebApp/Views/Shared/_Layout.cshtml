@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -12,12 +13,10 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
         <div class="container-fluid">
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a asp-controller="Home" asp-action= "Index" style= "margin-right: auto; "><img src="Images/LootX Logo 3D.png" class="logo" alt="LootX Logo"></a>
-
+            <a asp-controller="Home" asp-action="Index" style= "margin-right: auto; "><img src="/Images/LootX Logo 3D.png" class="logo" alt="LootX Logo" style="width: 50px"></a>
             <div class="collapse navbar-collapse" id="navbarColor03">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
@@ -29,7 +28,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Miscellaneous</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    @*<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Action</a>
@@ -38,15 +37,16 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Separated link</a>
                         </div>
-                    </li>
+                    </li>*@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="search" placeholder="Search">
-                    
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    
                 </form>
-                <a asp-controller="Home" asp-action="Cart" > <img src="Images/basket-cart-icon-27.png" class="cart"   alt="Cart Icon"/> </a>
+                <partial name="_LoginPartial"/>
+                <a asp-controller="Home" asp-action="Cart"> <img src="/Images/basket-cart-icon-27.png" class="cart" alt="Cart Icon" style="width: 50px"/> 
+                    My Cart
+                </a>
             </div>
         </div>
         
@@ -59,14 +59,14 @@
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2023 - LootX - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </div>
-</footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2023 - LootX - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
 </html>
