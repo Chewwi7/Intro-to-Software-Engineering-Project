@@ -5,16 +5,24 @@
       "PackagePath": "staticwebassets/WebApp.bundle.scp.css"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/LootX Logo 3D.png",
-      "PackagePath": "staticwebassets/Images/LootX Logo 3D.png"
+      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/basket-cart-icon-27.png",
-      "PackagePath": "staticwebassets/Images/basket-cart-icon-27.png"
+      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/LootX Logo 3D.png",
+      "PackagePath": "staticwebassets/Images/Icons/LootX Logo 3D.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/favicon.ico",
-      "PackagePath": "staticwebassets/Images/favicon.ico"
+      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/basket-cart-icon-27.png",
+      "PackagePath": "staticwebassets/Images/Icons/basket-cart-icon-27.png"
+    },
+    {
+      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/favicon.ico",
+      "PackagePath": "staticwebassets/Images/Icons/favicon.ico"
+    },
+    {
+      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Product Images/Master_Sword_Lead.png",
+      "PackagePath": "staticwebassets/Images/Product Images/Master_Sword_Lead.png"
     },
     {
       "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/css/myTheme.css",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4J7Q63j5hHgd/S/ZMu5op3k1RelL58vfRkO68Qrv4oY=",
+  "Hash": "Qsd+K1th4pipjopH6MtNP3SZRfq2cGIkw+nO7f/YYA4=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/obj/Debug/net7.0/scopedcss/projectbundle/WebApp.bundle.scp.css"
     },
     {
+      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/.DS_Store",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/",
+      "BasePath": "_content/WebApp",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
       "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/css/myTheme.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -1173,12 +1190,12 @@
       "OriginalItemSpec": "wwwroot/data/users.json"
     },
     {
-      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/basket-cart-icon-27.png",
+      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/basket-cart-icon-27.png",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/",
       "BasePath": "_content/WebApp",
-      "RelativePath": "Images/basket-cart-icon-27.png",
+      "RelativePath": "Images/Icons/basket-cart-icon-27.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/basket-cart-icon-27.png"
+      "OriginalItemSpec": "wwwroot/Images/Icons/basket-cart-icon-27.png"
     },
     {
-      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/favicon.ico",
+      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/favicon.ico",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/",
       "BasePath": "_content/WebApp",
-      "RelativePath": "Images/favicon.ico",
+      "RelativePath": "Images/Icons/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/favicon.ico"
+      "OriginalItemSpec": "wwwroot/Images/Icons/favicon.ico"
     },
     {
-      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/LootX Logo 3D.png",
+      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/LootX Logo 3D.png",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/",
       "BasePath": "_content/WebApp",
-      "RelativePath": "Images/LootX Logo 3D.png",
+      "RelativePath": "Images/Icons/LootX Logo 3D.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,7 +1238,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/LootX Logo 3D.png"
+      "OriginalItemSpec": "wwwroot/Images/Icons/LootX Logo 3D.png"
+    },
+    {
+      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Product Images/Master_Sword_Lead.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "Images/Product Images/Master_Sword_Lead.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Product Images/Master_Sword_Lead.png"
     },
     {
       "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/index.html",

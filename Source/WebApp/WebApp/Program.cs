@@ -18,7 +18,6 @@ builder.Services.AddMvc().AddRazorRuntimeCompilation();
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireUppercase = false;
-    
 });
 var app = builder.Build();
 

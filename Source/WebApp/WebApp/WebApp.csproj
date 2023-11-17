@@ -30,6 +30,7 @@
     <ItemGroup>
       <Folder Include="Services\" />
       <Folder Include="Views\Auth\" />
+      <Folder Include="wwwroot\Images\Product Images\" />
     </ItemGroup>
 
     <ItemGroup>
