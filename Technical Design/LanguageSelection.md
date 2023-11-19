@@ -26,6 +26,10 @@ The following are languages and framework chosen by the developers to implement 
   - Fast and Efficient: Websites built with ASP.NET are relatively faster and more efficient than websites built with other frameworks
   such as PHP.
   - Compiles code to object code: This feature allows us to quickly resolve issues with our code
+  - Compatible on all Computer OS: ASP.NET Core is newer and works across all major computer operating systems
+  - High Level of Interactivity: ASP.NET Core are relatively more interactive but require more coding to make it 
+  more responsive to users
+  - Easy to Use Maintain: This framework provides features such as auto-scaling 
 
 
 
