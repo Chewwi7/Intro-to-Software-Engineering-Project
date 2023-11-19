@@ -18,10 +18,12 @@
             <td>Primary Key, integer, identity</td>
             <td></td>
             <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td>Name</td>
+            <td>UserName</td>
             <td>varchar 255</td>
+            <td></td>
             <td></td>
             <td></td>
         </tr>
@@ -30,10 +32,13 @@
             <td>varchar 255</td>
             <td></td>
             <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>Password</td>
             <td>varchar 255</td>
+            <td></td>
+            <td></td>
             <td></td>
         </tr>
     </tbody>
@@ -62,22 +67,89 @@
             <td></td>
         </tr>
         <tr>
-            <td>Name</td>
+            <td>InventoryName</td>
             <td>varchar 255</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>Email</td>
+            <td>InventoryDescription</td>
             <td>varchar 255</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>Password</td>
+            <td>InventoryPrice</td>
             <td>varchar 255</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="6">Sales Entity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Property</td>
+            <td>Type</td>
+            <td>Default</td>
+            <td>Nullable</td>
+            <td>Relationship</td>
+            <td>Notes</td>
+        </tr>
+        <tr>
+            <td>SalesId</td>
+            <td>Primary Key, integer, identity</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>UserId</td>
+            <td>Foreign key, integer</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>InventoryId</td>
+            <td>Foreign key, integer</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>userName</td>
+            <td>varchar 255</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>InventoryName</td>
+            <td>varchar 255</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>InventoryPrice</td>
+            <td>decimal</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DateOfPurchase</td>
+            <td>DATETIME</td>
             <td></td>
             <td></td>
             <td></td>
