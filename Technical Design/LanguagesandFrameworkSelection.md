@@ -12,6 +12,10 @@ The following are languages and framework chosen by the developers to implement 
     - High Scalability: The static coding nature of C# allows engineers to easily make adjustments and expand on
   any functionality within the developed/developing program
 
+  #### SOURCES:
+  - [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)
+  - [IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)<br>
+
 <br>
 
 - ### HTML: 
@@ -23,13 +27,22 @@ The following are languages and framework chosen by the developers to implement 
  and use
   - Integrates with other languages: HTML can also be integrated with other languages such as CSS, Javascript and
   C# as is being used in this project
+
+  #### Sources:
+  - [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
   
+<br>
+
 - ### CSS
   - Easily used and paired with HTML: CSS has very simple syntax and enables developers to enhance user experience 
   by adding style to HTML components in a website
   - Faster page speed: CSS allows developers to add more features for less code through frameworks such as
   Bootstrap. Less code helps webpages load faster
 
+  #### Sources:
+  - [DevMountain](https://devmountain.com/blog/what-is-css-and-why-use-it/)
+
+<br>
 <br>
 
 ## Framework
@@ -45,14 +58,18 @@ The following are languages and framework chosen by the developers to implement 
   - Easy to Use Maintain: This framework provides features such as auto-scaling which helps add, adjust and expand our website as user
   demand changes
 
-- ### Bootstrap
-  - Easy to use
+#### Sources: 
+- [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
+- [ASP.NET Crash Course FreeCodeCamp](https://www.youtube.com/watch?v=BfEjDD8mWYg)
 
 <br>
 
-## SOURCES: 
-- [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)<br>
-- [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)<br>
-- [IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)<br>
-- [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/) <br>
-- [DevMountain](https://devmountain.com/blog/what-is-css-and-why-use-it/)
+- ### Bootstrap
+  - Pre-built components: Bootstrap offers a wide range of pre-build components such as buttons,
+  forms, navigation bars, windows and more which saves coding time and effort, hence efficient
+  - Customizable: Bootstrap does not only allow you to set up design with created templates but also allows
+  developers to create templates and customize already existing components.
+  - Open Source: Bootstrap is open source and free, saving cost with our UI design.
+
+#### Sources:
+- [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
