@@ -15,10 +15,16 @@ The following are languages and framework chosen by the developers to implement 
 <br>
 
 - ### HTML: 
-  - 
+  - Widely used build structure: HTML is a widely used Markup language for web development
+  with a lot of troubleshooting information and experts readily available
+  - Supported on all browsers: HTML can be supported by almost every single browser in the world,
+  if not all
+  - Simple Syntax: HTML has syntax that is easily comprehensible by many programmers and easy to learn
+ and use
+  - Integrates with other languages: HTML can also be integrated with other languages such as CSS, Javascript and
+  C# as is being used in this project
   
-- CSS
-- Javascript
+- ### CSS
 
 <br>
 
@@ -40,3 +46,4 @@ The following are languages and framework chosen by the developers to implement 
 ### SOURCES: [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
 [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)
 [IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)
+[GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
