@@ -12,7 +12,7 @@ The following are languages and framework chosen by the developers to implement 
     - High Scalability: The static coding nature of C# allows engineers to easily make adjustments and expand on
   any functionality within the developed/developing program
 
-  #### SOURCES:
+  #### Sources:
   - [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)
   - [IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)<br>
 
@@ -45,7 +45,7 @@ The following are languages and framework chosen by the developers to implement 
 <br>
 <br>
 
-## Framework
+## Frameworks
 - ### ASP.NET Core 
   - Set up Authentication System: ASP.NET has template pages such as user login and homepage setup and also a database which saves time with
   setting up
@@ -58,9 +58,9 @@ The following are languages and framework chosen by the developers to implement 
   - Easy to Use Maintain: This framework provides features such as auto-scaling which helps add, adjust and expand our website as user
   demand changes
 
-#### Sources: 
-- [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
-- [ASP.NET Crash Course FreeCodeCamp](https://www.youtube.com/watch?v=BfEjDD8mWYg)
+  #### Sources: 
+  - [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
+  - [ASP.NET Crash Course FreeCodeCamp](https://www.youtube.com/watch?v=BfEjDD8mWYg)
 
 <br>
 
@@ -71,5 +71,5 @@ The following are languages and framework chosen by the developers to implement 
   developers to create templates and customize already existing components.
   - Open Source: Bootstrap is open source and free, saving cost with our UI design.
 
-#### Sources:
-- [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
+  #### Sources:
+  - [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
