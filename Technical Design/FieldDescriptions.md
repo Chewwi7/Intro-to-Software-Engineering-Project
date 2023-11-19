@@ -25,21 +25,21 @@
             <td>varchar(40)</td>
             <td></td>
             <td>False</td>
-            <td></td>
+            <td>Relate to ContentGroup.UserName</td>
         </tr>
         <tr>
-            <td>Email</td>
+            <td>UserEmail</td>
             <td>nvarchar(255)</td>
             <td></td>
             <td>False</td>
-            <td></td>
+            <td>Relate to ContentGroup.UserEmail</td>
         </tr>
         <tr>
-            <td>Password</td>
+            <td>UserPassword</td>
             <td>nvarchar(255)</td>
             <td></td>
             <td>False</td>
-            <td></td>
+            <td>Relate to ContentGroup.UserPassword</td>
         </tr>
     </tbody>
 </table>
