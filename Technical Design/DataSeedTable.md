@@ -111,7 +111,7 @@
             <td>Total</td>
         </tr>
         <tr>
-            <td>1</td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
