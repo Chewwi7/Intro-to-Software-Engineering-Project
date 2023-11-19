@@ -12,7 +12,6 @@
             <td>Nullable</td>
             <td>Relationship</td>
             <td>Notes</td>
-            <td></td>
         </tr>
         <tr>
             <td>UserId</td>
@@ -20,12 +19,10 @@
             <td>AUTO_INCREMENT</td>
             <td></td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>UserName</td>
             <td>nvarchar(255)</td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -36,12 +33,10 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>Password</td>
             <td>nvarchar(255)</td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -63,13 +58,11 @@
             <td>Nullable</td>
             <td>Relationship</td>
             <td>Notes</td>
-            <td></td>
         </tr>
         <tr>
             <td>InventoryId</td>
             <td>Primary Key, integer, identity</td>
             <td>AUTO_INCREMENT</td>
-            <td></td>
             <td></td>
             <td></td>
         </tr>
@@ -79,12 +72,10 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>InventoryDescription</td>
             <td>nvarchar(255)</td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>
