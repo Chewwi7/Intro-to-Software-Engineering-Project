@@ -25,6 +25,10 @@ The following are languages and framework chosen by the developers to implement 
   C# as is being used in this project
   
 - ### CSS
+  - Easily used and paired with HTML: CSS has very simple syntax and enables developers to enhance user experience 
+  by adding style to HTML components in a website
+  - Faster page speed: CSS allows developers to add more features for less code through frameworks such as
+  Bootstrap. Less code helps webpages load faster
 
 <br>
 
@@ -41,10 +45,14 @@ The following are languages and framework chosen by the developers to implement 
   - Easy to Use Maintain: This framework provides features such as auto-scaling which helps add, adjust and expand our website as user
   demand changes
 
+- ### Bootstrap
+  - Easy to use
 
+<br>
 
-### SOURCES: 
+## SOURCES: 
 - [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)<br>
 - [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)<br>
 - [IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)<br>
-- [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/) <br>
+- [DevMountain](https://devmountain.com/blog/what-is-css-and-why-use-it/)
