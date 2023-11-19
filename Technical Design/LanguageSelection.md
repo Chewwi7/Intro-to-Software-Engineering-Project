@@ -1,13 +1,13 @@
-# Language Selection
+# Technology Selection
 The following are languages and framework chosen by the developers to implement the LootX website:
 
-[//]: # (Will research good resaons for selection)
+[//]: # (Will research good reasons for selection)
 ## Languages
 - ### C#:
-    - It has concise syntax that helps save time with development
-    - C# has a lot of source code and documentation online which is helpful with dealing with 
+    - Comprehensive Syntax: C# has concise syntax that helps save time with development
+    - Available Online Documentation: C# has a lot of source code and documentation online which is helpful with dealing with 
   bugs and errors during implementation
-    - C# is a widely used language and this will make expanding our team easier when it comes to scaling
+    - Well-Known Amongst DevelopersC# is a widely used language and this will make expanding our team easier when it comes to scaling
   up
 
 <br>
@@ -29,8 +29,11 @@ The following are languages and framework chosen by the developers to implement 
   - Compatible on all Computer OS: ASP.NET Core is newer and works across all major computer operating systems
   - High Level of Interactivity: ASP.NET Core are relatively more interactive but require more coding to make it 
   more responsive to users
-  - Easy to Use Maintain: This framework provides features such as auto-scaling 
+  - Easy to Use Maintain: This framework provides features such as auto-scaling which helps add, adjust and expand our website as user
+  demand changes
 
 
 
 ### SOURCES: [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
+[BairesDev](https://www.bairesdev.com/technologies/c-sharp/)
+[IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)
