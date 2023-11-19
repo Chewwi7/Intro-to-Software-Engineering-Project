@@ -12,31 +12,36 @@
             <td>Nullable</td>
             <td>Relationship</td>
             <td>Notes</td>
+            <td></td>
         </tr>
         <tr>
             <td>UserId</td>
             <td>Primary Key, integer, identity</td>
+            <td>AUTO_INCREMENT</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>UserName</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>Email</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>Password</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -58,10 +63,12 @@
             <td>Nullable</td>
             <td>Relationship</td>
             <td>Notes</td>
+            <td></td>
         </tr>
         <tr>
             <td>InventoryId</td>
             <td>Primary Key, integer, identity</td>
+            <td>AUTO_INCREMENT</td>
             <td></td>
             <td></td>
             <td></td>
@@ -72,17 +79,19 @@
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>InventoryDescription</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>InventoryPrice</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
             <td></td>
             <td></td>
             <td></td>
@@ -108,34 +117,34 @@
         <tr>
             <td>SalesId</td>
             <td>Primary Key, integer, identity</td>
-            <td></td>
+            <td>AUTO_INCREMENT</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>UserId</td>
             <td>Foreign key, integer</td>
-            <td></td>
+            <td>AUTO_INCREMENT</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>InventoryId</td>
             <td>Foreign key, integer</td>
-            <td></td>
+            <td>AUTO_INCREMENT</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>userName</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>InventoryName</td>
-            <td>varchar 255</td>
+            <td>nvarchar(255)</td>
             <td></td>
             <td></td>
             <td></td>
