@@ -43,7 +43,8 @@ The following are languages and framework chosen by the developers to implement 
 
 
 
-### SOURCES: [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
-[BairesDev](https://www.bairesdev.com/technologies/c-sharp/)
-[IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)
-[GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
+### SOURCES: 
+- [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)<br>
+- [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)<br>
+- [IEEE Spectrum](https://spectrum.ieee.org/the-top-programming-languages-2023)<br>
+- [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
