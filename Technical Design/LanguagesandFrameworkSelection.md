@@ -7,17 +7,20 @@ The following are languages and framework chosen by the developers to implement 
     - Comprehensive Syntax: C# has concise syntax that helps save time with development
     - Available Online Documentation: C# has a lot of source code and documentation online which is helpful with dealing with 
   bugs and errors during implementation
-    - Well-Known Amongst DevelopersC# is a widely used language and this will make expanding our team easier when it comes to scaling
-  up
+    - Growing Community: Ranked #6 on trending programming languages in 2023, C# is a widely used language. 
+  It's popularity will make expanding our team easier when looking for C# developers
+    - High Scalability: The static coding nature of C# allows engineers to easily make adjustments and expand on
+  any functionality within the developed/developing program
 
 <br>
 
 - ### HTML: 
-  - This language is the leading language for web development and has proven to be the
-  best and most convenient
+  - 
   
 - CSS
 - Javascript
+
+<br>
 
 ## Framework
 - ### ASP.NET Core 
