@@ -2,7 +2,7 @@
 entity User{
 * userID: PK int, identity
 --
-* Name: varchar 255
+* userName: varchar 255
 --
 *Email: varchar 255
 --
@@ -14,7 +14,16 @@ entity Sales{
 --
 * userID: FK int
 --
-* Items
+* inventoryID: FK int
+--
+* userName: varchar 255
+--
+* inventoryName: varchar 255 
+--
+* inventoryPrice: decimal
+--
+* date: varchar 255
+
 }
 
 entity Inventory{
@@ -23,9 +32,11 @@ entity Inventory{
 * inventoryName: varchar 255
 --
 * inventoryDescription: varchar 255
+--
+* inventoryPrice: decimal
 }
 
 User||--{Sales
-Inventory }|--|{ Sales
+Inventory ||--O| Sales
 
 @enduml
