@@ -2,7 +2,7 @@
 entity User{
 * UserID: PK int, identity
 --
-* UserName: nvarchar(255)
+* UserName: nvarchar(40)
 --
 *Email: nvarchar(255)
 --
@@ -17,20 +17,32 @@ entity Shipping{
 }
 
 entity Sales{
-* salesID: PK int, identity
+* SalesID: PK int, identity
 --
-* userID: FK int
+* UserID: FK int
 --
-* inventoryID: FK int
+* InventoryID: FK int
 --
-* userName: varchar 255
+* UserName: varchar(255)
 --
-* inventoryName: varchar 255 
+* PhoneNumber: varchar(30)
+--
+* inventoryName: varchar(255)
 --
 * inventoryPrice: decimal
 --
+* ShippingTypeId: FK int
+--
+* ShippingCost: decimal
+--
+* TotalCost: decimal
+--
 * date: DATETIME
-
+--
+* Address: varchar(255)
+--
+* CreditCardNumber: varchar(255)
+--
 }
 
 entity Inventory{

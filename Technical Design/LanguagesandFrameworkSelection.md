@@ -46,7 +46,7 @@ The following are languages and framework chosen by the developers to implement 
 <br>
 
 ## Frameworks
-- ### ASP.NET Core 
+- ### ASP.NET Core (Model-View-Controller)
   - Set up Authentication System: ASP.NET has template pages such as user login and homepage setup and also a database which saves time with
   setting up
   - Fast and Efficient: Websites built with ASP.NET are relatively faster and more efficient than websites built with other frameworks

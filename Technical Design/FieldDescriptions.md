@@ -18,28 +18,28 @@
             <td>Primary Key, integer, identity</td>
             <td>AUTO_INCREMENT</td>
             <td>False</td>
-            <td>Relate to ContentGroup.UserId</td>
+            <td>Relate to Sales.UserId</td>
         </tr>
         <tr>
             <td>UserName</td>
-            <td>varchar(40)</td>
-            <td></td>
+            <td>varchar(255)</td>
+            <td>NoName</td>
             <td>False</td>
-            <td>Relate to ContentGroup.UserName</td>
+            <td>Relate to Sales.UserName</td>
         </tr>
         <tr>
             <td>UserEmail</td>
             <td>nvarchar(255)</td>
-            <td></td>
+            <td>NoEmail</td>
             <td>False</td>
-            <td>Relate to ContentGroup.UserEmail</td>
+            <td>N/A</td>
         </tr>
         <tr>
             <td>UserPassword</td>
-            <td>nvarchar(255)</td>
-            <td></td>
+            <td>varchar(255)</td>
+            <td>NoPassword</td>
             <td>False</td>
-            <td>Relate to ContentGroup.UserPassword</td>
+            <td>N/A</td>
         </tr>
     </tbody>
 </table>
@@ -64,28 +64,28 @@
             <td>Primary Key, integer, identity</td>
             <td>AUTO_INCREMENT</td>
             <td>False</td>
-            <td>Relate to ContentGroup.InventoryId</td>
+            <td>Relate to Sales.InventoryId</td>
         </tr>
         <tr>
             <td>InventoryName</td>
-            <td>varchar 255</td>
-            <td></td>
+            <td>varchar(255)</td>
+            <td>NoName</td>
             <td>False</td>
-            <td>Relate to ContentGroup.InventoryName</td>
+            <td>Relate to Sales.InventoryName</td>
         </tr>
         <tr>
             <td>InventoryDescription</td>
             <td>nvarchar(255)</td>
             <td>Empty ""</td>
             <td>True</td>
-            <td>Relate to ContentGroup.InventoryDescription</td>
+            <td>N/A</td>
         </tr>
         <tr>
             <td>InventoryPrice</td>
             <td>decimal</td>
             <td>0.00</td>
             <td>True</td>
-            <td>Relate to ContentGroup.InventoryPrice</td>
+            <td>Relate to Sales.InventoryPrice</td>
         </tr>
     </tbody>
 </table>
@@ -110,11 +110,11 @@
             <td>Primary Key, integer, identity</td>
             <td>AUTO_INCREMENT</td>
             <td>False</td>
-            <td>Relate to ContentGroup.ShippingTypeId</td>
+            <td>Relate to Sales.ShippingTypeId</td>
         </tr>
         <tr>
             <td>ShippingName</td>
-            <td>varchar 255</td>
+            <td>nvarchar(100)</td>
             <td></td>
             <td>False</td>
             <td>Relate to ContentGroup.ShippingName</td>
@@ -167,15 +167,22 @@
         </tr>
         <tr>
             <td>UserName</td>
-            <td>nvarchar(255)</td>
-            <td></td>
-            <td></td>
+            <td>varchar(255)</td>
+            <td>NoName</td>
+            <td>False</td>
             <td>Relate to User.UserName</td>
         </tr>
         <tr>
+            <td>PhoneNumber</td>
+            <td>varchar(30)</td>
+            <td>Empty ""</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
             <td>InventoryName</td>
-            <td>nvarchar(255)</td>
-            <td></td>
+            <td>varchar(255)</td>
+            <td>NoName</td>
             <td></td>
             <td>Relate to Inventory.InventoryName</td>
         </tr>
@@ -185,6 +192,13 @@
             <td>0.00</td>
             <td>True</td>
             <td>Relate to Inventory.InventoryPrice</td>
+        </tr>
+        <tr>
+            <td>ShippingTypeId</td>
+            <td>Foreign Key, integer</td>
+            <td>AUTO_INCREMENT</td>
+            <td>False</td>
+            <td>Relate to Shipping.ShippingTypeId</td>
         </tr>
         <tr>
             <td>ShippingCost</td>
@@ -203,9 +217,58 @@
         <tr>
             <td>DateOfPurchase</td>
             <td>DATETIME</td>
-            <td></td>
+            <td>(getdate())</td>
             <td></td>
             <td>Relate to ContentGroup.DateOfPurchase</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>varchar(255)</td>
+            <td>Empty ""</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
+            <td>CreditCardNumber</td>
+            <td>varchar(255)</td>
+            <td>Empty ""</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
+            <td>CVV</td>
+            <td>varchar(4)</td>
+            <td>Empty ""</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
+            <td>ExpirationDate</td>
+            <td>varchar(255)</td>
+            <td>Empty ""</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
+            <td>Subtotal</td>
+            <td>decimal</td>
+            <td>0.00</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>decimal</td>
+            <td>0.00</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>decimal</td>
+            <td>0.00</td>
+            <td>True</td>
+            <td>Unique to Sales</td>
         </tr>
     </tbody>
 </table>
