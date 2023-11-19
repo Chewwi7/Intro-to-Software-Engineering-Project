@@ -1,12 +1,19 @@
 @startuml
 entity User{
-* userID: PK int, identity
+* UserID: PK int, identity
 --
-* userName: varchar 255
+* UserName: nvarchar(255)
 --
-*Email: varchar 255
+*Email: nvarchar(255)
 --
 *Password: varchar 255
+}
+entity Shipping{
+* ShippingTypeId: PK int, identity
+--
+* Shipping Name: nvarchar(255)
+--
+* ShippingCost: decimal
 }
 
 entity Sales{
@@ -22,21 +29,22 @@ entity Sales{
 --
 * inventoryPrice: decimal
 --
-* date: varchar 255
+* date: DATETIME
 
 }
 
 entity Inventory{
 * inventoryID: PK int, identity
 --
-* inventoryName: varchar 255
+* inventoryName: nvarchar(255)
 --
-* inventoryDescription: varchar 255
+* inventoryDescription: nvarchar(255)
 --
 * inventoryPrice: decimal
 }
 
 User||--{Sales
 Inventory ||--O| Sales
+Shipping ||--O| Sales
 
 @enduml
