@@ -79,7 +79,7 @@
 # Data Storage Plan
 - ### Overview
   This section outlines the Data Storage Plan for our Web Application, LootX. We are using 
-    ASP.NET Core Framework together with an SQL Database to make this possible.
+    ASP.NET Core Framework together with an SQLite Database to make this possible.
 
 - ### Entities & Entity Table Diagram
     Our database will have four(4) entities namely:
