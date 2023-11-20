@@ -73,3 +73,40 @@ The following are languages and framework chosen by the developers to implement 
 
   #### Sources:
   - [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
+
+
+## Database
+  -SQL
+
+## Coding Style Guide
+  - For our LootX project, our team will be utilizing rules from the Microsoft C# Style Guide together with some custom rules of ours. The Microsoft C# Style is divided into:
+    - C# Identifier Naming Rules and Conventions
+    - C# Coding Conventions
+
+  - ### Naming Rules
+    - Type names, namespaces, and all public members should be named using PascalCase
+    - Interface name should be start with a capital I.
+    - Attribute types end with the word "Attribute".
+    - Use meaningful and descriptive names for naming variables, classes and methods.
+    - Do not use a single character to name variables unless initialized in a loop counter
+      such as a for loop (e.g. "(for int "<i>(for int i = 0;...)</i>")
+    - Clarity over Brevity. Comments should be clear and precise as possible.
+    - Use one or two break tags "<br>" to separate sections where documenting occurs.
+    - Leave an empty line or two before <strong>AND</strong> after comments, methods, classes or objects
+      made in the same file.
+
+  - ### Naming Conventions
+    - Type names, namespaces, and all public members should be named using PascalCase
+    - Interface name should be start with a capital I.
+    - Attribute types end with the word "Attribute".
+    - Use meaningful and descriptive names for naming variables, classes and methods.
+    - Do not use a single character to name variables unless initialized in a loop counter
+    such as a for loop (e.g. "(for int "<i>(for int i = 0;...)</i>")
+    - Clarity over Brevity. Comments should be clear and precise as possible.
+    - Use one or two break tags "<br>" to separate sections where documenting occurs.
+    - Leave an empty line or two before <strong>AND</strong> after comments, methods, classes or objects 
+      made in the same file.
+
+  #### Sources:
+  - [Codacy](https://blog.codacy.com/3-popular-csharp-style-guides)
+  - [Microsoft C# Style Guide](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names#naming-rules)
