@@ -76,7 +76,7 @@
 <br>
 <br>
 
-# Database Storage Plan
+# Data Storage Plan
 - ### Overview
   This section outlines the Data Storage Plan for our Web Application, LootX. We are using 
     ASP.NET Core Framework together with an SQL Database to make this possible.
