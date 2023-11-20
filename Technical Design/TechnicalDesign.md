@@ -89,8 +89,9 @@ The following are languages and framework chosen by the developers to implement 
   - <i>Shipping<i/>
   - <i>Sales<i/>
 
-
-  <br>
+[EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
+![EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
+ <br>
   <br>
 
 # Coding Style Guide
