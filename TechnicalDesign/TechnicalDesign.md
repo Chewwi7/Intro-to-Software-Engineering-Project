@@ -4,7 +4,7 @@
 ## Languages
 - ### C#:
     - **Comprehensive Syntax**: C# has concise syntax that helps save time with development
-    - Available Online Documentation: C# has a lot of source code and documentation online which is helpful with dealing with 
+    - **Available Online Documentation**: C# has a lot of source code and documentation online which is helpful with dealing with 
   bugs and errors during implementation.
     - **Growing Community**: Ranked #6 on trending programming languages in 2023, C# is a widely used language. 
   It's popularity will make expanding our team easier when looking for C# developers.
