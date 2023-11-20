@@ -83,17 +83,16 @@ The following are languages and framework chosen by the developers to implement 
     - C# Identifier Naming Rules and Conventions
     - C# Coding Conventions
 
-  - ### Naming Rules
-    - Type names, namespaces, and all public members should be named using PascalCase
-    - Interface name should be start with a capital I.
-    - Attribute types end with the word "Attribute".
-    - Use meaningful and descriptive names for naming variables, classes and methods.
-    - Do not use a single character to name variables unless initialized in a loop counter
-      such as a for loop (e.g. "(for int "<i>(for int i = 0;...)</i>")
-    - Clarity over Brevity. Comments should be clear and precise as possible.
-    - Use one or two break tags "<br>" to separate sections where documenting occurs.
-    - Leave an empty line or two before <strong>AND</strong> after comments, methods, classes or objects
-      made in the same file.
+    - ### Naming Rules
+      Valid identifiers must follow these rules:
+
+      - Identifiers must start with a letter or underscore (_).
+      - Identifiers may contain Unicode letter characters, decimal digit characters, Unicode connecting characters, Unicode combining characters, 
+      or Unicode formatting characters. For more information on Unicode categories, see the Unicode Category Database.
+    
+      You can declare identifiers that match C# keywords by using the @ prefix on the identifier. The @ isn't part of the identifier name. For example, @if declares an identifier named if. These verbatim identifiers are primarily for interoperability with identifiers declared in other languages.
+
+    For a complete definition of valid identifiers, see the [Identifiers article in the C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#643-identifiers).
 
   - ### Naming Conventions
     - Type names, namespaces, and all public members should be named using PascalCase
