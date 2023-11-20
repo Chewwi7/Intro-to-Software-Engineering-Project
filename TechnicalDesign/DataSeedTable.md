@@ -5,7 +5,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr colspan="14">
             <td><strong>Users Entity</strong></td>
         </tr>
         <tr>
