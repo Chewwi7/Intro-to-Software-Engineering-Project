@@ -5,11 +5,11 @@
 - ### C#:
     - **Comprehensive Syntax**: C# has concise syntax that helps save time with development
     - Available Online Documentation: C# has a lot of source code and documentation online which is helpful with dealing with 
-  bugs and errors during implementation
+  bugs and errors during implementation.
     - **Growing Community**: Ranked #6 on trending programming languages in 2023, C# is a widely used language. 
-  It's popularity will make expanding our team easier when looking for C# developers
+  It's popularity will make expanding our team easier when looking for C# developers.
     - **High Scalability**: The static coding nature of C# allows engineers to easily make adjustments and expand on
-  any functionality within the developed/developing program
+  any functionality within the developed/developing program.
 
   #### Sources:
   - [BairesDev](https://www.bairesdev.com/technologies/c-sharp/)
@@ -19,13 +19,13 @@
 
 - ### HTML: 
   - **Widely used build structure**: HTML is a widely used Markup language for web development
-  with a lot of troubleshooting information and experts readily available
+  with a lot of troubleshooting information and experts readily available.
   - **Supported on all browsers**: HTML can be supported by almost every single browser in the world,
-  if not all
+  if not all.
   - **Simple Syntax**: HTML has syntax that is easily comprehensible by many programmers and easy to learn
- and use
+ and use.
   - **Integrates with other languages**: HTML can also be integrated with other languages such as CSS, Javascript and
-  C# as is being used in this project
+  C# as is being used in this project.
 
   #### Source:
   - [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
@@ -34,9 +34,9 @@
 
 - ### CSS
   - **Easily used and paired with HTML**: CSS has very simple syntax and enables developers to enhance user experience 
-  by adding style to HTML components in a website
+  by adding style to HTML components in a website.
   - **Faster page speed**: CSS allows developers to add more features for less code through frameworks such as
-  Bootstrap. Less code helps webpages load faster
+  Bootstrap. Less code helps webpages load faster.
 
   #### Source:
   - [DevMountain](https://devmountain.com/blog/what-is-css-and-why-use-it/)
@@ -47,15 +47,15 @@
 ## Frameworks
 - ### ASP.NET Core (Model-View-Controller)
   - **Set up Authentication System**: ASP.NET has template pages such as user login and homepage setup and also a database which saves time with
-  setting up
+  setting up.
   - **Fast and Efficient**: Websites built with ASP.NET are relatively faster and more efficient than websites built with other frameworks
   such as PHP.
-  - **Compiles code to object code**: This feature allows us to quickly resolve issues with our code
-  - **Compatible on all Computer OS**: ASP.NET Core is newer and works across all major computer operating systems
+  - **Compiles code to object code**: This feature allows us to quickly resolve issues with our code.
+  - **Compatible on all Computer OS**: ASP.NET Core is newer and works across all major computer operating systems.
   - **High Level of Interactivity**: ASP.NET Core are relatively more interactive but require more coding to make it 
-  more responsive to users
+  more responsive to users.
   - **Easy to Use Maintain**: This framework provides features such as auto-scaling which helps add, adjust and expand our website as user
-  demand changes
+  demand changes.
 
   #### Sources: 
   - [Indeed.com](https://www.indeed.com/career-advice/career-development/what-is-aspnet#:~:text=ASP.NET%20is%20beneficial%20in,faster%20execution%20than%20interpreted%20code.)
@@ -65,7 +65,7 @@
 
 - ### Bootstrap
   - **Pre-built components**: Bootstrap offers a wide range of pre-build components such as buttons,
-  forms, navigation bars, windows and more which saves coding time and effort, hence efficient
+  forms, navigation bars, windows and more which saves coding time and effort, hence efficient.
   - **Customizable**: Bootstrap does not only allow you to set up design with created templates but also allows
   developers to create templates and customize already existing components.
   - **Open Source**: Bootstrap is open source and free, saving cost with our UI design.
@@ -128,12 +128,12 @@ Instead of manually making tables and connecting them to our classes, we are usi
 <br>
 
   - ### Naming Conventions
-    - Type names, namespaces, and all public members should be named using PascalCase
+    - Type names, namespaces, and all public members should be named using PascalCase.
     - Interface name should be start with a capital I.
     - Attribute types end with the word "Attribute".
     - Use meaningful and descriptive names for naming variables, classes and methods.
     - Do not use a single character to name variables unless initialized in a loop counter
-    such as a for loop (e.g. "(for int "<i>(for int i = 0;...)</i>")
+    such as a for loop (e.g. "(for int "<i>(for int i = 0;...)</i>").
     - Clarity over Brevity. Comments should be clear and precise as possible.
     - Use one or two break tags "<br\>" to separate sections where documenting occurs.
     - Leave an empty line or two before <strong>AND</strong> after comments, methods, classes or objects 
