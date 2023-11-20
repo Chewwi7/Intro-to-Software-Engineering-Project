@@ -33,4 +33,4 @@ Alexis McGruder | [Resume](ProjectPlanning/TeamResumes/AlexisMcGruderResume.md)
 [UI Design](UserInterface/UIFinal.md)
 
 #### Technical Design
-[Technical Design](TechnicalDesign/TechnicalDesign.md)
+[Technical Design](TechnicalDesign/TechnicalDesignPlusVideo.md)
