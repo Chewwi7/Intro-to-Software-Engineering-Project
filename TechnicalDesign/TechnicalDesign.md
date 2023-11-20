@@ -1,5 +1,4 @@
-# Technology Selection
-The following are languages and framework chosen by the developers to implement the LootX website:
+# Technical Design
 
 [//]: # (Will research good reasons for selection)
 ## Languages
