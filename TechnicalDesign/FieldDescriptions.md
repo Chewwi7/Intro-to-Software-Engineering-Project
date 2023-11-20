@@ -33,6 +33,7 @@
             <td>NoEmail</td>
             <td>False</td>
             <td>N/A</td>
+            <td></td>
         </tr>
         <tr>
             <td>UserPassword</td>
@@ -40,6 +41,7 @@
             <td>NoPassword</td>
             <td>False</td>
             <td>N/A</td>
+            <td></td>
         </tr>
         <tr>
             <td>IsAdmin</td>
