@@ -127,7 +127,7 @@ Instead of manually making tables and connecting them to our classes, we are usi
     - Do not use a single character to name variables unless initialized in a loop counter
     such as a for loop (e.g. "(for int "<i>(for int i = 0;...)</i>")
     - Clarity over Brevity. Comments should be clear and precise as possible.
-    - Use one or two break tags "<br>" to separate sections where documenting occurs.
+    - Use one or two break tags "<br\>" to separate sections where documenting occurs.
     - Leave an empty line or two before <strong>AND</strong> after comments, methods, classes or objects 
       made in the same file.
 
