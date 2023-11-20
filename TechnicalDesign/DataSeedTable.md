@@ -1,7 +1,7 @@
 <table>
     <thead>
         <tr>
-            <th colspan="6">Data Seed Table</th>
+            <th colspan="4">Data Seed Table</th>
         </tr>
     </thead>
     <tbody>
