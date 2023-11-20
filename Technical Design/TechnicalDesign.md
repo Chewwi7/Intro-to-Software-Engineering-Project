@@ -89,8 +89,10 @@ The following are languages and framework chosen by the developers to implement 
   - _Shipping_
   - _Sales_
 
-[EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
-![EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
+[Entity Diagram](EntityDiagram.png)
+![Entity Diagram](EntityDiagram.png)
+[Field Descriptions](FieldDescritptions.md)
+[Seed Data Table](DataSeedTable.md)
 - ### Storage Initialization and Procedure
 Instead of manually making tables and connecting them to our classes, we are using ORM(Object Relational Mapper) to connect our database to our classes.
 
