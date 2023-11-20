@@ -89,7 +89,6 @@ The following are languages and framework chosen by the developers to implement 
   - _Shipping_
   - _Sales_
 
-[Entity Diagram](EntityDiagram.png)
 ![Entity Diagram](EntityDiagram.png)
 
 - ### Field Descriptions
