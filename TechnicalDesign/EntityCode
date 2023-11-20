@@ -4,9 +4,11 @@ entity User{
 --
 * UserName: nvarchar(40)
 --
-*Email: nvarchar(255)
+*UserEmail: nvarchar(255)
 --
-*Password: varchar 255
+*UserPassword: varchar(255)
+--
+*IsAdmin: integer
 }
 entity Shipping{
 * ShippingTypeId: PK int, identity
@@ -27,9 +29,9 @@ entity Sales{
 --
 * PhoneNumber: varchar(30)
 --
-* inventoryName: varchar(255)
+* InventoryName: varchar(255)
 --
-* inventoryPrice: decimal
+* InventoryPrice: decimal
 --
 * ShippingTypeId: FK int
 --
@@ -56,13 +58,13 @@ entity Sales{
 }
 
 entity Inventory{
-* inventoryID: PK int, identity
+* InventoryID: PK int, identity
 --
-* inventoryName: nvarchar(255)
+* InventoryName: nvarchar(255)
 --
-* inventoryDescription: nvarchar(255)
+* InventoryDescription: nvarchar(255)
 --
-* inventoryPrice: decimal
+* InventoryPrice: decimal
 }
 
 User||--{Sales
