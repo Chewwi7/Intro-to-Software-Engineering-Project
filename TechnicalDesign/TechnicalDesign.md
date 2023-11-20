@@ -100,7 +100,7 @@
     - [Seed Data Table](DataSeedTable.md)
 
 - ### Storage Initialization and Procedure
-Instead of manually making tables and connecting them to our classes, we are using ORM(Object Relational Mapper) to connect our database to our classes.
+Instead of manually making tables and connecting them to our classes, we are using **ORM(Object Relational Mapper)** to connect our database to our classes.
 
 - ### References
   - [ASP.NET MVC Documentation](https://jakeydocs.readthedocs.io/en/latest/mvc/)
