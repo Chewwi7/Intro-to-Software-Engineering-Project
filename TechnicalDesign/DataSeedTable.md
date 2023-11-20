@@ -8,7 +8,7 @@
         <tr colspan="14">
             <td><strong>Users Entity</strong></td>
         </tr>
-        <tr>
+        <tr colspan="14">
             <td>UserId PK</td>
             <td>UserName</td>
             <td>Password</td>
