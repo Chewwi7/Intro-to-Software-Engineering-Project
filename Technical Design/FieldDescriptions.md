@@ -41,6 +41,13 @@
             <td>False</td>
             <td>N/A</td>
         </tr>
+        <tr>
+            <td>IsAdmin</td>
+            <td>integer</td>
+            <td>0</td>
+            <td>False</td>
+            <td>N/A</td>
+        </tr>
     </tbody>
 </table>
 <br>
