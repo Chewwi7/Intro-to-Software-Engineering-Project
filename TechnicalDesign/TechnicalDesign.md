@@ -92,7 +92,7 @@ The following are languages and framework chosen by the developers to implement 
 ![Entity Diagram](EntityDiagram.png)
 
 - ### Field Descriptions
-    - [Field Description Table](FieldDescritptions.md)
+    - [Field Description Table](FieldDescriptions.md)
 
 - ### Example Data
     - [Example Data Table](ExampleData.png)
