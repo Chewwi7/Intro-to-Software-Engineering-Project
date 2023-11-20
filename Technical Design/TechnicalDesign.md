@@ -89,12 +89,17 @@ The following are languages and framework chosen by the developers to implement 
   - _Shipping_
   - _Sales_
 
-[EntityDiagram](EntityDiagram.png)
-![EntityDiagram](EntityDiagram.png)
+![Entity Diagram](EntityDiagram.png)
 
-[Field Descriptions](FieldDescritptions.md)
+- ### Field Descriptions
+    - [Field Description Table](FieldDescritptions.md)
 
-[Seed Data Table](DataSeedTable.md)
+- ### Example Data
+    - [Example Data Tables]()
+
+- ### Seed Data
+    - [Seed Data Table](DataSeedTable.md)
+
 - ### Storage Initialization and Procedure
 Instead of manually making tables and connecting them to our classes, we are using ORM(Object Relational Mapper) to connect our database to our classes.
 
