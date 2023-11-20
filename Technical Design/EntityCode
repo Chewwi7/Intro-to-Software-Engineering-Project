@@ -43,6 +43,16 @@ entity Sales{
 --
 * CreditCardNumber: varchar(255)
 --
+* CVV: varchar(4)
+--
+* ExpirationDate: varchar(255)
+--
+* Subtotal: decimal
+--
+* Tax: decimal
+--
+* Total: decimal
+--
 }
 
 entity Inventory{

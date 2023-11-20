@@ -75,11 +75,24 @@ The following are languages and framework chosen by the developers to implement 
   - [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
 
 
-## Database
-  -SQL
+## Database Storage Plan
+- ### Overview
+  This section outlines the Data Storage Plan for our Web Application, LootX. We are using 
+    ASP.NET Core Framework together with an SQL Database to make this possible.
+
+- ### Entities & Entity Table Diagram
+    Our database will have four(4) entities namely:
+  - <i>User<i/>
+  - <i>Inventory<i/>
+  - <i>Shipping<i/>
+  - <i>Sales<i/>
+
+
+  <br>
+  <br>
 
 ## Coding Style Guide
-  - For our LootX project, our team will be utilizing rules from the Microsoft C# Style Guide together with some custom rules of ours. The Microsoft C# Style is divided into:
+  - For our LootX project, our team will be utilizing rules from the [<strong><i>Microsoft C# Style</i></strong>](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/) Guide together with some custom rules of ours. The Microsoft C# Style is divided into:
     - C# Identifier Naming Rules and Conventions
     - C# Coding Conventions
 
@@ -90,9 +103,12 @@ The following are languages and framework chosen by the developers to implement 
       - Identifiers may contain Unicode letter characters, decimal digit characters, Unicode connecting characters, Unicode combining characters, 
       or Unicode formatting characters. For more information on Unicode categories, see the Unicode Category Database.
     
-      You can declare identifiers that match C# keywords by using the @ prefix on the identifier. The @ isn't part of the identifier name. For example, @if declares an identifier named if. These verbatim identifiers are primarily for interoperability with identifiers declared in other languages.
+      You can declare identifiers that match C# keywords by using the "@" prefix on the identifier. 
+    The "@" isn't part of the identifier name. For example, "@if" declares an identifier named if. These verbatim identifiers are primarily for interoperability with identifiers declared in other languages.
 
     For a complete definition of valid identifiers, see the [Identifiers article in the C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#643-identifiers).
+
+<br>
 
   - ### Naming Conventions
     - Type names, namespaces, and all public members should be named using PascalCase
@@ -105,6 +121,24 @@ The following are languages and framework chosen by the developers to implement 
     - Use one or two break tags "<br>" to separate sections where documenting occurs.
     - Leave an empty line or two before <strong>AND</strong> after comments, methods, classes or objects 
       made in the same file.
+
+<br>
+
+  - ### Coding Conventions
+    Language Guidelines
+    - The following sections describe practices that the .NET docs team follows to prepare code examples and samples. In general, follow these practices:
+    - Utilize modern language features and C# versions whenever possible.
+    - Avoid obsolete or outdated language constructs.
+    - Only catch exceptions that can be properly handled; avoid catching generic exceptions.
+    - Use specific exception types to provide meaningful error messages.
+    - Use LINQ queries and methods for collection manipulation to improve code readability.
+    - Use asynchronous programming with async and await for I/O-bound operations.
+    - Be cautious of deadlocks and use Task.ConfigureAwait when appropriate.
+    - Use the language keywords for data types instead of the runtime types. For example, use string instead of System.String, or int instead of System.Int32.
+    - Use int rather than unsigned types. The use of int is common throughout C#, and it's easier to interact with other libraries when you use int. Exceptions are for documentation specific to unsigned data types.
+    - Use var only when a reader can infer the type from the expression. Readers view our samples on the docs platform. They don't have hover or tool tips that display the type of variables.
+    - Write code with clarity and simplicity in mind.
+    - Avoid overly complex and convoluted code logic.
 
   #### Sources:
   - [Codacy](https://blog.codacy.com/3-popular-csharp-style-guides)

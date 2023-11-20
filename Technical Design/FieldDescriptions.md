@@ -115,7 +115,7 @@
         <tr>
             <td>ShippingName</td>
             <td>nvarchar(100)</td>
-            <td></td>
+            <td>NoName</td>
             <td>False</td>
             <td>Relate to ContentGroup.ShippingName</td>
         </tr>
@@ -217,8 +217,8 @@
         <tr>
             <td>DateOfPurchase</td>
             <td>DATETIME</td>
-            <td>(getdate())</td>
-            <td></td>
+            <td>getDate()</td>
+            <td>True</td>
             <td>Relate to ContentGroup.DateOfPurchase</td>
         </tr>
         <tr>
