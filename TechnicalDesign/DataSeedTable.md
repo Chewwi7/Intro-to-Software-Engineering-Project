@@ -12,7 +12,7 @@
             <td>UserId PK</td>
             <td>UserName</td>
             <td>Password</td>
-            <td>isAdmin
+            <td>isAdmin</td>
         </tr>
         <tr>
             <td>1</td>
