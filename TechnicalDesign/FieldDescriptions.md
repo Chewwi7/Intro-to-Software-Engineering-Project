@@ -43,7 +43,7 @@
             <td>NoPassword</td>
             <td>False</td>
             <td>N/A</td>
-            <td></td>
+            <td> </td>
         </tr>
         <tr>
             <td>IsAdmin</td>
@@ -51,6 +51,7 @@
             <td>0</td>
             <td>False</td>
             <td>N/A</td>
+            <td> </td>
         </tr>
     </tbody>
 </table>
@@ -76,6 +77,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to Sales.InventoryId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>InventoryName</td>
@@ -83,6 +85,7 @@
             <td>NoName</td>
             <td>False</td>
             <td>Relate to Sales.InventoryName</td>
+            <td> </td>
         </tr>
         <tr>
             <td>InventoryDescription</td>
@@ -90,6 +93,7 @@
             <td>Empty ""</td>
             <td>True</td>
             <td>N/A</td>
+            <td> </td>
         </tr>
         <tr>
             <td>InventoryPrice</td>
@@ -97,6 +101,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Relate to Sales.InventoryPrice</td>
+            <td> </td>
         </tr>
     </tbody>
 </table>
@@ -122,6 +127,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to Sales.ShippingTypeId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>ShippingName</td>
@@ -129,6 +135,7 @@
             <td>NoName</td>
             <td>False</td>
             <td>Relate to ContentGroup.ShippingName</td>
+            <td> </td>
         </tr>
         <tr>
             <td>ShippingCost</td>
@@ -136,6 +143,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Relate to ContentGroup.ShippingCost</td>
+            <td> </td>
         </tr>
     </tbody>
 </table>
@@ -161,6 +169,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to User.UserId and Inventory.InventoryId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>UserId</td>
@@ -168,6 +177,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to User.UserId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>InventoryId</td>
@@ -175,6 +185,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to Inventory.InventoryId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>UserName</td>
@@ -182,6 +193,7 @@
             <td>NoName</td>
             <td>False</td>
             <td>Relate to User.UserName</td>
+            <td> </td>
         </tr>
         <tr>
             <td>PhoneNumber</td>
@@ -189,6 +201,7 @@
             <td>Empty ""</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>InventoryName</td>
@@ -196,6 +209,7 @@
             <td>NoName</td>
             <td></td>
             <td>Relate to Inventory.InventoryName</td>
+            <td> </td>
         </tr>
         <tr>
             <td>InventoryPrice</td>
@@ -203,6 +217,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Relate to Inventory.InventoryPrice</td>
+            <td> </td>
         </tr>
         <tr>
             <td>ShippingTypeId</td>
@@ -210,6 +225,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to Shipping.ShippingTypeId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>ShippingCost</td>
@@ -217,6 +233,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Relate to Shipping.ShippingCost</td>
+            <td> </td>
         </tr>
         <tr>
             <td>TotalCost</td>
@@ -224,6 +241,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Relate to ContentGroup.TotalCost</td>
+            <td> </td>
         </tr>
         <tr>
             <td>DateOfPurchase</td>
@@ -231,6 +249,7 @@
             <td>getDate()</td>
             <td>True</td>
             <td>Relate to ContentGroup.DateOfPurchase</td>
+            <td> </td>
         </tr>
         <tr>
             <td>Address</td>
@@ -238,6 +257,7 @@
             <td>Empty ""</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>CreditCardNumber</td>
@@ -245,6 +265,7 @@
             <td>Empty ""</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>CVV</td>
@@ -252,6 +273,7 @@
             <td>Empty ""</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>ExpirationDate</td>
@@ -259,6 +281,7 @@
             <td>Empty ""</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>Subtotal</td>
@@ -266,6 +289,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>Tax</td>
@@ -273,6 +297,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
         <tr>
             <td>Total</td>
@@ -280,6 +305,7 @@
             <td>0.00</td>
             <td>True</td>
             <td>Unique to Sales</td>
+            <td> </td>
         </tr>
     </tbody>
 </table>
