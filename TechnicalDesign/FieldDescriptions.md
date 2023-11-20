@@ -19,6 +19,7 @@
             <td>AUTO_INCREMENT</td>
             <td>False</td>
             <td>Relate to Sales.UserId</td>
+            <td> </td>
         </tr>
         <tr>
             <td>UserName</td>
@@ -26,6 +27,7 @@
             <td>NoName</td>
             <td>False</td>
             <td>Relate to Sales.UserName</td>
+            <td> </td>
         </tr>
         <tr>
             <td>UserEmail</td>
@@ -33,7 +35,7 @@
             <td>NoEmail</td>
             <td>False</td>
             <td>N/A</td>
-            <td></td>
+            <td> </td>
         </tr>
         <tr>
             <td>UserPassword</td>
