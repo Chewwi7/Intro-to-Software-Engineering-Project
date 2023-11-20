@@ -28,7 +28,7 @@ The following are languages and framework chosen by the developers to implement 
   - Integrates with other languages: HTML can also be integrated with other languages such as CSS, Javascript and
   C# as is being used in this project
 
-  #### Sources:
+  #### Source:
   - [GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvanatges-of-html/)
   
 <br>
@@ -39,7 +39,7 @@ The following are languages and framework chosen by the developers to implement 
   - Faster page speed: CSS allows developers to add more features for less code through frameworks such as
   Bootstrap. Less code helps webpages load faster
 
-  #### Sources:
+  #### Source:
   - [DevMountain](https://devmountain.com/blog/what-is-css-and-why-use-it/)
 
 <br>
@@ -71,7 +71,7 @@ The following are languages and framework chosen by the developers to implement 
   developers to create templates and customize already existing components.
   - Open Source: Bootstrap is open source and free, saving cost with our UI design.
 
-  #### Sources:
+  #### Source:
   - [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
 
 <br>
@@ -91,7 +91,13 @@ The following are languages and framework chosen by the developers to implement 
 
 [EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
 ![EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
- <br>
+- ### Storage Initialization and Procedure
+Instead of manually making tables and connecting them to our classes, we are using ORM(Object Relational Mapper) to connect our database to our classes.
+
+- ### References
+  - [ASP.NET MVC Documentation](https://jakeydocs.readthedocs.io/en/latest/mvc/)
+  - [ASP.Net Working with Data Documentation](https://learn.microsoft.com/en-us/aspnet/web-pages/overview/data/5-working-with-data)
+<br>
   <br>
 
 # Coding Style Guide
