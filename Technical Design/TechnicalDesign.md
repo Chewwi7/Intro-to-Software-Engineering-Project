@@ -84,10 +84,10 @@ The following are languages and framework chosen by the developers to implement 
 
 - ### Entities & Entity Table Diagram
     Our database will have four(4) entities namely:
-  - <i>User<i/>
-  - <i>Inventory<i/>
-  - <i>Shipping<i/>
-  - <i>Sales<i/>
+  - _User_
+  - _Inventory_
+  - _Shipping_
+  - _Sales_
 
 [EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
 ![EntityDiagram](https://github.com/Chewwi7/Intro-to-Software-Engineering-Project/blob/939073404759d62742dc1601b03e58b4a6a6341e/Technical%20Design/EntityDiagram.png)
