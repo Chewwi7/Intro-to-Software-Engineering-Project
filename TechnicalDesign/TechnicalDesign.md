@@ -95,7 +95,7 @@ The following are languages and framework chosen by the developers to implement 
     - [Field Description Table](FieldDescritptions.md)
 
 - ### Example Data
-    - [Example Data Tables]()
+    - [Example Data Table](ExampleData.png)
 
 - ### Seed Data
     - [Seed Data Table](DataSeedTable.md)
