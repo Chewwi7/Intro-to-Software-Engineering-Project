@@ -74,8 +74,10 @@ The following are languages and framework chosen by the developers to implement 
   #### Sources:
   - [Clarity](https://www.clarity-ventures.com/blog/benefits-of-using-bootstrap-for-web-design)
 
+<br>
+<br>
 
-## Database Storage Plan
+# Database Storage Plan
 - ### Overview
   This section outlines the Data Storage Plan for our Web Application, LootX. We are using 
     ASP.NET Core Framework together with an SQL Database to make this possible.
@@ -91,7 +93,7 @@ The following are languages and framework chosen by the developers to implement 
   <br>
   <br>
 
-## Coding Style Guide
+# Coding Style Guide
   - For our LootX project, our team will be utilizing rules from the [<strong><i>Microsoft C# Style</i></strong>](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/) Guide together with some custom rules of ours. The Microsoft C# Style is divided into:
     - C# Identifier Naming Rules and Conventions
     - C# Coding Conventions
