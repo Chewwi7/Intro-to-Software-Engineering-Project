@@ -2,7 +2,7 @@
 
 ## You can find everything related to our project right here in this repo!
 
-We will create a web app using C#, ASP.NET Core, Bootstrap, and JSON to sell legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
+We will create a web app using C#, ASP.NET Core, Bootstrap, and SQL to sell legendary weapons and items from all kinds of fiction including movies, TV shows, video games, anime, and more!
 
 ### The Team
 Philip Nsajja | [Resume](ProjectPlanning/TeamResumes/PhilipNsajjaResume.md) 
