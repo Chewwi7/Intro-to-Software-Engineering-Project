@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets/WebApp.bundle.scp.css"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
-    },
-    {
       "Id": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/Images/Icons/LootX Logo 3D.png",
       "PackagePath": "staticwebassets/Images/Icons/LootX Logo 3D.png"
     },

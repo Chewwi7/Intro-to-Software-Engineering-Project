@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qsd+K1th4pipjopH6MtNP3SZRfq2cGIkw+nO7f/YYA4=",
+  "Hash": "Am9zVJfrWEFmHORdDOtZ4rkgZdFkvt83/lqQbEUFeng=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1069,23 +1069,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/obj/Debug/net7.0/scopedcss/projectbundle/WebApp.bundle.scp.css"
-    },
-    {
-      "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/.DS_Store",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/",
-      "BasePath": "_content/WebApp",
-      "RelativePath": ".DS_Store",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/wwwroot/css/myTheme.css",
