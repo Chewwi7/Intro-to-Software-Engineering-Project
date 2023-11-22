@@ -1,25 +1,22 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using WebApp.Models;
 
 namespace WebApp.Data;
 
-public class ApplicationDbContext : IdentityDbContext<Users>
+public class ApplicationDbContext : IdentityDbContext<Users , IdentityRole<int>, int>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> option) : base(option)
     {
 
     }
-
     public DbSet<Products> Products { get; set; }
     public DbSet<Users> Users { get; set; }
     public DbSet<Sales> Sales { get; set; }
-
-
-
-
-
+    
+    
 }
 
 public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
@@ -32,3 +29,4 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
         return new ApplicationDbContext(optionsBuilder.Options);
     }
 }
+
