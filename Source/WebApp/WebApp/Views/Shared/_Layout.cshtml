@@ -1,4 +1,9 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Users> SignInManager
+@inject UserManager<Users> UserManager
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +30,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Guns and Blasters</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Miscellaneous</a>
-                    </li>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="SalesReport" class="nav-link" >Run Sales Report</a>
+                        </li>
+                    }
+                   
                     @*<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div class="dropdown-menu">
