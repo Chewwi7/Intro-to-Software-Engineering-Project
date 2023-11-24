@@ -18,13 +18,13 @@
             <td>1</td>
             <td>admin</td>
             <td>LootXftw!</td>
-            <td>True</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>2</td>
             <td>prime_looter</td>
             <td>iL0v3Collectibles?</td>
-            <td>False</td>
+            <td>0</td>
         </tr>
         <tr>
             <td></td>
