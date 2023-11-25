@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\Constant Jr\\Documents\\GitHub\\YetronTest\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\Constant Jr\\Documents\\GitHub\\YetronTest\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Constant Jr\\Documents\\GitHub\\YetronTest\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
+        "projectPath": "C:\\Users\\Constant Jr\\Documents\\GitHub\\YetronTest\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\Constant Jr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Constant Jr\\Documents\\GitHub\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Constant Jr\\Documents\\GitHub\\YetronTest\\Intro-to-Software-Engineering-Project\\WebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Constant Jr\\AppData\\Roaming\\NuGet\\NuGet.Config",
