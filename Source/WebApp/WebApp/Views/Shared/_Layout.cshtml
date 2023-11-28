@@ -30,6 +30,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Guns and Blasters</a>
                     </li>
+                    
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="AddInventory" class="nav-link" >Add Inventory</a>
+                        </li>
+                    }
+                    
                     @if (User.IsInRole("Admin"))
                     {
                         <li class="nav-item">

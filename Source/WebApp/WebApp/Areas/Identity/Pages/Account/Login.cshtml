@@ -15,7 +15,9 @@
         <section>
             <form id="account" method="post">
                 <h2>Welcome Back! Please Log In.</h2>
-                <hr />
+                <hr/>
+                
+                
                 <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
                 <div class="form-floating mb-3">
                     <input asp-for="Input.Username" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
@@ -36,7 +38,6 @@
                 <div>
                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
                 </div>
-                
             </form>
         </section>
     </div>

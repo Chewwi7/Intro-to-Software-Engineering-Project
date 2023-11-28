@@ -12076,7 +12076,10 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11"
+      "Microsoft.VisualStudio.Web.CodeGeneration >= 7.0.11",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11",
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore >= 7.0.11",
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc >= 7.0.11"
     ]
   },
   "packageFolders": {
@@ -12155,7 +12158,19 @@
             "target": "Package",
             "version": "[7.0.0, )"
           },
+          "Microsoft.VisualStudio.Web.CodeGeneration": {
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
             "target": "Package",
             "version": "[7.0.11, )"
           }
