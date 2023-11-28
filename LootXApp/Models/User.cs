@@ -1,4 +1,5 @@
 ﻿namespace LootXApp.Models
+    //This model is yet to be used or will never be used as "ASPNetUsers" exists
 {
     public class User
     {

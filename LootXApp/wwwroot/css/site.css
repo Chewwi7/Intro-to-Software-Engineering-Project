@@ -27,9 +27,9 @@ body {
 }
 
 .itemPic {
-    height: 90%;
+    height: 20vh;
     /*width: 80%;*/
-    width: 10vw;
+    width: 12.5vw;
     border-width: 20px;
     border-color: black;
     /*border: 2px solid rgb(128, 128, 128);*/
@@ -67,4 +67,81 @@ button {
     font-size: 20px;
     transition: all 500ms;
     font-size-adjust: 20;
+    text-decoration: underline;
+}
+
+.centered-box {
+    width: 600px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    margin: auto; /* Center the box horizontally */
+    margin-top: 50px; /* Adjust the top margin for vertical centering */
+    border: 2px solid black; /* Black border with 2px width */
+    box-sizing: border-box; /* Include border in the box's total size */
+    text-align: center; /* Center the text horizontally */
+    line-height: 200px; /* Center the text vertically */
+}
+
+#shopCart{
+    margin-top: 30px;
+}
+
+.checkOutBack{
+    /*background-color: #021D7C;*/
+    /*background-color:#8FA6F5*/
+    background-color:#C2CDF3
+}
+
+.left-checkout-box{
+    width: 87%; /* Set your desired width */
+    height: 15vh; /* Set your desired height */
+    /*margin: auto;  Center the box horizontally */
+    /*margin-top: 50px; /* Adjust the top margin for vertical centering */
+    border: 0.5px solid black; /* Black border with 2px width */
+    /*box-sizing: border-box; /* Include border in the box's total size */
+    /*text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Center the text vertically */
+}
+.right-checkout-box{
+    width: 27%; /* Set your desired width */
+    height: 28%; /* Set your desired height */
+    /*margin: auto;  Center the box horizontally */
+    /*margin-top: 50px; /* Adjust the top margin for vertical centering */
+    border: 0.5px solid black; /* Black border with 2px width */
+    /*box-sizing: border-box; /* Include border in the box's total size */
+    /*text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Center the text vertically */
+    background-color: white;
+    position: absolute;
+    margin-top: -15vh;
+}
+
+
+
+.checkoutPic {
+    height: 11vh;
+    margin-top: 0%;
+    margin-left: 10px;
+    /*width: 80%;*/
+    width: 8vw;
+    /*border-width: 20px;*/
+    border-color: black;
+    /*border: 2px solid rgb(128, 128, 128);*/
+    /*border-width: 50px;*/
+    /*border-*/
+}
+
+#checkoutP{
+    margin-left: 76%;
+}
+.checkoutPrice{
+    display: inline;
+    margin-left: 53%;
+    margin-bottom: 30%;
+}
+.checkoutButton{
+    display: block;
+    color: white;
+    background-color: lightblue;
+    width: 20vw;
+    margin-left: 12.5%;
 }

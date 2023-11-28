@@ -22,6 +22,30 @@ namespace LootXApp.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Checkout", b =>
+                {
+                    b.Property<int>("CheckoutId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CheckoutId"), 1L, 1);
+
+                    b.Property<string>("InventoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("InventoryPic")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("InventoryPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("CheckoutId");
+
+                    b.ToTable("Checkout");
+                });
+
             modelBuilder.Entity("LootXApp.Models.Inventory", b =>
                 {
                     b.Property<int>("InventoryId")

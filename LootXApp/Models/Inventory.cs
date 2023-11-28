@@ -1,5 +1,6 @@
 ﻿namespace LootXApp.Models
 {
+    //This is the template used to generate the Inventory table and its components
     public class Inventory
     {
         public int InventoryId { get; set; }
@@ -10,7 +11,7 @@
 
         public Inventory()
         {
-
+            
         }
     }
 }

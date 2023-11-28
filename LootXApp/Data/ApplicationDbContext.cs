@@ -11,5 +11,6 @@ namespace LootXApp.Data
         {
         }
         public DbSet<LootXApp.Models.Inventory>? Inventory { get; set; }
+        public DbSet<Checkout>? Checkout { get; set; }
     }
 }

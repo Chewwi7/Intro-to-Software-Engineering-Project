@@ -9,6 +9,8 @@ namespace LootXApp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        
+        // InventoryController item = new InventoryController(_context);
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -31,5 +33,7 @@ namespace LootXApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        
+        
     }
 }

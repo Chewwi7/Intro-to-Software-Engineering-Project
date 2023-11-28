@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@* @model List<Checkout> *@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -25,7 +26,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Inventory" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Fandoms</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Inventory" asp-action="IndexInv">Inventory</a>
@@ -36,17 +37,9 @@
                     </ul>
                     <partial name="_LoginPartial" />
                     <form class="form-inline my-2 my-lg-0">
-                          <a class="nav-item nav-link text-dark" id="myCart" asp-controller="" asp-action=""><img class="logo1" src="../../Images/shoppingCart.png" alt="">MyCart(0)</a>
-                        </form>
-                    @* <ul class="navbar-brand"> *@
-                    @*     <li class="nav-item"> *@
-                    @*         <a class="nav-item" id="myCart" asp-controller="" asp-action="">MyCart(0)</a> *@
-                    @*     </li> *@
-                    @* </ul> *@
-                    
-                    @* <li class="nav-item"> *@
-                    @*     <a class="nav-item" id="myCart" asp-controller="" asp-action=""><img class="logo1" src="../../Images/shoppingCart.png" alt="">MyCart(0)</a> *@
-                    @* </li> *@
+                        
+                        <a class="nav-item nav-link text-dark" id="myCart" asp-controller="Checkout" asp-action="Index"><img class="logo1" src="../../Images/shoppingCart.png" alt="">MyCart(0)</a>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -67,5 +60,6 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

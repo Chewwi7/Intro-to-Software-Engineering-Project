@@ -14,7 +14,7 @@ namespace LootXApp.Controllers
     public class InventoryController : Controller
     {
         private readonly ApplicationDbContext _context;
-
+        
         public InventoryController(ApplicationDbContext context)
         {
             _context = context;
