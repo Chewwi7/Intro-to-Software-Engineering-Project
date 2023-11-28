@@ -1,0 +1,93 @@
+@model LootXApp.Models.ShippingPaymentInfo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Shipping and Payment Information</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-5">
+        @*This is commented out until actions are made for the information to be taken in*@
+        @*<form asp-action="Create">*@
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <h6>Shipping Address</h6>
+        <div class="form-group" style = "float:left;">
+            <label asp-for="StreetName" class="control-label">Street</label>
+            <input asp-for="StreetName" class="form-control" />
+            <span asp-validation-for="StreetName" class="text-danger"></span>
+        </div>
+        <div class="form-group" style = "float:right;">
+            <label asp-for="CityName" class="control-label">City</label>
+            <input asp-for="CityName" class="form-control" />
+            <span asp-validation-for="CityName" class="text-danger"></span>
+        </div>
+        <div class="form-group" style = "float:left;">
+            <label asp-for="StateName" class="control-label">State</label>
+            <input asp-for="StateName" class="form-control" />
+            <span asp-validation-for="StateName" class="text-danger"></span>
+        </div>
+        <div class="form-group" style = "float:right;">
+            <label asp-for="ZipCode" class="control-label">Zip Code</label>
+            <input asp-for="ZipCode" class="form-control" />
+            <span asp-validation-for="ZipCode" class="text-danger"></span>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        <div class="form-group">
+            <label asp-for="PhoneNumber" class="control-label">Phone Number</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        <h6>Credit Card Information</h6>
+        <div class="form-group">
+            <label asp-for="CreditCardNumber" class="control-label">Credit Card Number</label>
+            <input asp-for="CreditCardNumber" class="form-control" />
+            <span asp-validation-for="CreditCardNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group" style = "float:left;">
+            <label asp-for="CreditCardExpirationDate" class="control-label">Expiration Date</label>
+            <input asp-for="CreditCardExpirationDate" class="form-control w-75" />
+            <span asp-validation-for="CreditCardExpirationDate" class="text-danger"></span>
+        </div>
+        <div class="form-group" style = "float:right;">
+            <label asp-for="CreditCardCVV" class="control-label">CVV</label>
+            <input asp-for="CreditCardCVV" class="form-control w-50" />
+            <span asp-validation-for="CreditCardCVV" class="text-danger"></span>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        
+        @* Need to make these buttons actually do something (not just make them for show) *@
+        <h6>Shipping Options</h6>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Ground: Free</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"> 
+            <label class="form-check-label" for="flexRadioDefault2">3-Day: $19</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+            <label class="form-check-label" for="flexRadioDefault2">Overnight: $29</label>
+        </div>
+        <div class="form-group" style = "float:right;">
+            <input type="submit" value="Return To Shopping Cart" class="btn btn-secondary btn-sm btn-warning" />
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        <div class="form-group" style = "float:right;">
+            <input type="submit" value="Confirm Shipping and Payment Information" class="btn btn-primary btn-lg btn-block" />
+        </div>
+        @*</form>*@
+    </div>
+    <div class="col-md-4">
+        <h3>Order Summary</h3>
+        <p><strong>Subtotal: </strong>$Amount</p>
+        <p><strong>Tax: </strong>$Amount</p>
+        <p><strong>Shipping: </strong>$Amount or TBD</p>
+        <hr />
+        <p><strong>Total: </strong>$Amount</p>
+    </div>
+</div>

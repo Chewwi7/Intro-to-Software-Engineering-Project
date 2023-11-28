@@ -1,0 +1,49 @@
+@model TModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+@*<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <h1>Confirm Order</h1>
+      <hr />
+      <body class="checkOutBack">
+          <div class="centered-box" style="background-color: white;">
+              <h4>Cart > Shipping > Pay > Order Complete</h4>
+          </div>
+      
+          <div class="row">
+              <h1 id="shopCart">Shopping Cart</h1>
+              <hr>
+          </div>
+      <div class="container">
+          @foreach (var item in Model)
+          {
+              <div class="row">
+                  <div class="col-8">
+                      Item
+                      <p id="checkoutP" style="display: inline">Price</p>
+                      <div class="left-checkout-box">
+                          <img class="checkoutPic" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
+                          <h5 style="display: inline">@Html.DisplayFor(modelItem => item.InventoryName)</h5><h5 class="checkoutPrice" style="display: inline">$@Html.DisplayFor(modelItem => item.InventoryPrice)</h5>
+                      </div>
+                  </div>
+                 @* <div class="col align-self-end">
+                      Total
+                      <div class="right-checkout-box">
+                          <h6>Order Summary</h6>
+                          <h5 style="display: inline">Subtotal: </h5><h4 style="display: inline">$@Html.DisplayFor(modelItem => item.InventoryPrice)</h4>
+                          <button class="checkoutButton">Checkout Now(0)</button>
+                      </div>
+                  </div> @ here
+              </div>
+          }
+      </div>
+      
+      </body>
+    </div>
+  </div>
+</div>
