@@ -84,6 +84,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Checkout/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Checkout/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Checkout/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Checkout/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/ConfirmOrder/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU9yZGVyXENvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +142,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Inventory/ShowItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XFNob3dJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/OrderComplete/Complete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDb21wbGV0ZVxDb21wbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jeffe/OneDrive/Documents/College Fall 2023/Intro to SWE/Philip_Branch/Intro-to-Software-Engineering-Project/LootXApp/Views/Shared/Error.cshtml]

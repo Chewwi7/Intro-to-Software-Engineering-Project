@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Pirate\Pages\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
 
 </Project>

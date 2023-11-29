@@ -1,0 +1,75 @@
+@* @model IEnumerable<LootXApp.Models.Inventory> *@
+
+@{
+    ViewData["Title"] = "Confirm";
+}
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <h1 class="text-center">Confirm Order</h1>
+      <hr />
+      
+      <div class="container">
+          @* @foreach (var item in Model) *@
+          @* { *@
+          @*     <div class="row"> *@
+          @*         <div class="col-8"> *@
+          @*             Item *@
+          @*             <p id="checkoutP" style="display: inline">Price</p> *@
+          @*             <div class="left-checkout-box"> *@
+          @*                 <img class="checkoutPic" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt=""> *@
+          @*                 <h5 style="display: inline">@Html.DisplayFor(modelItem => item.InventoryName)</h5><h5 class="checkoutPrice" style="display: inline">$@Html.DisplayFor(modelItem => item.InventoryPrice)</h5> *@
+          @*             </div> *@
+          @*         </div> *@
+          @*        @* <div class="col align-self-end"> *@
+          @*             Total *@
+          @*             <div class="right-checkout-box"> *@
+          @*                 <h6>Order Summary</h6> *@
+          @*                 <h5 style="display: inline">Subtotal: </h5><h4 style="display: inline">$@Html.DisplayFor(modelItem => item.InventoryPrice)</h4> *@
+          @*                 <button class="checkoutButton">Checkout Now(0)</button> *@
+          @*             </div> *@
+          @*         </div> *@  
+          @*     </div> *@
+          @* } *@
+      </div>
+      <body class="checkOutBack">
+        <div class="centered-box" style="background-color: white;">
+          <p style="float:left;"><strong>Subtotal</strong></p>
+          <p style="float:right;">$Amount</p>
+        </div>
+      
+        <div style="clear:both;">&nbsp;</div>
+        <div class="centered-box" style="background-color: white;">
+          <p style = "float:left;"><strong>Tax</strong></p> 
+          <p style = "float:right;">$Amount</p>
+        </div>
+      
+        <div style="clear:both;">&nbsp;</div>
+        <div class="centered-box" style="background-color: white;">
+          <p style = "float:left;"><strong>Shipping</strong></p> 
+          <p style = "float:right;">$Amount</p>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+                        
+        <hr />
+        <div class="centered-box" style="background-color: white;">
+          <p style = "float:left;"><strong>Grand Total</strong></p> 
+          <p style = "float:right;">$Amount</p>
+        </div>
+      <div style="clear:both;">&nbsp;</div>
+        <div class="centered-box">
+          <input type="submit" value="Return To Shipping and Payment Information" class="btn btn-secondary btn-sm btn-warning" />
+        </div>
+      
+        <div style="clear:both;">&nbsp;</div>
+      
+        <div class="d-grid gap-2 mx-auto">
+          <input type="submit" value="Confirm Order" class="btn btn-primary btn-lg btn-block" />
+        </div>
+      
+      
+      </body>
+    </div>
+  </div>
+</div>
