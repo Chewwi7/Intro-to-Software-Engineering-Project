@@ -42,7 +42,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="ConfirmOrder" asp-action="Confirm">ConfirmOrder</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="OrderComplete" asp-action="Complete">ConfirmOrder</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="OrderComplete" asp-action="Complete">CompleteOrder</a>
                         </li>
                         
                                                 
@@ -51,7 +51,7 @@
                     </ul>
                     <partial name="_LoginPartial" />
                     <form class="form-inline my-2 my-lg-0">
-                          <a class="nav-item nav-link text-dark" id="myCart" asp-controller="" asp-action=""><img class="logo1" src="../../Images/shoppingCart.png" alt="">MyCart(0)</a>
+                          <a class="nav-item nav-link text-dark" id="myCart" asp-controller="Checkout" asp-action="Index"><img class="logo1" src="../../Images/shoppingCart.png" alt="">MyCart(0)</a>
                         </form>
                     @* <ul class="navbar-brand"> *@
                     @*     <li class="nav-item"> *@
