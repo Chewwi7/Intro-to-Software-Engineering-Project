@@ -1,8 +1,16 @@
 @model WebApp.Models.Sales
+
+
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
     ViewData["Title"] = "Create";
+}
+
+@{
+
+   IEnumerable<Shipping> shippingPaymentInfos  = (ViewData["ShippingShippingPayment"] as IEnumerable<Shipping>)!;
+   IEnumerable<Checkout> checkouts = (ViewData["IndexCheckout"] as IEnumerable<Checkout>)!;
 }
 
 <h1>Shipping and Payment Information</h1>
@@ -90,26 +98,44 @@
         </form>
     </div>
     <div class="col-md-4">
-        <div class="centered-box" style="background-color: white;">
-            <p style = "float:left;"><strong>Subtotal</strong></p> 
-            <p style = "float:right;">$Amount</p>
+            <div class="centered-box" style="background-color: white;">
+                <p style = "float:left;"><strong>Subtotal</strong></p>
+                 @{
+                     decimal subtotal = 0;
+    
+                     foreach (var item in checkouts)
+                     {
+                         subtotal += item.InventoryPrice;
+                     }
+                     double subtotalTemp = (double)subtotal;
+                     double taxTemp = (double)subtotal * .06;
+                     double shippingTemp = 0;
+                     double grandTemp = subtotalTemp + taxTemp + shippingTemp;
+                     decimal grand = (decimal)grandTemp;
+                     decimal tax = (decimal)taxTemp;
+                     decimal shipping = (decimal)shippingTemp;
+                 }
+    
+                 <p style="float:right;">$@subtotal</p>
+    
+            </div>
+            <div style="clear:both;">&nbsp;</div>
+            <div class="centered-box" style="background-color: white;">
+                <p style = "float:left;"><strong>Tax</strong></p>
+                <p style = "float:right;">$@tax</p>
+            </div>
+            <div style="clear:both;">&nbsp;</div>
+            <div class="centered-box" style="background-color: white;">
+                <p style = "float:left;"><strong>Shipping</strong></p>
+                <p style = "float:right;">$@shipping</p>
+            </div>
+            <div style="clear:both;">&nbsp;</div>
+    
+            <hr />
+            <div class="centered-box" style="background-color: white;">
+                <p style = "float:left;"><strong>Grand Total</strong></p>
+                <p style = "float:right;">$@grand</p>
+            </div>
+    
         </div>
-        <div style="clear:both;">&nbsp;</div>
-        <div class="centered-box" style="background-color: white;">
-            <p style = "float:left;"><strong>Tax</strong></p> 
-            <p style = "float:right;">$Amount</p>
-        </div>
-        <div style="clear:both;">&nbsp;</div>
-        <div class="centered-box" style="background-color: white;">
-            <p style = "float:left;"><strong>Shipping</strong></p> 
-            <p style = "float:right;">$Amount</p>
-        </div>
-        <div style="clear:both;">&nbsp;</div>
-        
-        <hr />
-        <div class="centered-box" style="background-color: white;">
-            <p style = "float:left;"><strong>Grand Total</strong></p> 
-            <p style = "float:right;">$Amount</p>
-        </div>
-    </div>
 </div>

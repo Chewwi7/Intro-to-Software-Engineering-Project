@@ -29,5 +29,6 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
         
         return new ApplicationDbContext(optionsBuilder.Options);
     }
+    
 }
 

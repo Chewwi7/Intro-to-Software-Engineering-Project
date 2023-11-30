@@ -17,13 +17,12 @@
                     <div class="col">
                         <div class="centered-box" style="background-color: #ffffff;">
                             <body>
-                            <img class="checkoutPic" style="float: left" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
+                            <img class="checkoutPic" style="float: left; width: 200px; " src="/Images/Product Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
                             <h5 style="float: right" >@Html.DisplayFor(modelItem => item.InventoryName)</h5>
-                            <div style="clear:both;">&nbsp;</div>
-                            <h6 style="float: right" margin-bottom >$@Html.DisplayFor(modelItem => item.InventoryPrice)</h6>
+                            <br/>
+                            <h6 style="float: right; font-size: 50px; " margin-bottom >$@Html.DisplayFor(modelItem => item.InventoryPrice)</h6>
                             <div style="clear:both;">&nbsp;</div>
                             <a style="float: right" asp-action="Delete" asp-route-id="@item.CheckoutId">Remove</a>
-
                             </body>
                         </div>
                     </div>

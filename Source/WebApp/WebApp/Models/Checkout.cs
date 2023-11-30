@@ -5,6 +5,7 @@ namespace WebApp.Models;
 /// </summary>
 public class Checkout
 {
+    
     public int CheckoutId { get; set; }
     public string InventoryName { get; set; }
     public string InventoryPic { get; set; }

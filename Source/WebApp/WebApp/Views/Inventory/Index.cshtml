@@ -1,4 +1,4 @@
-﻿@* @model IEnumerable<LootXApp.Models.Inventory> *@
+﻿
 
 @using WebApp.Controllers
 @using WebApp.Data
@@ -25,11 +25,18 @@ see line 19 and line 32 in InventoryController.cs for code*@
     var clicked = false;
 }
 
+
+
+
+
+
+
+
 @for(var i = 0; i< myList.Count; i=i+2) {
 
     <div class="row">
         <div class="col">
-            <img class="itemPic" src="../../Images/@Html.Raw(myList[i].InventoryPic)" alt="">
+            <img class="itemPic" src="/Images/Product Images/@Html.Raw(myList[i].InventoryPic)" alt="">
         </div>
         <div class="col" id="sec1">
             <h2 asp-for="InventoryName">@Html.Raw(myList[i].InventoryName)</h2>
@@ -37,23 +44,22 @@ see line 19 and line 32 in InventoryController.cs for code*@
             <p>$@Html.Raw(myList[i].InventoryPrice)</p>
             @using (Html.BeginForm("CreateCartItem", "Inventory", new{Id=myList[i].InventoryId},FormMethod.Post))
             {
-                <button type="submit">Add to Cart</button>
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Add to Cart</button>
             }
             
         </div>
         @if (i +1!=myList.Count)
         {
             <div class="col">
-                <img class="itemPic" src="/../../Images/@Html.Raw(myList[i+1].InventoryPic)" alt="">
+                <img class="itemPictures" src="/Images/Product Images/@Html.Raw(myList[i+1].InventoryPic)" alt="" style="width: 250px;">
             </div>
-            
             <div class="col" id="sec1">
                 <h2>@Html.Raw(myList[i+1].InventoryName)</h2>
                 <p>@Html.Raw(myList[i+1].InventoryDescription)</p>
                 <p>$@Html.Raw(myList[i+1].InventoryPrice)</p>
                 @using (Html.BeginForm("CreateCartItem", "Inventory", new{Id=myList[i+1].InventoryId},FormMethod.Post))
                 {
-                    <button type="submit">Add to Cart</button>
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Add to Cart</button>
                 }
             </div>
         }
