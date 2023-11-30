@@ -26,7 +26,6 @@ namespace WebApp.Controllers
             
             using var inv = new ApplicationDbContext(contextOptions);
             inventory = inv.Inventory.ToList();
-            // inventory.Add(inv.Inventory.);
             return inventory;
         }
         public List<Checkout> GetCheckout()
