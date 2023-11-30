@@ -16,6 +16,8 @@ namespace WebApp.Controllers
             _context = context;
             _contextCheck = contextCheck;
         }
+
+        @*This function manually fetches data from our database and converts the IEnumerable data type into a List<Inventory>*@
         public List<Inventory> GetInventory()
         {
             List<Inventory> inventory = new List<Inventory>();
