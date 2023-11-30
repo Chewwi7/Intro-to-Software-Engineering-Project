@@ -86,7 +86,7 @@ namespace WebApp.Controllers
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
             return _context.Inventory != null ?
-                        View("ShowItem", await _context.Inventory.Where(i=>i.InventoryName.ToLower().Contains(SearchPhrase.ToLower())).ToListAsync()) :
+                        View("Search", await _context.Inventory.Where(i=>i.InventoryName.ToLower().Contains(SearchPhrase.ToLower())).ToListAsync()) :
                         Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
         }
 
