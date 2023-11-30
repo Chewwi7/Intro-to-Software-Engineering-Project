@@ -154,7 +154,23 @@ namespace WebApp.Controllers
                 }
 
                 
-                _contextCheck.Add(newItem);
+                var listForLoop = _contextCheck.Checkout.ToList();
+                
+                var num = 0;
+                for (int i = 0; i < listForLoop.Count; i++)
+                {
+                    if ((listForLoop[i].InventoryName.Equals(newItem.InventoryName)))
+                    {
+                        num++;
+                        break;
+                    }
+                }
+                if (num == 0)
+                {
+                    _contextCheck.Add(newItem);
+                }
+
+                num = 0;
                 await _contextCheck.SaveChangesAsync();
             }
 
