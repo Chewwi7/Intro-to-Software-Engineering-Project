@@ -15,8 +15,8 @@
 @{
     IEnumerable<Inventory> inventory = ViewData["IndexInventory"] as IEnumerable<Inventory>;
     IEnumerable<Checkout> checkout = ViewData["IndexCheckout"] as IEnumerable<Checkout>;
-
-    if (inventory != null)
+}
+    @if (inventory != null)
     {
         var myList = inventory.ToList();
         
@@ -63,7 +63,6 @@
         <p>Inventory data is not available.</p>
         <!-- Handle the null case accordingly -->
     }
-}
 
 
 
