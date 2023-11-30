@@ -1,0 +1,36 @@
+@model IEnumerable<LootXApp.Models.Inventory>
+
+@using WebApp.Controllers
+
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>Shop with us !</h1>
+
+@foreach(Inventory item in Model)
+{
+    // List<Inventory> cart = new List<Inventory>();
+<div class="row">
+    <div class="col">
+        @* <img src="/WebApplication1/Images/TonyStarkSuit.jpg" alt=""> *@
+        <img asp-for="InventoryPic" class="itemPic" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
+        @* <img class="itemPic" src="../../Images/DarthVaderLightSaber.webp" alt=""> *@
+
+    </div>
+<div class="col" id="sec1">
+<form asp-action="Create">
+        <label>@Html.DisplayFor(modelItem => item.InventoryName)</label>
+            @* <p >@Html.DisplayFor(modelItem => item.InventoryDescription)</p> *@
+    <p>$@Html.DisplayFor(modelItem => item.InventoryPrice)</p>
+    <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+        </form>
+    </div>
+</div>
+}
+
+
+
