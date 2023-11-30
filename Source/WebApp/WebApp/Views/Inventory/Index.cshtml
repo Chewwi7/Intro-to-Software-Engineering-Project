@@ -11,6 +11,9 @@
 }
 
 <h1>Shop with us !</h1>
+
+@* This c# code fetches data from the Inventory controller which has both GetInventory and GetCHeckout Functions that fetch data from the database
+see line 19 and line 32 in InventoryController.cs for code*@
 @{
 
    IEnumerable<Inventory> inventory = (ViewData["IndexInventory"] as IEnumerable<Inventory>)!;
