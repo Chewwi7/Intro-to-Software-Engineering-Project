@@ -160,7 +160,7 @@ namespace WebApp.Controllers
                 await _contextCheck.SaveChangesAsync();
             }
 
-            return View("Index");
+            return RedirectToAction(nameof(Index));
         }
         
         
