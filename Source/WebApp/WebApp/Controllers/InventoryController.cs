@@ -17,7 +17,6 @@ namespace WebApp.Controllers
             _contextCheck = contextCheck;
         }
 
-        @*This function manually fetches data from our database and converts the IEnumerable<Inventory> data type into a List<Inventory>*@
         public List<Inventory> GetInventory()
         {
             List<Inventory> inventory = new List<Inventory>();
@@ -31,7 +30,6 @@ namespace WebApp.Controllers
             return inventory;
         }
 
-        @*This function manually fetches data from our database and converts the IEnumerable<Checkout> data type into a List<Checkout>*@
         public List<Checkout> GetCheckout()
         {
             List<Checkout> checkout = new List<Checkout>();
