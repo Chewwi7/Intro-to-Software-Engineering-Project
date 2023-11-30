@@ -1,0 +1,60 @@
+@model IEnumerable<WebApp.Models.Checkout> 
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Shopping Cart</h1>
+<hr/>
+
+<div class = "row">
+    <div class="col">
+        <div class="container">
+            @foreach (var item in Model)
+            {
+                <div class="row">
+                    <div class="col">
+                        <div class="centered-box" style="background-color: #ffffff;">
+                            <body>
+                            <img class="checkoutPic" style="float: left" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
+                            <h5 style="float: right" >@Html.DisplayFor(modelItem => item.InventoryName)</h5>
+                            <div style="clear:both;">&nbsp;</div>
+                            <h6 style="float: right" margin-bottom >$@Html.DisplayFor(modelItem => item.InventoryPrice)</h6>
+                            <div style="clear:both;">&nbsp;</div>
+                            <a style="float: right" asp-action="Delete" asp-route-id="@item.CheckoutId">Remove</a>
+
+                            </body>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col">
+        <body class="checkOutBack">
+        <div class="centered-box" style="background-color: white;">
+            <p style="float:left;"><strong>Subtotal</strong></p>
+            
+            @{
+                                decimal subtotal = 0;
+                                foreach (var item in Model)
+                                {
+                                    subtotal += item.InventoryPrice;
+                                }
+                
+            }
+            
+            <p style="float:right;">$@subtotal</p>
+            
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        <div class="d-grid gap-2 mx-auto">
+            <a class="btn btn-primary btn-lg " asp-area="" asp-controller="ShippingPayment" asp-action="Shipping">Checkout Now</a>
+        </div>
+
+        </body>
+
+    </div>
+
+</div>

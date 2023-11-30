@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Inventory>
+
+@{
+    ViewData["Title"] = "IndexInv";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Shop With Us!</h1>
+  
+</div>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+@* This for loop makes it possible to iterate through the Model list and picks each item's attribute and puts it in the appropriate html tag *@
+@foreach (var item in Model) {
+<div class="row">
+    <div class="col">
+        @* <img src="/WebApplication1/Images/TonyStarkSuit.jpg" alt=""> *@
+        <img class="itemPic" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
+        @* <img class="itemPic" src="../../Images/DarthVaderLightSaber.webp" alt=""> *@
+
+    </div>
+    <div class="col" id="sec1">
+        <h2>@Html.DisplayFor(modelItem => item.InventoryName)</h2>
+            <p>@Html.DisplayFor(modelItem => item.InventoryDescription)</p>
+            <p>$@Html.DisplayFor(modelItem => item.InventoryPrice)</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+}
+@*<table class="table">
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InventoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InventoryDescription)
+            </td>
+            <td>
+                <img>
+                @Html.DisplayFor(modelItem => item.InventoryPic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InventoryPrice)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.InventoryId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.InventoryId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.InventoryId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>*@
+
+ 
+

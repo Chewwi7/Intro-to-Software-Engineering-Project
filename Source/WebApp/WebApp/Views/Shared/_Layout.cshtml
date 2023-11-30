@@ -21,49 +21,44 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a asp-controller="Home" asp-action="Index" style= "margin-right: auto; "><img src="/Images/Icons/LootX Logo 3D.png" class="logo" alt="LootX Logo" style="width: 50px"></a>
+            <a asp-area="" asp-controller="Inventory" asp-action="Index" style= "margin-right: auto; "><img src="/Images/Icons/LootX Logo 3D.png" class="logo" alt="LootX Logo" style="width: 50px"></a>
             <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Swords and Blades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Guns and Blasters</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Inventory" asp-action="Index">Home</a>
                     </li>
                     
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <li class="nav-item">
-                            <a asp-controller="Home" asp-action="AddInventory" class="nav-link" >Add Inventory</a>
-                        </li>
-                    }
+                    @* Test for shipping *@
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ShippingPayment" asp-action="Shipping">Shipping</a>
+                    </li>
+                    
                     
                     @if (User.IsInRole("Admin"))
-                    {
-                        <li class="nav-item">
-                            <a asp-controller="Home" asp-action="SalesReport" class="nav-link" >Run Sales Report</a>
-                        </li>
-                    }
-                   
-                    @*<li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
-                    </li>*@
+                 {
+                     <li class="nav-item">
+                         <a asp-controller="Inventory" asp-action="IndexInv" class="nav-link" >Add Inventory</a>
+                         </li>
+                 }   
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                
+                
+                <form asp-controller = "Inventory" asp-action = "ShowSearchResults" class="d-flex">
+                    <input name="SearchPhrase" class="form-control me-sm-2" type="search" placeholder="Search">
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                 </form>
+                
+                @section Scripts {
+                    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+                }
+                
                 <partial name="_LoginPartial"/>
-                <a asp-controller="Home" asp-action="Cart"> <img src="/Images/Icons/basket-cart-icon-27.png" class="cart" alt="Cart Icon" style="width: 50px"/> 
+                
+                <a class="nav-item nav-link text-dark" id="myCart" asp-controller="Checkout" asp-action="Index"> <img src="/Images/Icons/basket-cart-icon-27.png" class="cart" alt="Cart Icon" style="width: 50px"/> 
                     My Cart
-                </a>
+                    </a>
+                
+                
             </div>
         </div>
         

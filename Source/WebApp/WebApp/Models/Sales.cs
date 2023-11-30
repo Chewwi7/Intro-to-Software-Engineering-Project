@@ -14,17 +14,23 @@ public class Sales
     [ForeignKey("UserId")]
     public virtual Users Users { get; set; }
     
-    //Foreign Key for ProductId
-    [Display(Name = "Product")]
-    public virtual int ProductId { get; set; }
-    [ForeignKey("ProductId")]
-    public virtual Products Products { get; set; }
+    //Foreign Key for InventoryId
+    [Display(Name = "Inventory")]
+    public virtual int InventoryId { get; set; }
+    [ForeignKey("InventoryId")]
+    public virtual Inventory Inventorys { get; set; }
+    
+    
     
     //To get and set the date the product was sold
     public DateTime SoldDate { get; set; }
     
     //Payment and Contact Info
-    public string Address { get; set; }
+    
+    public string StreetName { get; set; }
+    public string CityName { get; set; }
+    public string StateName { get; set; }
+    public string ZipCode { get; set; }
     public string PhoneNumber { get; set; }
     public string CreditCardNumber { get; set; }
     public string ExpirationDate { get; set; }
@@ -38,8 +44,8 @@ public class Sales
     public virtual Shipping Shipping { get; set; }
     
     
-    public float tax { get; set; }
-    public float subtotal { get; set; }
-    public float total { get; set; }
+    public decimal tax { get; set; }
+    public decimal subtotal { get; set; }
+    public decimal total { get; set; }
     
 }

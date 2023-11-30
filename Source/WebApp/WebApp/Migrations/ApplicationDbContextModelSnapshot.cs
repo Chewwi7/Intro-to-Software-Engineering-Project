@@ -17,6 +17,28 @@ namespace WebApp.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
 
+            modelBuilder.Entity("Checkout", b =>
+                {
+                    b.Property<int>("CheckoutId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("InventoryName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("InventoryPic")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("InventoryPrice")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("CheckoutId");
+
+                    b.ToTable("Checkout");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<int>", b =>
                 {
                     b.Property<int>("Id")
@@ -143,30 +165,30 @@ namespace WebApp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("WebApp.Models.Products", b =>
+            modelBuilder.Entity("WebApp.Models.Inventory", b =>
                 {
-                    b.Property<int>("ProductId")
+                    b.Property<int>("InventoryId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("ProductDescription")
+                    b.Property<string>("InventoryDescription")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ProductImage")
+                    b.Property<string>("InventoryName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ProductName")
+                    b.Property<string>("InventoryPic")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("ProductPrice")
-                        .HasColumnType("REAL");
+                    b.Property<decimal>("InventoryPrice")
+                        .HasColumnType("TEXT");
 
-                    b.HasKey("ProductId");
+                    b.HasKey("InventoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Inventory");
                 });
 
             modelBuilder.Entity("WebApp.Models.Sales", b =>
@@ -175,11 +197,11 @@ namespace WebApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Address")
+                    b.Property<string>("CVV")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("CVV")
+                    b.Property<string>("CityName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -191,12 +213,12 @@ namespace WebApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("InventoryId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("INTEGER");
 
                     b.Property<int>("ShippingTypeId")
                         .HasColumnType("INTEGER");
@@ -204,8 +226,20 @@ namespace WebApp.Migrations
                     b.Property<DateTime>("SoldDate")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("StateName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("StreetName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("ZipCode")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<float>("subtotal")
                         .HasColumnType("REAL");
@@ -218,7 +252,7 @@ namespace WebApp.Migrations
 
                     b.HasKey("SaleId");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("InventoryId");
 
                     b.HasIndex("ShippingTypeId");
 
@@ -237,8 +271,8 @@ namespace WebApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("ShippingTypePrice")
-                        .HasColumnType("REAL");
+                    b.Property<decimal>("ShippingTypePrice")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("ShippingTypeId");
 
@@ -371,9 +405,9 @@ namespace WebApp.Migrations
 
             modelBuilder.Entity("WebApp.Models.Sales", b =>
                 {
-                    b.HasOne("WebApp.Models.Products", "Products")
+                    b.HasOne("WebApp.Models.Inventory", "Inventorys")
                         .WithMany()
-                        .HasForeignKey("ProductId")
+                        .HasForeignKey("InventoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -389,7 +423,7 @@ namespace WebApp.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Products");
+                    b.Navigation("Inventorys");
 
                     b.Navigation("Shipping");
 

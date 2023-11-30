@@ -8,5 +8,5 @@ public class Shipping
     public int ShippingTypeId { get; set; }
     
     public string ShippingTypeName { get; set; }
-    public float ShippingTypePrice { get; set; }
+    public decimal ShippingTypePrice { get; set; }
 }

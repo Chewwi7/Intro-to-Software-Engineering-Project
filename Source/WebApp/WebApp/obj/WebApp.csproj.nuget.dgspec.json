@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/WebApp.csproj": {}
+    "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/WebApp.csproj": {}
   },
   "projects": {
-    "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/WebApp.csproj": {
+    "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/WebApp.csproj",
+        "projectUniqueName": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/WebApp.csproj",
+        "projectPath": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/WebApp.csproj",
         "packagesPath": "/Users/philip/.nuget/packages/",
-        "outputPath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/obj/",
+        "outputPath": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/philip/.nuget/NuGet/NuGet.Config"

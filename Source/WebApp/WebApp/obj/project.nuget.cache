@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJMLGB66IgfffQABgBSfNiscF/KpKO86Mz5tl2l7HveJDg7Ixfx0ZvctJr2NX2Bs3mtP43vBzFmOSWrF3b641Q==",
+  "dgSpecHash": "LgHiP5nnpMWGDFVRoWbFm3EFYN8sDtWTYJ1EGdvAmYtVIe2qLsUXywfVGFrr/rfETDO/u6giwKen9I0GSJoayw==",
   "success": true,
-  "projectFilePath": "/Users/philip/Documents/SWE Project/Intro-to-Software-Engineering-Project/Source/WebApp/WebApp/WebApp.csproj",
+  "projectFilePath": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/WebApp.csproj",
   "expectedPackageFiles": [
     "/Users/philip/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/philip/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

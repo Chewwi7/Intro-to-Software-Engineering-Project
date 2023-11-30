@@ -12,10 +12,11 @@ public class ApplicationDbContext : IdentityDbContext<Users , IdentityRole<int>,
     {
 
     }
-    public DbSet<Products> Products { get; set; }
+    
     public DbSet<Users> Users { get; set; }
     public DbSet<Sales> Sales { get; set; }
-    
+    public DbSet<Inventory> Inventory { get; set; }
+    public DbSet<Checkout>? Checkout { get; set; }
     
 }
 
