@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/Images/.DS_Store"
     },
     {
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/CaptainAmericaShield.png",
+      "PackagePath": "staticwebassets/Images/CaptainAmericaShield.png"
+    },
+    {
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/DarthVaderLightSaber.webp",
+      "PackagePath": "staticwebassets/Images/DarthVaderLightSaber.webp"
+    },
+    {
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Delta_Dragonoid.webp",
+      "PackagePath": "staticwebassets/Images/Delta_Dragonoid.webp"
+    },
+    {
       "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Icons/LootX Logo 3D.png",
       "PackagePath": "staticwebassets/Images/Icons/LootX Logo 3D.png"
     },
@@ -33,60 +45,48 @@
       "PackagePath": "staticwebassets/Images/Icons/userIcon.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/CaptainAmericaShield.png",
-      "PackagePath": "staticwebassets/Images/Product Images/CaptainAmericaShield.png"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/IdentityDisc.webp",
+      "PackagePath": "staticwebassets/Images/IdentityDisc.webp"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/DarthVaderLightSaber.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/DarthVaderLightSaber.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/LootX_Logo-2.png",
+      "PackagePath": "staticwebassets/Images/LootX_Logo-2.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/Delta_Dragonoid.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/Delta_Dragonoid.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Master_Sword_Lead.png",
+      "PackagePath": "staticwebassets/Images/Master_Sword_Lead.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/IdentityDisc.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/IdentityDisc.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/ThorHammer.webp",
+      "PackagePath": "staticwebassets/Images/ThorHammer.webp"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/LootX_Logo-2.png",
-      "PackagePath": "staticwebassets/Images/Product Images/LootX_Logo-2.png"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/TonyStarkSuit.png",
+      "PackagePath": "staticwebassets/Images/TonyStarkSuit.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/Master_Sword_Lead.png",
-      "PackagePath": "staticwebassets/Images/Product Images/Master_Sword_Lead.png"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Ultimatrix.webp",
+      "PackagePath": "staticwebassets/Images/Ultimatrix.webp"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/ThorHammer.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/ThorHammer.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/elDragoBeyBlade.webp",
+      "PackagePath": "staticwebassets/Images/elDragoBeyBlade.webp"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/TonyStarkSuit.png",
-      "PackagePath": "staticwebassets/Images/Product Images/TonyStarkSuit.png"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/fortniteAxe.png",
+      "PackagePath": "staticwebassets/Images/fortniteAxe.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/Ultimatrix.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/Ultimatrix.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/loginbackground.jpg",
+      "PackagePath": "staticwebassets/Images/loginbackground.jpg"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/elDragoBeyBlade.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/elDragoBeyBlade.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/odmGear.png",
+      "PackagePath": "staticwebassets/Images/odmGear.png"
     },
     {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/fortniteAxe.png",
-      "PackagePath": "staticwebassets/Images/Product Images/fortniteAxe.png"
-    },
-    {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/loginbackground.jpg",
-      "PackagePath": "staticwebassets/Images/Product Images/loginbackground.jpg"
-    },
-    {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/odmGear.png",
-      "PackagePath": "staticwebassets/Images/Product Images/odmGear.png"
-    },
-    {
-      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/Product Images/tboKeyblade.webp",
-      "PackagePath": "staticwebassets/Images/Product Images/tboKeyblade.webp"
+      "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/Images/tboKeyblade.webp",
+      "PackagePath": "staticwebassets/Images/tboKeyblade.webp"
     },
     {
       "Id": "/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/wwwroot/css/myTheme.css",

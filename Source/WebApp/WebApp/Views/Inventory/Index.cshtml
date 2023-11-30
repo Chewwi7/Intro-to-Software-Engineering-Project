@@ -26,27 +26,24 @@
 
     <div class="row">
         <div class="col">
-            @* <img src="/WebApplication1/Images/TonyStarkSuit.jpg" alt=""> *@
             <img class="itemPic" src="../../Images/@Html.Raw(myList[i].InventoryPic)" alt="">
-            @* <img class="itemPic" src="../../Images/DarthVaderLightSaber.webp" alt=""> *@
-
         </div>
         <div class="col" id="sec1">
             <h2 asp-for="InventoryName">@Html.Raw(myList[i].InventoryName)</h2>
             <p>@Html.Raw(myList[i].InventoryDescription)</p>
             <p>$@Html.Raw(myList[i].InventoryPrice)</p>
             @using (Html.BeginForm("CreateCartItem", "Inventory", new{Id=myList[i].InventoryId},FormMethod.Post))
-                            {
-                                <button type="submit">Add to Cart</button>
-                            }
+            {
+                <button type="submit">Add to Cart</button>
+            }
             
         </div>
         @if (i +1!=myList.Count)
         {
-        <div class="col">
-                    <img class="itemPic" src="../../Images/@Html.Raw(myList[i+1].InventoryPic)" alt="">
-
-                </div>
+            <div class="col">
+                <img class="itemPic" src="/../../Images/@Html.Raw(myList[i+1].InventoryPic)" alt="">
+            </div>
+            
             <div class="col" id="sec1">
                 <h2>@Html.Raw(myList[i+1].InventoryName)</h2>
                 <p>@Html.Raw(myList[i+1].InventoryDescription)</p>
@@ -59,64 +56,6 @@
         }
     </div>
 }
-@*     Checkout item = checkout.SingleOrDefault(c => c.InventoryName == myList[i].InventoryName && c.InventoryPic == myList[i].InventoryPic && c.InventoryPrice == myList[i].InventoryPrice); *@
-                @*     var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>() *@
-                @*                    .UseSqlServer(  *@
-                @*                            @"Server=(localdb)\mssqllocaldb;Database=aspnet-LootXApp-6be56c9b-4924-4cde-86af-9c2de0f45186;Trusted_Connection=True;MultipleActiveResultSets=true").Options; *@ 
-                @*                     using var check = new ApplicationDbContext(contextOptions); *@
-                @*     DbSet<Checkout> checkoutTable = check.Checkout; *@
-                @*     checkoutTable.Add(item); *@
-                @*      *@
-                @* } *@
-                @* @{ *@
-                @*     Checkout item = new Checkout(myList[i + 1].InventoryName, myList[i + 1].InventoryPic, (decimal)myList[i + 1].InventoryPrice); *@
-                @*     var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>() *@
-                @*             .UseSqlServer( *@
-                @*                 @"Server=(localdb)\mssqllocaldb;Database=aspnet-LootXApp-6be56c9b-4924-4cde-86af-9c2de0f45186;Trusted_Connection=True;MultipleActiveResultSets=true").Options; *@
-                @*     using var check = new ApplicationDbContext(contextOptions); *@
-                @*     DbSet<Checkout> checkoutTable = check.Checkout; *@
-                @*     checkoutTable.Add(item); *@
-                @* } *@
-@*<table class="table">
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.InventoryName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.InventoryDescription)
-            </td>
-            <td>
-                <img>
-                @Html.DisplayFor(modelItem => item.InventoryPic)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.InventoryPrice)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.InventoryId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.InventoryId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.InventoryId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-    @if (num % 1 == 0)
-    {
-        <div class="col">
-            @* <img src="/WebApplication1/Images/TonyStarkSuit.jpg" alt=""> 
-<img class="itemPic" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
-<img class="itemPic" src="../../Images/DarthVaderLightSaber.webp" alt=""> 
 
-</div>
-<div class="col" id="sec1">
-    <h2>@Html.DisplayFor(modelItem => item.InventoryName)@Html.Raw(num.ToString())</h2>
-    <p>@Html.DisplayFor(modelItem => item.InventoryDescription)</p>
-    <p>$@Html.DisplayFor(modelItem => item.InventoryPrice)</p>
-    <button>Add to Cart</button>
-</div>
-}
-*@
 
 

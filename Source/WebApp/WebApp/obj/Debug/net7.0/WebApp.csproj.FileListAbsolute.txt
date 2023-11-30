@@ -607,8 +607,6 @@
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -695,14 +693,11 @@
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Features.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.FileProviders.Composite.dll
-/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Http.dll
-/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Core.dll
-/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Stores.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Localization.dll
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/refs/Microsoft.Extensions.Logging.Abstractions.dll
@@ -1166,3 +1161,10 @@
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/obj/Debug/net7.0/WebApp.pdb
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/obj/Debug/net7.0/WebApp.genruntimeconfig.cache
 /Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/obj/Debug/net7.0/ref/WebApp.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/philip/Documents/SWE Project/LootX/Untitled/Source/WebApp/WebApp/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so

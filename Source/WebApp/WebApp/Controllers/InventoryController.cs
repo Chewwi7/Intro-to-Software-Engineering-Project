@@ -31,14 +31,13 @@ namespace WebApp.Controllers
         public List<Checkout> GetCheckout()
         {
             List<Checkout> checkout = new List<Checkout>();
-            // ApplicationDbContext b = new ApplicationDbContext(in);
             var connectionString = "Data Source=identifier.db";
             
             var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
                 .UseSqlite(connectionString).Options;
             using var check = new ApplicationDbContext(contextOptions);
             checkout = check.Checkout.ToList();
-            // inventory.Add(inv.Inventory.);
+            
             return checkout;
         }
         public ActionResult Index()
@@ -47,19 +46,7 @@ namespace WebApp.Controllers
             ViewData["IndexCheckout"] = GetCheckout();
             return View();
         }
-        // GET: Inventory
-        // public async Task<IActionResult> Index()
-        // {
-        //     return _context.Inventory != null ?
-        //                 View(await _context.Inventory.ToListAsync()) :
-        //                 Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
-        // }
-        // public async Task<IActionResult> Index()
-        // {
-        //     return _context.Inventory != null ?
-        //         View(await _context.Inventory.ToListAsync()) :
-        //         Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
-        // }
+        
         public async Task<IActionResult> IndexInv()
         {
               return _context.Inventory != null ? 
@@ -153,11 +140,7 @@ namespace WebApp.Controllers
 
                 var cart = _contextCheck.Checkout;
                 var item =await _context.Inventory.FindAsync(Id);
-                // var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
-                //     .UseSqlServer(
-                //         @"Server=(localdb)\mssqllocaldb;Database=aspnet-LootXApp-6be56c9b-4924-4cde-86af-9c2de0f45186;Trusted_Connection=True;MultipleActiveResultSets=true").Options;
-                // using var check = new ApplicationDbContext(contextOptions);
-                // DbSet<Checkout> checkoutTable = check.Checkout;
+                
 
                 var newItem =new Checkout();
                 string? name = item?.InventoryName;
@@ -168,7 +151,7 @@ namespace WebApp.Controllers
                     newItem = new Checkout(name, pic, price);
                 }
 
-                //newItem = new Checkout("Phil", "Ultimatrix.png", 4);
+                
                 _contextCheck.Add(newItem);
                 await _contextCheck.SaveChangesAsync();
             }
@@ -176,20 +159,6 @@ namespace WebApp.Controllers
             return View("Index");
         }
         
-        
-        // public async Task<IActionResult> CreateCartItem([Bind("CheckoutId,InventoryName,InventoryPic,InventoryPrice")] Checkout checkout)
-        // {
-        //     if (ModelState.IsValid)
-        //     {
-        //         _context.Add(checkout);
-        //         await _context.SaveChangesAsync();
-        //         return RedirectToAction(nameof(Index));
-        //     }
-        //     return View(checkout);
-        // }
-        // POST: Inventory/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         
         [HttpPost]
         [ValidateAntiForgeryToken]
