@@ -1,29 +1,66 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using WebApp.Data;
 using WebApp.Models;
 
 namespace WebApp.Controllers
-
 {
-    [Authorize]
     public class InventoryController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public InventoryController(ApplicationDbContext context)
+        private readonly ApplicationDbContext _contextCheck;
+        
+        public InventoryController(ApplicationDbContext context, ApplicationDbContext contextCheck)
         {
             _context = context;
+            _contextCheck = contextCheck;
         }
-
-        // GET: Inventory
-        public async Task<IActionResult> Index()
+        public List<Inventory> GetInventory()
         {
-            return _context.Inventory != null ?
-                        View(await _context.Inventory.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
+            List<Inventory> inventory = new List<Inventory>();
+            var connectionString = "Data Source=identifier.db";
+            
+            var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseSqlite(connectionString).Options;
+            
+            using var inv = new ApplicationDbContext(contextOptions);
+            inventory = inv.Inventory.ToList();
+            // inventory.Add(inv.Inventory.);
+            return inventory;
         }
+        public List<Checkout> GetCheckout()
+        {
+            List<Checkout> checkout = new List<Checkout>();
+            // ApplicationDbContext b = new ApplicationDbContext(in);
+            var connectionString = "Data Source=identifier.db";
+            
+            var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseSqlite(connectionString).Options;
+            using var check = new ApplicationDbContext(contextOptions);
+            checkout = check.Checkout.ToList();
+            // inventory.Add(inv.Inventory.);
+            return checkout;
+        }
+        public ActionResult Index()
+        {
+            ViewData["IndexInventory"] = GetInventory();
+            ViewData["IndexCheckout"] = GetCheckout();
+            return View();
+        }
+        // GET: Inventory
+        // public async Task<IActionResult> Index()
+        // {
+        //     return _context.Inventory != null ?
+        //                 View(await _context.Inventory.ToListAsync()) :
+        //                 Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
+        // }
+        // public async Task<IActionResult> Index()
+        // {
+        //     return _context.Inventory != null ?
+        //         View(await _context.Inventory.ToListAsync()) :
+        //         Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
+        // }
         public async Task<IActionResult> IndexInv()
         {
               return _context.Inventory != null ? 
@@ -61,10 +98,8 @@ namespace WebApp.Controllers
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
             return _context.Inventory != null ?
-                        View("Index", await _context.Inventory.Where(i=>i.InventoryName.ToLower().Contains(SearchPhrase.ToLower())).ToListAsync()) :
+                        View("ShowItem", await _context.Inventory.Where(i=>i.InventoryName.ToLower().Contains(SearchPhrase.ToLower())).ToListAsync()) :
                         Problem("Entity set 'ApplicationDbContext.Inventory'  is null.");
-            //Q: How would I ignore case for this search function?
-            //A: Use the ToLower() method on both the SearchPhrase and the InventoryName
         }
 
         // GET: Inventory/Create
@@ -108,6 +143,51 @@ namespace WebApp.Controllers
             return View(inventory);
         }
 
+        public async Task<IActionResult> CreateCartItem(int Id)
+        {
+            if (ModelState.IsValid)
+            {
+                if (Id < 0 || _context.Inventory == null)
+                {
+                    return NotFound();
+                }
+
+                var cart = _contextCheck.Checkout;
+                var item =await _context.Inventory.FindAsync(Id);
+                // var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+                //     .UseSqlServer(
+                //         @"Server=(localdb)\mssqllocaldb;Database=aspnet-LootXApp-6be56c9b-4924-4cde-86af-9c2de0f45186;Trusted_Connection=True;MultipleActiveResultSets=true").Options;
+                // using var check = new ApplicationDbContext(contextOptions);
+                // DbSet<Checkout> checkoutTable = check.Checkout;
+
+                var newItem =new Checkout();
+                string? name = item?.InventoryName;
+                string? pic = item?.InventoryPic;
+                decimal price = item.InventoryPrice;
+                if (item != null)
+                {
+                    newItem = new Checkout(name, pic, price);
+                }
+
+                //newItem = new Checkout("Phil", "Ultimatrix.png", 4);
+                _contextCheck.Add(newItem);
+                await _contextCheck.SaveChangesAsync();
+            }
+
+            return View("Index");
+        }
+        
+        
+        // public async Task<IActionResult> CreateCartItem([Bind("CheckoutId,InventoryName,InventoryPic,InventoryPrice")] Checkout checkout)
+        // {
+        //     if (ModelState.IsValid)
+        //     {
+        //         _context.Add(checkout);
+        //         await _context.SaveChangesAsync();
+        //         return RedirectToAction(nameof(Index));
+        //     }
+        //     return View(checkout);
+        // }
         // POST: Inventory/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

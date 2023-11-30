@@ -12,8 +12,13 @@ public class Checkout
 
     public Checkout()
     {
-        //
-        // TODO: Add constructor logic here
-        //
+        
+    }
+    
+    public Checkout(string inventoryName, string inventoryPic, decimal inventoryPrice)
+    {
+        InventoryName = inventoryName;
+        InventoryPic = inventoryPic;
+        InventoryPrice = inventoryPrice;
     }
 }
