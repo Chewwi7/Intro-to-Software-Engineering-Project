@@ -1,0 +1,47 @@
+@page
+@model WebApp.Views.Shared.Add_Inventory
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title> Add Products to Inventory </title>
+    <h1> Add Products to Inventory </h1>
+</head>
+<body>
+
+<fieldset class="border-white">
+    <form method="post" asp-action="">
+        <div class="form-group">
+            <label class="col-form-label col-form-label-lg mt-4" for="inputLarge">Product Name</label>
+            <input class="form-control form-control-lg" type="text" placeholder="Product Name" id="inputLarge">
+        </div>
+     
+        <label class="col-form-label col-form-label-lg mt-4" for="inputLarge">Product Price</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        </div>
+     
+        <div class="form-group">
+            <label class="col-form-label col-form-label-lg mt-4" for="inputLarge">Product Description</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3" spellcheck="false" placeholder="Description"></textarea>
+        </div>
+     
+        <div class="form-group">
+            <label class="col-form-label col-form-label-lg mt-4" for="inputLarge">Upload Product Image</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+        <br/>
+        <button type="submit" class="btn btn-outline-success">Add Product</button>   
+     
+    </form>
+    
+</fieldset>
+
+</body>
+</html>

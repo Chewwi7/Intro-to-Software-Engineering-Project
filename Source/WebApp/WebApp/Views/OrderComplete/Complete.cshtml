@@ -1,0 +1,112 @@
+@model List<WebApp.Models.Checkout>
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="row" xmlns="http://www.w3.org/1999/html">
+  <div class="col">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col">
+          <h1 class="text-center">Order Complete</h1>  
+          <hr />
+          <h3 class="text-center">Thank You!</h3>
+          <h4 class="text-center">Your order was successful.</h4>
+          
+          <div style="clear:both;">&nbsp;</div>
+          
+          <body class="checkOutBack">
+          <h3>Customer Information</h3>
+          <div class="centered-box" style="background-color: #ccc6c6;">
+            <h5 style = "float:left;">Contact Information</h5>
+            <h5 style="float:right;">Shipping Address</h5>
+            
+            <div style="clear:both;">&nbsp;</div>
+            
+            <p style = "float:left;">Email</p>
+            <p style="float:right;">Name</p>
+            
+            <div style="clear:both;">&nbsp;</div>
+            
+            <p style = "float:left;">Phone Number</p>
+            <p style="float:right;">Street</p>
+            
+            <div style="clear:both;">&nbsp;</div>
+            
+            <h5 style="float:left;">Last 4 Digits of Credit Card</h5>
+            <p style="float:right;">City/State/ZipCode</p>
+
+            <div style="clear:both;">&nbsp;</div>
+            
+            <p style="float:left;">XXXX</p>
+            <div style="clear:both;">&nbsp;</div>
+          </div>
+          </body>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <h1 class="text-center">Your Receipt</h1>
+          <hr />
+
+          <div class="container">
+            @foreach (var item in Model)
+            {
+              <div class="row">
+                <div class="col">
+                  
+                    <body>
+                    <img class="checkoutPic" style="float: left" src="../../Images/@Html.DisplayFor(modelItem => item.InventoryPic)" alt="">
+                    <h5 style="float: right" >@Html.DisplayFor(modelItem => item.InventoryName)</h5>
+                    <div style="clear:both;">&nbsp;</div>
+                    <h6 style="float: right" margin-bottom >$@Html.DisplayFor(modelItem => item.InventoryPrice)</h6>
+                    </body>
+                  
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+        <body class="checkOutBack">
+        <div class="centered-box" style="background-color: white;">
+          <p style="float:left;"><strong>Subtotal</strong></p>
+          <p style="float:right;">$Amount</p>
+        </div>
+              
+        <div style="clear:both;">&nbsp;</div>
+        <div class="centered-box" style="background-color: white;">
+          <p style = "float:left;"><strong>Tax</strong></p> 
+          <p style = "float:right;">$Amount</p>
+        </div>
+              
+        <div style="clear:both;">&nbsp;</div>
+        <div class="centered-box" style="background-color: white;">
+          <p style = "float:left;"><strong>Shipping</strong></p> 
+          <p style = "float:right;">$Amount</p>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+                                
+        <hr />
+        <div class="centered-box" style="background-color: white;">
+          <p style = "float:left;"><strong>Grand Total</strong></p> 
+          <p style = "float:right;">$Amount</p>
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+
+                
+        <div class="d-grid gap-2 mx-auto">
+          <a class="btn btn-primary btn-lg btn-block" asp-area="" asp-controller="Home" asp-action="Index">Return to Home Page</a>
+        </div>
+              
+              
+        </body>
+      </div>
+    </div>
+  </div>
+</div>

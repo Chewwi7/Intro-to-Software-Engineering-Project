@@ -1,0 +1,5 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CWEBAPP_002ESTYLES_002ECSS/@EntryIndexedValue">wwwroot\WebApp.styles.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CSOURCE_005CWEBAPP_005CWEBAPP_005CVIEWS_005CHOME_005CINDEX_002ECSHTML/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CSOURCE_005CWEBAPP_005CWEBAPP_005CVIEWS_005CHOME_005CINDEX_002ECSHTML/@EntryIndexedValue">wwwroot\Source\WebApp\WebApp\Views\Home\Index.cshtml</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CWEBAPP_002ESTYLES_002ECSS/@EntryIndexedValue">wwwroot\WebApp.styles.css</s:String></wpf:ResourceDictionary>

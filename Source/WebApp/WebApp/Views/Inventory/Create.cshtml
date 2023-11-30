@@ -1,0 +1,53 @@
+﻿@model Inventory
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Inventory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="InventoryName" class="col-form-label col-form-label-lg mt-4" for="inputLarge" ></label>
+                <input asp-for="InventoryName" class="form-control" />
+                <span asp-validation-for="InventoryName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="InventoryDescription" class="col-form-label col-form-label-lg mt-4" for="inputLarge"></label>
+                <input asp-for="InventoryDescription" class="form-control" />
+                <span asp-validation-for="InventoryDescription" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                      <label asp-for="InventoryPic" for="formFile" class="form-label mt-4">Upload Image</label>
+                <input asp-for="InventoryPic" class="form-control" type="file" id="formFile"></input>
+            </div>
+            
+            <br/>
+            
+            <label asp-for="InventoryPrice" class="col-form-label col-form-label-lg mt-4" for="inputLarge"></label>
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input input asp-for="InventoryPrice" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span asp-validation-for="InventoryPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

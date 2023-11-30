@@ -1,0 +1,8 @@
+
+{
+  "username": "admin",
+  "password" : "admin",
+  "isAdmin" : true,
+  "powers" : ["buy", "add", "delete"]
+  
+}
