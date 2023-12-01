@@ -36,5 +36,5 @@ Alexis McGruder | [Resume](ProjectPlanning/TeamResumes/AlexisMcGruderResume.md)
 [Technical Design](TechnicalDesign/TechnicalDesignPlusVideo.md)
 
 
-###Project Presentation
+### Final Project Presentation
 https://drive.google.com/file/d/1JImZKUZnp3OGJvRILVOKPyfwlcVkzVB1/view?usp=sharing
